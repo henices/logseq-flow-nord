@@ -1,0 +1,109 @@
+/********************************************
+Live Query Styler by Nick Martin
+********************************************/
+
+[data-refs-self*="live-query"] .flex > .flex > .flex > .flex-1 > .block-content > .flex > .flex-1 > .inline > .embed-block {
+    background-color: transparent;
+}
+[data-refs-self*="live-query"] .px-3.pt-1.pb-2 > .blocks-container > div > div > .ls-block > .flex.flex-row.pr-2 > .mr-1 {
+    display: none;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .content > .flex-1 > .flex > .custom-query-title > .flex > .title-text:before {
+    content: "\eb1c";
+    padding-right: 2px;
+    font-family: 'tabler-icons';
+}
+[data-refs-self*="live-query"] .color-level.embed-block > :is(.pt-1, .pb-2, .px-3) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .content > .flex-1 > .flex > .custom-query-title {
+    flex-basis: content;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .content {
+    margin-bottom: 2px;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query {
+    margin-top: 0px;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .content > .flex-1 > .flex > .block-control {
+    display: none;
+}
+a.tag[data-ref*="live-query"] {
+    display: none;
+}
+[data-refs-self*="live-query"] .flex.flex-row.align-items.mt-2 {
+    display: none;
+}
+[data-refs-self*="live-query"] a.opacity-70.hover\:opacity-100.svg-small.inline {
+    display: none;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .content > .flex-1 > .flex > .custom-query-title > .flex > a.opacity-70.hover\:opacity-100.svg-small.inline {
+    display: inline-block;
+}
+[data-refs-self*="live-query"] .open-block-ref-link {
+    display: none;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .content > .flex-1 > .flex > .custom-query-title > .flex > .title-text {
+    font-size: 12px;
+    border: 1px solid hsl(var(--cl-text-color), 0.1);
+    padding: 1px 3px;
+    border-radius: 4px;
+    background-color: hsl(var(--cl-text-color), 0.1);
+    line-height: 1.2;
+}
+/*[data-refs-self*="live-query"] .rotating-arrow.not-collapsed {
+  display: none;
+}*/
+  
+/* TODO: Re-add after we fix live query for latest LS version
+[data-refs-self*="live-query"] .flex > .lazy-visibility > .fade-enter > .color-level > .flex-col, [data-refs-self*="live-query"] .sm\:px-7 {
+    border-left: 0px solid !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}*/
+  
+[data-refs-self*="live-query"] .color-level.embed-block .py-2, [data-refs-self*="live-query"] .color-level.embed-block .my-2 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+  
+[data-refs-self*="notitle"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block .custom-query .my-2 > .flex > .content > .foldable-title {
+    display: none;
+}
+  
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .initial > div > .content > .flex > .lazy-visibility > .fade-enter > .my-2 > .flex > .initial > div > .blocks-container {
+      background-color: transparent;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      border-radius: 0px;
+      box-shadow: none;
+}
+[data-refs-self*="live-query"] .color-level.embed-block .content {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+  
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .initial > div > .content > .flex > .lazy-visibility > .fade-enter > .my-2 > .flex-col > .initial {
+      margin-left: -14px;
+      margin-bottom: 0px;
+}
+[data-refs-self*="live-query"] .embed-block > .px-3 > .blocks-container > div > div > .ls-block > .flex > .flex > .flex > .flex-1 > .block-content > .block-body > .lazy-visibility > .fade-enter > .custom-query > .flex > .initial > div > .content > .flex {
+    margin-bottom: -25px;
+}
+[data-refs-self*='"live-query'] > .flex-row > .mr-1 .bullet-container .bullet {
+    background-color: hsl(var(--cl-secondary), 0.8) !important;
+}
+[data-refs-self*='"live-query'] > .flex-row > .mr-1 .bullet-container {
+    background-color: hsl(var(--cl-secondary), 0.1) !important;
+}
+/********************************************
+End of Live Query Styler
+********************************************/

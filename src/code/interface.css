@@ -1,0 +1,233 @@
+/********************************************
+         INTERFACE IMPROVEMENTS
+********************************************/
+/* Set scrollbar width to a thinner size */
+#main-container {
+    overflow: hidden;
+}
+/* Hides scrollbar in right panel */
+.scrollbar-spacing {
+    overflow-x: hidden;
+}
+
+/* Hides the Favorite & Recent Titles */
+/*.left-sidebar-inner .nav-content-item .header {
+    visibility: hidden;
+}*/
+
+/********************************************
+             MENU IMPROVEMENTS
+********************************************/
+
+.absolute.rounded-md.shadow-lg.absolute-modal {
+    width: 800px !important;
+    max-width: 100% !important;
+    border: 3px solid var(--bg-color-1);
+    max-height: 500px !important;
+    height: fit-content !important;
+}
+.menu-link {
+    background-color: var(--bg-color-2);
+}
+.menu-links-outer, .menu-links-wrapper, .dropdown-wrapper {
+    background-color: var(--bg-color-2);
+}
+.menu-separator {
+    border-color: var(--bg-color-2);
+}
+
+/********************************************
+         LEFT SIDEBAR IMPROVEMENTS
+********************************************/
+/* Color Left Sidebar Items */
+a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th {
+    color: hsl(var(--cl-text-color));
+    opacity: 0.7;
+    margin-left: -10px;
+}
+a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
+    opacity: 1;
+}
+.left-sidebar-inner a.item.active, .left-sidebar-inner a.item:active {
+    color: hsl(var(--cl-text-color));
+    opacity: 1;
+    background-color: hsl(var(--cl-text-color),0.1);
+    border-radius: 4px;
+}
+/********************************************
+        RIGHT SIDEBAR IMPROVEMENTS
+********************************************/
+/* Color Right Sidebar */
+/*.sidebar-item-list > .sidebar-item {
+    background-color: var(--bg-color);
+}*/
+.sidebar-item-list .color-level {
+    background-color: transparent;
+}
+.color-level .color-level {
+    background-color: var(--bg-color-1);
+}
+
+/********************************************
+           PAGE TITLE ELEMENTS
+********************************************/
+/* Fixing the default query space-between */
+.lazy-visibility {
+    min-height: 0px !important;
+}
+
+/* Dimming block control arrow on queries */
+span.rotating-arrow.collapsed:not(:hover) {
+    opacity: 0.01;
+}
+
+/* Improving search panel */
+span.mx-2.opacity-50:before {
+    font-size: 14px;
+    content: "\ea61";
+    font-family: 'tabler-icons';
+    vertical-align: bottom;
+    color: hsl(var(--cl-text-color), 0.5);
+}
+.menu-link:hover, button.menu:focus, button.pull:hover {
+    background-color: hsl(var(--cl-primary), 0.1);
+}
+.cp__palette-main .menu-link.chosen, .cp__palette-main .menu-link.chosen p, .cp__select-main .menu-link.chosen, .cp__select-main .menu-link.chosen p {
+    background-color: hsl(var(--cl-primary), 0.15);
+}
+/******************************
+Reference Panel Styling by Nick Martin
+******************************/
+
+/*#main-container :not(.today-queries) .lazy-visibility .color-level, .cp__right-sidebar .color-level .color-level {
+    background-color: hsl(var(--cl-background), 0.35);
+    border: 0px solid hsl(var(--cl-background), 0.85);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border: 1px solid hsl(var(--cl-text-color), 0.1);
+    box-shadow: 0px 6px 10px hsla(210, 4%, 18%, 0.02);
+}
+/* This will modify the style of the body of the block */
+/*:not(.today-queries) .references-blocks .blocks-container.flex-1, .custom-query .blocks-container.flex-1 {
+    background-color: hsl(var(--cl-text-color), 0.05);
+    margin-bottom: 8px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    border-radius: 0px !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+/* Adjusts the breadcrumbs that are above the body of the block */
+/*.references .breadcrumb, .lazy-visibility .color-level .breadcrumb {
+    padding-left: 1.5rem;
+    font-family: var(--ls-font-family) !important;
+    background-color: hsl(var(--cl-text-color), 0.05);
+    padding-top: 8px !important;
+    padding-bottom: 0px !important;
+    margin-left: 0px !important;
+    border-top-right-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+    font-size: 85%;
+}
+.breadcrumb a, .breadcrumb .page-reference .bracket:first-child:before, .breadcrumb .page-reference .bracket:last-child:after {
+    font-size: 13.5px;
+    color: hsl(var(--cl-text-color), 0.5);
+}
+/*.references .breadcrumb, .lazy-visibility .color-level .breadcrumb:before {
+    content: "\ea02";
+    font-family: 'tabler-icons-extension';
+    position: relative;
+    left: -33px;
+    background-color: var(--bg-color) !important;
+    top: calc(100% - 10%);
+    color: hsl(var(--cl-primary));
+    border-radius: 1px;
+    height: 100%;
+}*/
+/*.breadcrumb.block-parents.flex-row.flex-1.my-2 {
+    margin-bottom: 0px;
+}
+/* Hides the block-shadow style from blocks tagged with card */
+/*:not(.today-queries) .references-blocks div[data-refs-self*='"card"'], .custom-query div[data-refs-self*='"card"'] {
+    box-shadow: none;
+}
+:not(.today-queries) .initial > div:not(:first-child) .breadcrumb {
+    margin-top: 25px;
+}
+:not(.today-queries) .flex > .lazy-visibility > .fade-enter > .color-level > .flex-col {
+    border-left: 0px solid hsl(var(--cl-primary));
+    border-radius: 4px;
+    padding-left: 28px;
+    margin-left: -28px;
+}
+
+/* Gives each panel enough space from each other so they're not crowded */
+/*.references-blocks .initial > div > .breadcrumb.block-parents.flex-row.flex-1.my-2:not(:first-child) {
+    margin-top: 25px !important;
+    margin-bottom: 0px !important;
+}
+
+/* Makes the reference panel width fit the container size of the normal pane */
+/*.sm\:px-7 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}*/
+
+/******************************
+**       Breadcrumbs        **
+******************************/
+
+/* Replace the fat arrow in breadcrumbs with chevron arrow */
+span.mx-2.opacity-50 {
+    font-size: 0px;
+    margin-left: 3px;
+}
+span.mx-2.opacity-50:before {
+    font-size: 14px;
+    content: "\ea61";
+    font-family: 'tabler-icons';
+    vertical-align: bottom;
+    color: hsl(var(--cl-text-color), 0.4)
+}
+/* Adds some color to the ellipsis */
+.breadcrumb.block-parents.flex-row.flex-1.my-2 > .opacity-70 {
+    color: hsl(var(--cl-primary));
+}
+.breadcrumb .page-reference {
+    color: hsl(var(--cl-primary));
+}
+
+/******************************
+**    Today's Query Panel    **
+******************************/
+.journal-item > .flex-1.journal.page > .flex.flex-col + #today-queries + .flex.flex-col {
+    margin-top: 30px;
+}
+
+/******************************
+**    Embeds    **
+******************************/
+.color-level.embed-block.bg-base-2 {
+    background-color: hsl(var(--cl-background), 0.4);
+    border: 1px solid hsl(var(--cl-background), 0.3);
+    border-radius: 2px;
+}
+
+/******************************
+**    Custom Queries    **
+******************************/
+.ls-block .custom-query-title.flex.justify-between.w-full {
+    margin-bottom: 20px;
+}
+.ls-block .custom-query-title > .flex.items-center > .title-text > .inline.mr-1 {
+    background-color: var(--ls-page-properties-background-color);
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-weight: 500;
+    color: var(--ls-primary-text-color);
+    font-size: 14px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 16px;
+}

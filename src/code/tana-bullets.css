@@ -1,0 +1,258 @@
+/* ==========================================================================
+Fixes & Misc
+========================================================================== */
+/* Fix for bullet threading */
+.ls-block .bullet {
+  box-shadow: none !important;
+}
+
+.ls-block:not([data-refs-self='""'])>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  position: relative;
+  left: -4px;
+  letter-spacing: -6px;
+}
+
+.ls-block[data-refs-self*='"']>.flex.flex-row.pr-2>.block-control-wrap a:hover>.bullet-container>.bullet:before {
+  color: hsl(var(--cl-accent));
+}
+
+.ls-block[data-refs-self*='"project']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ea2c" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"project']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"evergreen']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ed4f" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"evergreen']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"task']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ea5e" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"task']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block:is([data-refs-self*='"collaboration'], [data-refs-self*='"meeting'])>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\edcd" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block:is([data-refs-self*='"collaboration'], [data-refs-self*='"meeting'])>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"kanban']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ec3f" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"kanban']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block:is([data-refs-self*='"chatgpt'], [data-refs-self*='"chat gpt'])>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\f00b" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block:is([data-refs-self*='"chatgpt'], [data-refs-self*='"chat gpt'])>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"logseq']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ec75" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"logseq']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"highlight']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ef1e" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"highlight']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"question']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\edeb" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"question']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"seed']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ed51" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"seed']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"atomic']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\eb79" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"atomic']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"tech bits']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\ea77" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"tech bits']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"notes']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\eb96" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"notes']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"fleeting']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\f59f" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"fleeting']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+.ls-block[data-refs-self*='"cluster note']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
+  content: "\f359" !important;
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+  border-radius: 50%;
+}
+
+.ls-block[data-refs-self*='"cluster note']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
+  background-color: var(--ls-block-bullet-border-color);
+}
+
+/* set our position parameters so the new symbols align with the old bullet position */
+.bullet-container {
+  position: relative;
+  top: -10px;
+  left: -5px;
+}
+
+.bullet-container.bullet-closed,
+.bullet-container.bullet-closed .bullet {
+  background-color: transparent !important;
+}
+
+.bullet-container.bullet-closed,
+.bullet-container.bullet-closed .bullet:before {
+  transition: 0.4s;
+  content: "\f62d";
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+}
+
+.bullet-container.bullet-closed:hover,
+.bullet-container.bullet-closed:hover .bullet:before {
+  content: "\f62d";
+  color: hsl(var(--cl-accent));
+}
+
+.ls-block:not(:focus-within) .bullet-closed .bullet:before {
+  content: "\f6e2";
+}
+
+.bullet-container.bullet-closed,
+.bullet-container:not(.bullet-closed) .bullet {
+  background-color: transparent !important;
+}
+
+.bullet-container.bullet-closed,
+.bullet-container:not(.bullet-closed) .bullet:before {
+  transition: 0.4s;
+  content: "\eb0c";
+  font-family: 'tabler-icons240';
+  color: var(--ls-block-bullet-color);
+}
+
+.bullet-container.bullet-closed:hover,
+.bullet-container:not(.bullet-closed):hover .bullet:hover:before {
+  color: hsl(var(--cl-accent));
+}
+
+.ls-block:not(:focus-within) .bullet-container.bullet-closed,
+.ls-block:not(:focus-within) .bullet-container:not(.bullet-closed) .bullet:before {
+  content: "\f698";
+}
+
+.bullet-container:hover {
+  background-color: transparent !important;
+  font-weight: 300;
+}
+
+a:hover>.bullet-container .bullet {
+  transform: scale(1.0) !important;
+  font-weight: 300;
+  background-color: transparent !important;
+}
+a:hover .bullet-container {
+  background-color: transparent;
+}
+
+/*.ls-block[data-refs-self*='"'] > .flex.flex-row.pr-2 .bullet-container:hover .bullet:before {
+    color: hsl(var(--cl-accent));
+    background-color: hsl(var(--cl-accent), 0.15);
+  }
+  .ls-block[data-refs-self*='"a'] > .flex.flex-row.pr-2 .bullet-container.bullet-closed .bullet:before {
+    background-color: hsl(var(--cl-primary), 0.85);
+    color: var(--bg-color);
+  }*/

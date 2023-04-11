@@ -1,0 +1,26 @@
+{
+  "name": "Flow",
+  "author": "@nmartin84 @Zyrohex @henices",
+  "version": "0.7.1",
+  "description": "Minimalistic Nord Theme that's soft around the edges.",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Nord",
+        "url": "./src/palettes/nord.css",
+        "description": "Nord",
+        "mode": "light"
+      },
+      {
+        "name": "Nord",
+        "url": "./src/palettes/nord.css",
+        "description": "Nord",
+        "mode": "dark"
+      }
+    ],
+    "id": "flowtheme-781"
+  },
+  "repo": "henices/logseq-flow-nord",
+  "title": "Flow Theme",
+  "effect": false
+}

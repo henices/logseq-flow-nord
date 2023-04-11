@@ -1,0 +1,92 @@
+/******************************,
+**    Page References    **
+******************************/
+.page-reference .bracket {
+    opacity: 0.3;
+    color: hsl(var(--cl-text-color), 1);
+}
+.ls-block .page-reference:hover {
+    background-color: transparent !important;
+    color: hsl(var(--cl-primary), 1);
+    filter: brightness(1.2);
+}
+
+/******************************,
+**    Block References    **
+******************************/
+/*.block-ref:before {
+    content: " ";
+    color: hsl(var(--cl-primary), 1);
+    vertical-align: middle;
+    background-color: hsl(var(--cl-accent), 1);
+    border-radius: 2px;
+    font-size: 7px;
+    position: relative;
+    top: -1.5px;
+    margin-right: 5px;
+    margin-left: 2px;
+    padding-right: 1px;
+}*/
+:not(.whiteboard-shape) .block-ref {
+    border-bottom: 0px dashed hsl(var(--cl-text-color), 0.15);
+    color: hsl(var(--cl-secondary), 0.85);
+    background-color: hsl(var(--cl-accent), 0);
+    border-radius: 0px;
+    opacity: 1;
+    transition: 0.2s;
+}
+.block-ref:hover {
+    cursor: pointer;
+    color: hsl(var(--cl-secondary));
+    border-radius: var(--cl-border-radius);
+    transition: 0.2s;
+}
+.block-ref mark {
+    padding: 0px 1px;
+    border-radius: 0px;
+}
+.block-ref .external-link {
+    text-underline-offset: 4px !important;
+}
+.block-ref .block-ref {
+    border-bottom: 0px solid !important;
+}
+.block-marker + .block-ref-wrap > div > .block-ref .block-marker, .block-marker + .block-ref-wrap > div > .block-ref .form-checkbox {
+    display: none;
+}
+/* Block reference broken links */
+a.warning, div.warning:not(.admonitionblock), p.warning, span.warning {
+    background-color: var(--ls-highlight-color-red-text);
+    color: var(--bg-color);
+    filter:ccontrast(0.5);
+}
+.open-block-ref-link {
+    background-color: hsl(var(--cl-text-color), 0.1);
+    color: hsl(var(--cl-text-color), 1);
+    font-weight: 400;
+}
+/******************************
+**    Reference Panel    **
+******************************/
+
+/******************************
+**    Embeds    **
+******************************/
+
+/******************************
+**    Block Children Border    **
+******************************/
+
+.block-children-left-border {
+    background-color: var(--cl-children-left-border, transparent);
+}
+.block-children {
+    border-left-color: var(--cl-children-border-color, var(--ls-guideline-color));
+}
+/* ==========================================================================
+Block Color Styling
+========================================================================== */
+.inline[style*="color"] .tag {
+    background-color: transparent;
+    padding: 0px;
+}

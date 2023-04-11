@@ -1,0 +1,177 @@
+/************ PLUGINS SECTION **************/
+
+/********************************************
+**            Code Block Copy              **
+********************************************/
+.copy-button {
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-left: 0px !important;
+    height: 1rem;
+    transform: scale(0.8);
+}
+.copy-button:hover {
+    background-color: transparent;
+}
+
+/******************************
+**    Admonition Panels     **
+******************************/
+:is(.content > .blocks-container) .ls-block[data-refs-self*="admon-"] > .block-children-container > .block-children {
+    margin-left: -3px;
+}
+/* //TODO: Fix this in the primary plugin */
+:is(.content > .blocks-container) .ls-block[data-refs-self*="admon-"] > .block-children-container > .block-children > .ls-block:last-child > .flex, .color-level > .flex > .initial > div > .blocks-container > .lazy-visibility > .fade-enter > .ls-block[data-refs-self*="admon-"] > .block-children-container > .block-children > .ls-block:last-child > .flex {
+    position: relative;
+    left: 0px;
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+:is(.content > .blocks-container) .ls-block[data-refs-self*="admon-"] > .block-children-container > .block-children {
+    border-left-color: transparent !important;
+}
+:is(.content > .blocks-container) .ls-block[data-refs-self*='admon-'] > div > div > div > div > div > .block-content-inner {
+    margin-left: -4.3px;
+    margin-right: 3px;
+}
+.color-level > .flex > .initial > div > .blocks-container > .lazy-visibility > .fade-enter > .ls-block[data-refs-self*='admon-'] > div > div > div > div > div > .block-content-inner {
+    margin-left: -1.1px;
+    margin-right: 0px;
+}
+:is(.content > .blocks-container) .ls-block[data-refs-self*='admon-'] > .flex > .flex > .flex > .flex-1 > .block-content > .block-body {
+    margin-left: -1px;
+}
+/******************************
+**  End of Admonition Panels **
+******************************/
+
+span.link-highlight {
+    text-decoration: underline;
+    text-decoration-color: hsl(var(--cl-secondary));
+    text-decoration-thickness: 3px;
+    text-underline-offset: 1px;
+    background-color: transparent !important;
+}
+
+/******************************
+**         Banners           **
+******************************/
+body:is([data-page="page"],[data-page="home"]).is-banner-active :not(.ls-wide-mode) #banner {
+    max-width: var(--ls-main-content-max-width);
+}
+body:is([data-page="page"],[data-page="home"]).is-banner-active .ls-wide-mode #banner {
+    max-width: var(--ls-main-content-max-width-wide);
+}
+
+/* ==========================================================================
+Kanban by Cannibalox
+   ========================================================================== */
+
+/*===========================================================*/
+/* css columns view / kanban  v20220510--------------------- */
+/* use: inline tag #kanban, #kanban-small or #kanban-wXXX    */
+/* try:  #kanban-w200,#kanban-w300, #kanban-w400             */
+
+div[data-refs-self*="kanban"]>.block-children-container.flex {
+    width: 100%;
+}
+
+div[data-refs-self*="kanban"]>.block-children-container.flex>.block-children.w-full {
+    display: inline-flex;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 10px;
+}
+
+    div[data-refs-self*="kanban"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
+        display: inline-block;
+        padding: 0;
+        width: inherit;
+        min-width: 200px;
+        margin-right: 10px;
+        }
+
+/* wide */
+
+div[data-refs-self*="kanban-small"]>.block-children-container.flex>.block-children,
+div[data-refs-self*="kanban-wide"]>.block-children-container.flex>.block-children {
+min-width: 90vw;
+left: 50%;
+transform: translate(-50%);
+background-color: var(--ls-primary-background-color);
+overflow-x: scroll;
+overflow-y: hidden;
+margin: 10px 30px;
+}
+
+div[data-refs-self*="kanban-wide"]>.block-children-container.flex>.block-children>div.ls-block {
+display: inline-block;
+min-width: 350px;
+padding: 8px 0px !important;
+font-size: 0.85rem;
+margin: 5px 0px;
+background-color: var(--ls-secondary-background-color);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: var(--ls-border-radius-medium);
+}
+
+
+/* #kanbansmall : smaller font with hover zoom */
+
+div[data-refs-self*="kanban-small"]>.block-children-container.flex>.block-children>div.ls-block {
+    display: inline-block;
+    min-width: 350px;
+}
+
+div[data-refs-self*="kanban-small"]>.block-children-container.flex>.block-children .block-content {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+div[data-refs-self*="kanban-small"]>.block-children-container.flex>.block-children .block-content:hover {
+    font-size: 14px !important;
+    min-width: 100px;
+}
+
+
+/* #kanban-w[100-300] : force width of the columns */
+
+div[data-refs-self*="kanban-w100"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
+    min-width: 100px;
+}
+
+div[data-refs-self*="kanban-w150"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
+    min-width: 150px;
+}
+
+div[data-refs-self*="kanban-w200"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
+    min-width: 200px;
+}
+div[data-refs-self*="kanban-w300"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
+    min-width: 300px;
+    }
+div[data-refs-self*="kanban-w400"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
+    min-width: 400px;
+}
+div[data-refs-self*="kanban-fit"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
+    min-width: 400px;
+        width: max-content; 
+}
+
+/* remove left border for kanbanized */
+[data-refs-self*="kanban"] .block-children-left-border {
+    opacity: 0;
+}
+
+/* fix modal list not appearing*/
+.block-children {
+    overflow: visible !important;
+} 
+
+.ls-block[data-refs-self*="kanban"] .absolute-modal,
+.ls-block[data-refs-self*="kanban"] #ui__ac {
+    min-height: 80px;
+}
+        
+/*--------------------------------------------- kanban end-- */

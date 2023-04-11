@@ -1,0 +1,76 @@
+/********************************************
+TANA BULLET HIGHLIGHTER by Nick Martin
+********************************************/
+
+/* ===== 
+These will only affect the block in question,
+and ignores if child blocks contain a page-reference
+or task
+===== */
+
+/* Gives the block itself a highlight change if it contains a page reference */
+[data-refs-self]:not([data-refs-self^="[]"], [data-refs-self^='["todo"'], [data-refs-self^='["done"']) > .flex-row > .mr-1 .bullet-container .bullet {
+    background-color: hsl(var(--cl-primary), 0.8);
+}
+[data-refs-self]:not([data-refs-self^="[]"], [data-refs-self^='["todo"'], [data-refs-self^='["done"']) > .flex-row > .mr-1 .bullet-container.bullet-closed {
+    background-color: hsl(var(--cl-primary), 0.1);
+    border: 0px dashed hsl(var(--cl-primary), 0.2);
+}
+/* This will target blocks that are marked DONE but still have a page reference */
+[data-refs-self]:not([data-refs-self^="[]"]) > .flex-row > .mr-1 .bullet-container .bullet {
+    background-color: hsl(var(--cl-primary), 0.8);
+}
+[data-refs-self]:not([data-refs-self^="[]"]) > .flex-row > .mr-1 .bullet-container.bullet-closed {
+    background-color: hsl(var(--cl-primary), 0.1);
+    border: 0px dashed hsl(var(--cl-primary), 0.2);
+}
+/* Target any blocks that only contain a task page-ref name and return those to normal color */
+[data-refs-self^='["todo"]'] .bullet-container .bullet, [data-refs-self^='["doing"]'] .bullet-container .bullet, [data-refs-self^='["now"]'] .bullet-container .bullet, [data-refs-self^='["wait"]'] .bullet-container .bullet, [data-refs-self^='["waiting"]'] .bullet-container .bullet {
+    background-color: var(--ls-block-bullet-color) !important;
+}
+[data-refs-self^='["todo"]'] .bullet-container.bullet-closed, [data-refs-self^='["doing"]'] .bullet-container.bullet-closed, [data-refs-self^='["now"]'] .bullet-container.bullet-closed, [data-refs-self^='["wait"]'] .bullet-container.bullet-closed, [data-refs-self^='["waiting"]'] .bullet-container.bullet-closed {
+    background-color: var(--ls-block-bullet-border-color) !important;
+    border: 0px solid !important;
+}
+
+/* ===== 
+The below section will take into account of child blocks, 
+and change the parent blocks bullet color based 
+on rather or not those child block conditions exist 
+===== */
+
+/* Simple check to see if data-refs has any values defined but is not empty
+by Losgeq standards an empty data-ref attribute will show as "[]" */
+[data-refs]:not([data-refs^="[]"]) > .flex-row > .mr-1 .bullet-container .bullet {
+    background-color: hsl(var(--cl-primary), 0.8);
+}
+/* Re-shades the bullet closed background color and adds a border */
+[data-refs]:not([data-refs^="[]"]) > .flex-row > .mr-1 .bullet-container.bullet-closed {
+    background-color: hsl(var(--cl-primary), 0.1);
+    border: 1px dashed hsl(var(--cl-primary), 1);
+}
+
+/* This will mark only the parent blocks red if there's a child block with a task item. 
+We don't really care about highlighting the block itself that's marked as a task item */
+.dark-theme :is([data-refs*='"todo"'], [data-refs*='["doing"'], [data-refs*='["now"']) > .flex-row > .mr-1 .bullet-container .bullet {
+    background-color: hsl(var(--cl-accent)) !important;
+}
+.dark-theme :is([data-refs*='"todo"'], [data-refs*='["doing"'], [data-refs*='["now"']) > .flex-row > .mr-1 .bullet-container.bullet-closed {
+    background-color: hsl(var(--cl-accent), 0.2) !important;
+    border: 1px dashed hsl(var(--cl-accent), 1) !important;
+}
+.dark-theme :is([data-refs*='"todo"'], [data-refs*='["doing"'], [data-refs*='["now"']) > .flex-row > .mr-1 .bullet-container {
+    background-color: hsl(var(--cl-accent), 0.2) !important;
+    border: 1px dashed hsl(var(--cl-accent), 1) !important;
+}
+.white-theme :is([data-refs*='"todo"'], [data-refs*='["doing"'], [data-refs*='["now"']) > .flex-row > .mr-1 .bullet-container .bullet {
+    background-color: hsl(var(--cl-accent)) !important;
+}
+.white-theme :is([data-refs*='"todo"'], [data-refs*='["doing"'], [data-refs*='["now"']) > .flex-row > .mr-1 .bullet-container.bullet-closed {
+    background-color: hsl(var(--cl-accent), 0.2) !important;
+    border: 1px dashed hsl(var(--cl-accent), 1) !important;
+}
+.white-theme :is([data-refs*='"todo"'], [data-refs*='["doing"'], [data-refs*='["now"']) > .flex-row > .mr-1 .bullet-container {
+    background-color: hsl(var(--cl-accent), 0.2) !important;
+    border: 1px dashed hsl(var(--cl-accent), 1) !important;
+}
