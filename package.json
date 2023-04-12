@@ -1,7 +1,7 @@
 {
-  "name": "Flow",
+  "name": "Flow Nord",
   "author": "@nmartin84 @Zyrohex @henices",
-  "version": "0.7.1",
+  "version": "0.0.1",
   "description": "Minimalistic Nord Theme that's soft around the edges.",
   "logseq": {
     "themes": [
@@ -21,6 +21,6 @@
     "id": "flowtheme-781"
   },
   "repo": "henices/logseq-flow-nord",
-  "title": "Flow Theme",
+  "title": "Flow Nord Theme",
   "effect": false
 }
