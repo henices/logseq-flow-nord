@@ -61,6 +61,7 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 - Reference Panels Style around each match rather than each document
 - Improved block ref styling
 
+![demo](.images/demo.png)
 ![dark-themes](.images/dark.png)
 ![light-themes](.images/light.png)
 
