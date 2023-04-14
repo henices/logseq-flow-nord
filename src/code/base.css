@@ -24,7 +24,7 @@ Base Root Settings
     --cl-background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
     --cl-block-bullet-fix: 20px;
     --ls-main-content-max-width: var(--cl-page-width, 1000px);
-    --ls-main-content-max-width-wide: var(--cl-page-max-width, 100%);
+    --ls-main-content-max-width-wide: var(--cl-page-max-width, 95%);
     --ls-page-title-size: 28px;
     --ls-left-sidebar-width: 200px;
     --ls-right-sidebar-width: 30%;
@@ -313,7 +313,7 @@ Base Settings
 /* Setting up the container view */
 #main-content-container, .sidebar-item {
     border-radius: var(--cl-border-max);
-    margin: 0 0px 5px 5px;
+    margin: 0px 0px 10px 5px;
     box-shadow: var(--box-shadow-med);
     border: 0px solid var(--ls-border-color);
     padding-bottom: 1rem !important;
@@ -420,7 +420,7 @@ Typography Settings
 
 /* Adjust padding between each block to give them a little breathing room */
 .ls-block {
-    padding: 2px 0px;
+    padding: 2px 10px;
 }
 
 
