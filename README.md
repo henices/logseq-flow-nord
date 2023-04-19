@@ -3,12 +3,12 @@ A minimal theme that focuses on a clean and sleek interface that's soft on the e
 
 Logseq Flow Theme's nord color palettes, most of code copied from https://github.com/nmartin84/logseq-flow.
 
-# 🚀 Features
+## 🚀 Features
 
-## Custom Bullets
+### Custom Bullets
 Bullets in Flow will use the tabler-icons fonts to render bullets. What this means is that you can easily swap out bullets with a custom icon when the block contains page-references that match a particular keyword.
 
-### Customizing Bullets:
+#### Customizing Bullets:
 Bullets can now be customized to represent whatever tabler-icon you would like. Just add the following to your custom.css and replace "REPLACEME" with whatever page-reference you would like to target, and replace the hex code in `content: "\HEX"` with the hex code from the tabler-icons set. For a list of icons check https://tabler-icons.io/.
 ```css
   .ls-block[data-refs-self*='"REPLACEME'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {
@@ -23,7 +23,7 @@ Bullets can now be customized to represent whatever tabler-icon you would like. 
   }
 ```
 
-## Panels
+### Panels
 Panels are grouped together by their breadcrumbs. What this means is that you'll no longer see an entire document use the same background color throughout the entire document. Instead they are now broken out into groups by the parent block:
 
 ## ⚙️ Custom Settings
@@ -55,7 +55,7 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 }
 ```
 
-## 🚀 Features
+## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
 - Curved edges over jagged edges
 - Reference Panels Style around each match rather than each document
@@ -65,7 +65,7 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 ![dark-themes](.images/dark.png)
 ![light-themes](.images/light.png)
 
-# ⌨️ Installation
+## ⌨️ Installation
 
 Manually:
 - Clone or Download the latest [release](https://github.com/henices/logseq-flow-nord/releases)
@@ -74,6 +74,11 @@ Manually:
 - Open the Plugin Manager window
 - Click on "Load unpacked plugin"
 - Navigatge to the folder you either cloned or unpacked
+
+## Recommend Logseq Plugins
+
+- [Bullet Threading](https://github.com/pengx17/logseq-plugin-bullet-threading)
+- [Tabs](https://github.com/pengx17/logseq-plugin-tabs)
 
 ## Thanks
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
