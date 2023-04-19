@@ -317,7 +317,7 @@ Base Settings
 /* Setting up the container view */
 #main-content-container, .sidebar-item {
     border-radius: var(--cl-border-max);
-    margin: 0px 0px 10px 5px;
+    margin: 0px 0px 5px 5px;
     box-shadow: var(--box-shadow-med);
     border: 0px solid var(--ls-border-color);
     padding-bottom: 1rem !important;
@@ -424,7 +424,7 @@ Typography Settings
 
 /* Adjust padding between each block to give them a little breathing room */
 .ls-block {
-    padding: 2px 10px;
+    padding: 2px 10px 2px 0px;
 }
 
 
