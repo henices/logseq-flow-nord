@@ -26,7 +26,13 @@ Bullets can now be customized to represent whatever tabler-icon you would like. 
 ### Panels
 Panels are grouped together by their breadcrumbs. What this means is that you'll no longer see an entire document use the same background color throughout the entire document. Instead they are now broken out into groups by the parent block:
 
-## ⚙️ Custom Settings
+### Built-in Plugins
+
+- Kanban block view (@cannibalox)
+
+Support inline tag: `#kanban` `#kanban-small` `#kanban-w200` `#kanban-w300` `#kanban-w400`
+
+### ⚙️ Custom Settings
 The custom.css file can take the following options to tweak the visuals. Valid color options you can specify are `--cl-primary`, `--cl-secondary`, or `--cl-accent`. 
 ```css
 :root {
