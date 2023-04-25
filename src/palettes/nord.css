@@ -20,8 +20,8 @@ html[data-theme='light'] {
     --cl-background: 218,27%,84%;
     --cl-text-color: 220,16%,22%;
     --cl-primary: 213, 32%, 52%;
-    --cl-secondary: 210, 34%, 63%;
-    --cl-accent: 179, 25%, 65%;
+    --cl-secondary: 213, 32%, 52%;
+    --cl-accent: 182, 25%, 50%;
 }
 
 a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
