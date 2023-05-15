@@ -188,6 +188,12 @@ Fixes & Misc
   left: -5px;
 }
 
+/* ordered list fixes */
+.bullet-container.as-order-list {
+  display: inline;
+  top: 0px;
+}
+
 .bullet-container.bullet-closed,
 .bullet-container.bullet-closed .bullet {
   background-color: transparent !important;

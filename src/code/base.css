@@ -398,7 +398,7 @@ Bullet Containers
 .bullet-container {
     width: 13px;
     height: 13px;
-    margin-left: calc(var(--ls-block-bullet-threading-width-overwrite, var(--cl-block-bullet-fix)) * .24); /* Fix for bullet threading */
+    margin-left: calc(var(--ls-block-bullet-threading-width-overwrite, var(--cl-block-bullet-fix)) * .32); /* Fix for bullet threading */
     position: relative;
     margin-top: -3.5px;
 }
