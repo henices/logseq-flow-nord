@@ -398,14 +398,21 @@ Bullet Containers
 .bullet-container {
     width: 13px;
     height: 13px;
-    margin-left: calc(var(--ls-block-bullet-threading-width-overwrite, var(--cl-block-bullet-fix)) * .32); /* Fix for bullet threading */
+    /*margin-left: calc(var(--ls-block-bullet-threading-width-overwrite, var(--cl-block-bullet-fix)) * .24); /* Fix for bullet threading */
     position: relative;
     margin-top: -3.5px;
 }
 .bullet-container .bullet {
     width: 5px;
     height: 5px;
+    margin-left: 2px;
 }
+
+.bullet-container.as-order-list {
+  display: inline;
+  top: 0px;
+}
+
 /* Unknown */
 .ls-block .ls-block > div > div.items-center::before {
     bottom: 56% !important;
@@ -415,7 +422,7 @@ Bullet Containers
     background-color: hsl(var(--cl-primary), 1);
 }
 .block-children-container {
-    margin-left: 29.5px;
+    margin-left: 29px;
 }
 
 /* ==========================================================================
