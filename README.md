@@ -83,8 +83,15 @@ Manually:
 
 ## Recommend Logseq Plugins
 
-- [Bullet Threading](https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/bullet_threading.css)
-- [Tabs](https://github.com/pengx17/logseq-plugin-tabs)
+### Bullet Threading Plugin
+
+Install [Bullet Threading](https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/bullet_threading.css) plugin via custom.css 
+
+```
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/bullet_threading.css"); /* bullet thrading*/
+```
+
+### [Tabs](https://github.com/pengx17/logseq-plugin-tabs) Plugin
 
 ## Thanks
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
