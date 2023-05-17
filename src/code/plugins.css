@@ -81,7 +81,7 @@ div[data-refs-self*="kanban"]>.block-children-container.flex>.block-children.w-f
     position: relative;
     overflow-x: auto;
     overflow-y: hidden;
-    margin: 0 10px;
+/*    margin: 0 10px; */
 }
 
     div[data-refs-self*="kanban"]>.block-children-container.flex>.block-children.w-full>div.ls-block {
