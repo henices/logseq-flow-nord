@@ -10,6 +10,7 @@ html[data-theme='dark'] {
     --cl-primary: 179, 25%, 65%;
     --cl-secondary: 210, 34%, 63%;
     --cl-accent: 220, 16%, 36%;
+    --bullet-threading-active-color: #D08770;
 }
 
 .white-theme,
@@ -22,6 +23,7 @@ html[data-theme='light'] {
     --cl-primary: 213, 32%, 52%;
     --cl-secondary: 213, 32%, 52%;
     --cl-accent: 182, 25%, 50%;
+    --bullet-threading-active-color: #D08770;
 }
 
 a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
