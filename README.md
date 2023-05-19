@@ -71,6 +71,12 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 ![dark-themes](.images/dark.png)
 ![light-themes](.images/light.png)
 
+## Style
+
+
+![style](.images/style.png)
+![style2](.images/style2.png)
+
 ## ⌨️ Installation
 
 Manually:
