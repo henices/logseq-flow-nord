@@ -22,5 +22,6 @@
   },
   "repo": "henices/logseq-flow-nord",
   "title": "Flow Nord Theme",
+  "icon": "icon.png",
   "effect": false
 }
