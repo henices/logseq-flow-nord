@@ -634,8 +634,12 @@ body {
 }
 
 /* Tables */
-tr:nth-child(2n) {
-    background: transparent;
+
+html[data-theme='white'] tr:nth-child(2n),
+.white-theme tr:nth-child(2n),
+html[data-theme='dark'] tr:nth-child(2n),
+.dark-theme tr:nth-child(2n) {
+    background: hsl(var(--cl-background), 0.1);
 }
 
 tr:hover {
