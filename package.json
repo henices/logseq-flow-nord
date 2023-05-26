@@ -1,6 +1,6 @@
 {
-  "name": "Flow Nord",
-  "author": "@nmartin84 @Zyrohex @henices",
+  "name": "Flow Nord theme",
+  "author": "nmartin84 Zyrohex henices",
   "version": "0.0.9",
   "description": "Minimalistic Nord Theme that's soft around the edges.",
   "logseq": {
@@ -18,10 +18,10 @@
         "mode": "dark"
       }
     ],
-    "id": "flowtheme-781"
+    "id": "flowtheme-nord",
+    "icon": "icon.png"
   },
   "repo": "henices/logseq-flow-nord",
   "title": "Flow Nord Theme",
-  "icon": "icon.png",
   "effect": false
 }
