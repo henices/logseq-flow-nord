@@ -184,8 +184,8 @@ Fixes & Misc
 /* set our position parameters so the new symbols align with the old bullet position */
 .bullet-container {
   position: relative;
-  top: -8px;
-  left: -5px;
+  top: -9px;
+  left: 0px;
 }
 
 .bullet-container.bullet-closed,
