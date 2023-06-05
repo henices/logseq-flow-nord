@@ -56,6 +56,8 @@ The custom.css file can take the following options to tweak the visuals. Valid c
   --cl-selected-background-color: var(--cl-primary), 0.1;
   --cl-selected-color: var(--cl-primary), 1;
   --cl-font-family: "Euclid Circular A";
+  --cl-font-size: 16px;
+  --cl-font-weight: 400;
   --cl-header-font: "Roboto Slab";
   --cl-title-font: "Roboto Slab";
 }
