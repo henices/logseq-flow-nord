@@ -86,7 +86,7 @@ blockquote {
     background-color: hsl(var(--cl-accent), 0.05);
     color: var(--ls-primary-text-color);
     display: flex;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     border-left: 2px solid hsl(var(--cl-accent));
     padding-top: 15px;
     padding-bottom: 15px;
@@ -98,7 +98,7 @@ blockquote:before {
     align-self: center;
     color: hsl(var(--cl-accent));
     position: relative;
-    left: -9px;
+    left: -25px;
     z-index: 3;
     background-color: var(--bg-color);
     padding-bottom: 2px;
