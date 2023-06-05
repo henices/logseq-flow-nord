@@ -20,11 +20,8 @@ Base Root Settings
 
 :root {
     --ls-font-family: var(--cl-font-family, Inter);
-    -webkit-font-smoothing: antialiased;
-    word-wrap: break-word;
-    text-rendering: optimizelegibilit;
-    -webkit-text-size-adjust: 100%;
-    font-smoothing: antialiased;
+    --ls-font-size: var(--cl-font-size, 16px);
+    --ls-font-weight: var(--cl-font-weight, 400);
     --cl-background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
     --cl-block-bullet-fix: 20px;
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);

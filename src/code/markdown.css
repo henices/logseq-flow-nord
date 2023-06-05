@@ -105,6 +105,34 @@ blockquote:before {
     border-radius: 1px;
 }
 
+/* === Font settings === */
+
+.white-theme #main-content-container,
+html[data-theme="light"] #main-content-container {
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+  text-rendering: optimizelegibilit;
+  -webkit-text-size-adjust: 100%;
+  font-smoothing: antialiased;
+
+  font-family: var(--ls-font-family);
+  font-size: var(--ls-font-size);
+  font-weight: var(--ls-font-weight);
+}
+
+.dark-theme #main-content-container,
+html[data-theme="dark"] #main-content-container {
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+  text-rendering: optimizelegibilit;
+  -webkit-text-size-adjust: 100%;
+  font-smoothing: antialiased;
+
+  font-family: var(--ls-font-family);
+  font-size: var(--ls-font-size);
+  font-weight: var(--ls-font-weight);
+}
+
 /*  === Headings ===  */
 .editor-inner .multiline-block:is(.h1, .h2, .h3, .h4, .h5, .h6):first-line,
 .editor-inner .uniline-block:is(.h1, .h2, .h3, .h4, .h5, .h6),
