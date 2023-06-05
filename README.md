@@ -63,6 +63,11 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 }
 ```
 
+- `--cl-font-family`  :  set font famliy
+- `--cl-font-size`    :  set font size
+- `--cl-font-weight`  :  set font weight
+
+
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
 - Curved edges over jagged edges
@@ -75,8 +80,6 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 
 ## Style
 
-
-![style](.images/style.png)
 ![style2](.images/style2.png)
 
 ## ⌨️ Installation
