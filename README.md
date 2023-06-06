@@ -58,6 +58,7 @@ The custom.css file can take the following options to tweak the visuals. Valid c
   --cl-font-family: "Euclid Circular A";
   --cl-font-size: 16px;
   --cl-font-weight: 400;
+  --cl-font-family-code: "Fira Code";
   --cl-header-font: "Roboto Slab";
   --cl-title-font: "Roboto Slab";
 }
@@ -66,7 +67,7 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 - `--cl-font-family`  :  set font famliy
 - `--cl-font-size`    :  set font size
 - `--cl-font-weight`  :  set font weight
-
+- `--cl-font-family-code`  :  set code font famliy
 
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy

@@ -33,7 +33,7 @@
     padding: 2px 6px !important;
     color: hsl(var(--cl-secondary), 1);
     border-radius: 2px;
-    font-family: "SF Mono", MonoLisa, Fira Code, Monaco, Menlo, Consolas, COURIER NEW, monospace;
+    font-family: "SF Mono", MonoLisa, "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW", monospace;
     border: 0px dashed hsl(var(--cl-text-color), 0.15);
 }
 .dark-theme :not(pre):not(mark)>code {
@@ -42,6 +42,14 @@
 .white-theme :not(pre):not(mark)>code {
     background-color: hsl(var(--cl-background), 0.35);
 }
+
+/* Code */
+.CodeMirror pre.CodeMirror-line, .CodeMirror-gutter, .CodeMirror-gutters,
+.CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+  font-family: var(--cl-font-family-code);
+  font-size: 14px;
+}
+
 /*:not(pre):not(mark)>code:before {
     content: "\ea61";
     color: hsl(var(--cl-primary));
