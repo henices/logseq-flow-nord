@@ -46,7 +46,7 @@
 /* Code */
 .CodeMirror pre.CodeMirror-line, .CodeMirror-gutter, .CodeMirror-gutters,
 .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
-  font-family: var(--cl-font-family-code);
+  font-family: var(--ls-font-family-code);
   font-size: 14px;
 }
 
