@@ -61,6 +61,11 @@ Base Root Settings
 /* Dark settings */
 .dark-theme,
 html[data-theme='dark'] {
+    --cl-text-color: var(--cl-dark-text-color, 219,28%,88%);
+    /* =====BACKGROUND ===========*/
+    --background-color-h: var(--cl-dark-bg-color-h, 192);
+    --background-color-s: var(--cl-dark-bg-color-s, 100%);
+    --background-color-l: var(--cl-dark-bg-color-l, 11%);
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;
     --lightnessTransform: 5%;
@@ -182,6 +187,11 @@ html[data-theme='dark'] {
 /* Light Settings */
 .light-theme,
 html[data-theme='light'] {
+    --cl-text-color: var(--cl-light-text-color, 220,16%,22%);
+    /* =====BACKGROUND ===========*/
+    --background-color-h: var(--cl-light-bg-color-h, 0);
+    --background-color-s: var(--cl-light-bg-color-s, 0%);
+    --background-color-l: var(--cl-light-bg-color-l, 100%);
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;
     --lightnessTransform: 5%;
