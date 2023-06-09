@@ -77,6 +77,7 @@ Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-
 Change theme to Logseq Nord Theme **Default** , the colors will take effective.
 
 ```css
+:root {
   --cl-primary:   33,90%,65% !important;
   --cl-secondary: 168,22%,55% !important;
   --cl-accent:    196,64%,58% !important;
@@ -88,6 +89,10 @@ Change theme to Logseq Nord Theme **Default** , the colors will take effective.
   --cl-light-bg-color-h: 218;
   --cl-light-bg-color-s: 27%;
   --cl-light-bg-color-l: 94%;
+
+  --cl-dark-text-color: 219,28%,88%;
+  --cl-light-text-color: 220,16%,22%
+}
 ```
 
 ## 🚀 Demo
