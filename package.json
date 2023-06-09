@@ -16,6 +16,18 @@
         "url": "./src/palettes/nord.css",
         "description": "Nord",
         "mode": "dark"
+      },
+      {
+        "name": "Default",
+        "url": "./src/palettes/default.css",
+        "description": "Default",
+        "mode": "light"
+      },
+      {
+        "name": "Default",
+        "url": "./src/palettes/default.css",
+        "description": "Default",
+        "mode": "dark"
       }
     ],
     "id": "flowtheme-nord",
