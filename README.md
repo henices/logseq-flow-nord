@@ -33,7 +33,8 @@ Panels are grouped together by their breadcrumbs. What this means is that you'll
 Support inline tag: `#kanban` `#kanban-small` `#kanban-w200` `#kanban-w300` `#kanban-w400`
 
 ### ⚙️ Custom Settings
-The custom.css file can take the following options to tweak the visuals. Valid color options you can specify are `--cl-primary`, `--cl-secondary`, or `--cl-accent`. 
+
+The custom.css file can take the following options to tweak the visuals.
 ```css
 :root {
   --cl-page-width: 900px;
@@ -68,6 +69,15 @@ The custom.css file can take the following options to tweak the visuals. Valid c
 - `--cl-font-size`    :  set font size
 - `--cl-font-weight`  :  set font weight
 - `--cl-font-family-code`  :  set code font famliy
+
+Valid color options you can specify are `--cl-primary`, `--cl-secondary`, or `--cl-accent`.
+Change theme to Logseq Nord Theme **Default** , the colors will take effective.
+
+```css
+  --cl-primary:   33,90%,65% !important;
+  --cl-secondary: 168,22%,55% !important;
+  --cl-accent:    196,64%,58% !important;
+```
 
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
