@@ -672,7 +672,9 @@ body {
 /* Tables */
 
 html[data-theme='white'] tr:nth-child(2n),
+html[data-theme='light'] tr:nth-child(2n),
 .white-theme tr:nth-child(2n),
+.light-theme tr:nth-child(2n),
 html[data-theme='dark'] tr:nth-child(2n),
 .dark-theme tr:nth-child(2n) {
     background: hsl(var(--cl-background), 0.1);
@@ -707,7 +709,7 @@ table {
 
 th {
     padding: 2px 8px;
-    background-color: hsl(var(--cl-background));
+    background-color: hsl(var(--cl-background), 0.2);
     font-weight: 700;
     border-top: 1px solid hsl(var(--cl-background));
 }
