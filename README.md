@@ -119,6 +119,12 @@ Manually:
 - Click on "Load unpacked plugin"
 - Navigatge to the folder you either cloned or unpacked
 
+Logseq Marketplace:
+- Open the Logseq Marketplace
+- Click on the "Themes" tab
+- Search for Flow Nord Theme
+- Click on the "Install" button.
+
 ## Recommend Logseq Plugins
 
 ### Bullet Threading Plugin
