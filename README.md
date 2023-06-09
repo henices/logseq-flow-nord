@@ -70,13 +70,24 @@ The custom.css file can take the following options to tweak the visuals.
 - `--cl-font-weight`  :  set font weight
 - `--cl-font-family-code`  :  set code font famliy
 
-Valid color options you can specify are `--cl-primary`, `--cl-secondary`, or `--cl-accent`.
+Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-accent`,
+`--cl-dark-bg-color-h`, `--cl-dark-bg-color-s`, `--cl-dark-bg-color-l`,
+`--cl-light-bg-color-h`, `--cl-light-bg-color-s`, `--cl-light-bg-color-l`,
+`--cl-dark-text-color`, or `--cl-light-text-color`.
 Change theme to Logseq Nord Theme **Default** , the colors will take effective.
 
 ```css
   --cl-primary:   33,90%,65% !important;
   --cl-secondary: 168,22%,55% !important;
   --cl-accent:    196,64%,58% !important;
+
+  --cl-dark-bg-color-h: 220;
+  --cl-dark-bg-color-s: 16%;
+  --cl-dark-bg-color-l: 22%;
+
+  --cl-light-bg-color-h: 218;
+  --cl-light-bg-color-s: 27%;
+  --cl-light-bg-color-l: 94%;
 ```
 
 ## 🚀 Demo
