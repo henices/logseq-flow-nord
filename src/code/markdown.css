@@ -684,6 +684,7 @@ tr:hover {
     background: hsl(var(--cl-primary), 0.25);
 }
 
+/*
 tr:last-child {
     border-bottom: 1px solid hsl(var(--cl-background));
     border-bottom-left-radius: 4px;
@@ -698,16 +699,19 @@ tr {
     border-left: 1px solid hsl(var(--cl-background));
     border-right: 1px solid hsl(var(--cl-background));
 }
+*/
 
+/*
 th {
-    border-bottom: 0px;
 }
+*/
 
 table {
     border-radius: 4px;
 }
 
 th {
+    border-bottom: 0px;
     padding: 2px 8px;
     background-color: hsl(var(--cl-background), 0.2);
     font-weight: 700;
