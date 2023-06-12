@@ -9,9 +9,11 @@ html[data-theme='dark'] {
     --cl-text-color: 219, 28%, 88%;
     --cl-primary: 179, 25%, 65%;
     --cl-secondary: 210, 34%, 63%;
-    --cl-accent: 222, 16%, 36%;
+    --cl-accent: 92, 28%, 65%;
+    /*
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;
+    */
 }
 
 .white-theme,
@@ -25,8 +27,10 @@ html[data-theme='light'] {
     --cl-primary: 213, 32%, 52%;
     --cl-secondary: 213, 32%, 52%;
     --cl-accent: 182, 25%, 50%;
+    /*
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;
+    */
 }
 
 a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
