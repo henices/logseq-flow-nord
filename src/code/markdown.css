@@ -632,7 +632,7 @@ svg.h-4.w-4 {
 /* Tags */
 a.tag {
     background-color: hsl(var(--cl-tag-background-color, var(--cl-accent, var(--cl-background)), 0.3));
-    color: hsl(var(--cl-tag-color, var(--cl-accent),0.85));
+    color: hsl(var(--cl-tag-color, var(--cl-accent, var(--cl-text-color)), 1.1));
     opacity: 1;
     padding: 0px 5px;
     text-align: center;
