@@ -66,7 +66,7 @@ html[data-theme='dark'] {
     --background-color-h: var(--cl-dark-bg-color-h, 192);
     --background-color-s: var(--cl-dark-bg-color-s, 100%);
     --background-color-l: var(--cl-dark-bg-color-l, 11%);
-    --cl-background: var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.50);
+    --cl-background: var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.40);
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;
     --lightnessTransform: 5%;
