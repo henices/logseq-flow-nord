@@ -61,11 +61,11 @@ Base Root Settings
 /* Dark settings */
 .dark-theme,
 html[data-theme='dark'] {
-    --cl-text-color: var(--cl-dark-text-color, 219,28%,78%);
+    --cl-text-color: var(--cl-dark-text-color, 219,28%,88%);
     /* =====BACKGROUND ===========*/
-    --background-color-h: var(--cl-dark-bg-color-h, 192);
-    --background-color-s: var(--cl-dark-bg-color-s, 100%);
-    --background-color-l: var(--cl-dark-bg-color-l, 11%);
+    --background-color-h: var(--cl-dark-bg-color-h, 220);
+    --background-color-s: var(--cl-dark-bg-color-s, 16%);
+    --background-color-l: var(--cl-dark-bg-color-l, 22%);
     --cl-background: var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.30);
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;
