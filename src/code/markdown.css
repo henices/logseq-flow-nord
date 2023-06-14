@@ -35,19 +35,14 @@
     border-radius: 2px;
     font-family: "SF Mono", MonoLisa, "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW", monospace;
     border: 0px dashed hsl(var(--cl-text-color), 0.15);
-}
-.dark-theme :not(pre):not(mark)>code {
-    background-color: var(--bg-dark);
-}
-.white-theme :not(pre):not(mark)>code {
-    background-color: hsl(var(--cl-background), 0.35);
+    background-color: hsl(var(--cl-background), 0.25);
 }
 
 /* Code */
-.CodeMirror pre.CodeMirror-line, .CodeMirror-gutter, .CodeMirror-gutters,
-.CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+.CodeMirror  {
   font-family: var(--ls-font-family-code);
   font-size: 14px;
+  background-color: var(--bg-color-6);
 }
 
 /*:not(pre):not(mark)>code:before {
