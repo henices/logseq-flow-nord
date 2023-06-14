@@ -643,6 +643,13 @@ svg.h-4.w-4 {
     background: hsl(var(--cl-background));
 }
 
+/* Select */
+
+.dark-theme select,
+.light-theme select {
+    background: hsl(var(--cl-background));
+}
+
 /* Tags */
 a.tag {
     background-color: hsl(var(--cl-tag-background-color, var(--cl-accent, var(--cl-background)), 0.3));
