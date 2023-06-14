@@ -259,10 +259,10 @@ a.priority[href="#/page/C" i]::before {
 
 /*  === Checkboxes ===  */
 .form-checkbox {
-    background-color: var(--cl-background);
+    background-color: var(--bg-color-1);
     border: 1.7px solid hsl(var(--cl-text-color), 0.15);
     border-style: solid;
-    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.25));
+    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
     border-radius: var(--cl-checkbox-radius, 2px);
     position: relative;
     opacity: var(--cl-checkbox-opacity, 1);
@@ -272,10 +272,10 @@ a.priority[href="#/page/C" i]::before {
 }
 
 .form-checkbox:checked {
-    background-color: hsl(var(--cl-background));
+    background-color: var(--bg-color-6);
     border: 1.7px solid hsl(var(--cl-text-color), 0.15);
     border-style: solid;
-    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.25));
+    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
     border-radius: var(--cl-checkbox-radius, 2px);
     opacity: 1;
 }
