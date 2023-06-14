@@ -95,6 +95,37 @@ Change theme to Logseq Nord Theme **Default** , the colors will take effective.
 }
 ```
 
+or
+
+```css
+.dark-theme,
+html[data-theme='dark'] {
+  --background-color-h: 210;
+  --background-color-s: 12%;
+  --background-color-l: 16%;
+
+  --cl-primary: 212, 100%, 74%;
+  --cl-secondary: 261, 76%, 76%;
+  --cl-accent: 135, 68%, 72%;
+
+  --cl-dark-text-color: 0,0%,100%;
+}
+
+.white-theme,
+.light-theme,
+html[data-theme='light'] {
+  --background-color-h: 0;
+  --background-color-s: 0%;
+  --background-color-l: 100%;
+
+  --cl-primary: 212, 100%, 39%;
+  --cl-secondary: 261, 51%, 51%;
+  --cl-accent: 134, 60%, 33%;
+
+  --cl-light-text-color: 210, 12%, 16%;
+}
+```
+
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
 - Curved edges over jagged edges
