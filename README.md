@@ -108,7 +108,7 @@ html[data-theme='dark'] {
   --cl-secondary: 261, 76%, 76%;
   --cl-accent: 135, 68%, 72%;
 
-  --cl-dark-text-color: 0,0%,100%;
+  --cl-text-color: 0,0%,100%;
 }
 
 .white-theme,
@@ -122,7 +122,7 @@ html[data-theme='light'] {
   --cl-secondary: 261, 51%, 51%;
   --cl-accent: 134, 60%, 33%;
 
-  --cl-light-text-color: 210, 12%, 16%;
+  --cl-text-color: 210, 12%, 16%;
 }
 ```
 
