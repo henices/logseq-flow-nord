@@ -629,6 +629,20 @@ svg.h-4.w-4 {
     padding-bottom: 5px;
 }
 
+/* Input */
+
+.dark-theme input,
+.light-theme input {
+    background: hsl(var(--cl-background));
+}
+
+/* Textarea  */
+
+.dark-theme textarea,
+.light-theme textarea {
+    background: hsl(var(--cl-background));
+}
+
 /* Tags */
 a.tag {
     background-color: hsl(var(--cl-tag-background-color, var(--cl-accent, var(--cl-background)), 0.3));
