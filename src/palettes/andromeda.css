@@ -1,0 +1,13 @@
+@import '../code/base.css';
+
+.dark-theme,
+html[data-theme='dark'] {
+    --background-color-h: 222;
+    --background-color-s: 15%;
+    --background-color-l: 14%;
+    --cl-background: 222,15%,24%;
+    --cl-primary: 158,95%,38%;
+    --cl-secondary: 192,86%,43%;
+    --cl-accent: 192,86%,43%;
+    --cl-text-color: 0,0%,90%;
+}
