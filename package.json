@@ -6,7 +6,7 @@
   "logseq": {
     "themes": [
       {
-        "name": "Nord",
+        "name": "Default",
         "url": "./src/palettes/nord.css",
         "description": "Nord",
         "mode": "light"
@@ -18,15 +18,15 @@
         "mode": "dark"
       },
       {
-        "name": "Default",
-        "url": "./src/palettes/default.css",
-        "description": "Default",
+        "name": "Custom",
+        "url": "./src/palettes/custom.css",
+        "description": "Custom",
         "mode": "light"
       },
       {
         "name": "Default",
-        "url": "./src/palettes/default.css",
-        "description": "Default",
+        "url": "./src/palettes/custom.css",
+        "description": "Custom",
         "mode": "dark"
       }
     ],
