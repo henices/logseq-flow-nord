@@ -144,7 +144,7 @@ html[data-theme='dark'] {
     --ls-block-bullet-references-border-color: hsl(var(--cl-primary), 0.1);
     --ls-block-bullet-color: hsl(var(--cl-block-bullet-color, var(--cl-text-color), 0.5));
     --ls-block-highlight-color: var(--color-level-3);
-    --ls-selection-background-color: hsl(var(--cl-background));
+    --ls-selection-background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
     --ls-page-checkbox-color: var(--cl-transparent-text);
     --ls-page-checkbox-border-color: hsl(var(--cl-primary));
     --ls-page-blockquote-color: hsl(var(--cl-secondary));
@@ -271,7 +271,7 @@ html[data-theme='light'] {
     --ls-block-bullet-references-border-color: hsl(var(--cl-primary), 0.1);
     --ls-block-bullet-color: hsl(var(--cl-block-bullet-color, var(--cl-text-color), 0.5));
     --ls-block-highlight-color: var(--color-level-3);
-    --ls-selection-background-color: hsl(var(--cl-background));
+    --ls-selection-background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
     --ls-page-checkbox-color: var(--cl-transparent-text);
     --ls-page-checkbox-border-color: hsl(var(--cl-primary));
     --ls-page-blockquote-color: hsl(var(--cl-secondary));
