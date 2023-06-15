@@ -6,27 +6,15 @@
   "logseq": {
     "themes": [
       {
-        "name": "Nord",
+        "name": "Flow Nord Theme",
         "url": "./src/palettes/nord.css",
-        "description": "Nord",
+        "description": "Flow Nord Theme",
         "mode": "light"
       },
       {
-        "name": "Nord",
+        "name": "Flow Nord Theme",
         "url": "./src/palettes/nord.css",
-        "description": "Nord",
-        "mode": "dark"
-      },
-      {
-        "name": "Custom",
-        "url": "./src/palettes/custom.css",
-        "description": "Custom",
-        "mode": "light"
-      },
-      {
-        "name": "Custom",
-        "url": "./src/palettes/custom.css",
-        "description": "Custom",
+        "description": "Flow Nord Theme",
         "mode": "dark"
       }
     ],
