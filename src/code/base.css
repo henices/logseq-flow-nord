@@ -318,7 +318,7 @@ Base Settings
 
 /* Selected text */
 ::selection {
-    color: hsl(var(--cl-primary));
+    color: hsl(var(--cl-selected-color, var(--cl-primary), 1));
 }
 
 .ls-block.selected {
@@ -638,7 +638,7 @@ Breadcrumbs
 Code Mirror Settings
    ========================================================================== */
 
-   .extensions__code-lang {
+.extensions__code-lang {
     margin: 2px;
     background-color: transparent;
     color: hsl(var(--cl-secondary));
@@ -656,6 +656,7 @@ Code Mirror Settings
     border-radius: 3px;
     padding-right: 10px;
 }
+
 .white-theme .cm-s-solarized {
     background-color: hsl(var(--cl-background), 0.4) !important;
 }
