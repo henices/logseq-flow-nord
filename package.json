@@ -6,7 +6,7 @@
   "logseq": {
     "themes": [
       {
-        "name": "Default",
+        "name": "Nord",
         "url": "./src/palettes/nord.css",
         "description": "Nord",
         "mode": "light"
@@ -24,7 +24,7 @@
         "mode": "light"
       },
       {
-        "name": "Default",
+        "name": "Custom",
         "url": "./src/palettes/custom.css",
         "description": "Custom",
         "mode": "dark"
