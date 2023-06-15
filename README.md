@@ -73,7 +73,6 @@ The custom.css file can take the following options to tweak the visuals.
 Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-accent`,
 `--background-color-h`, `--background-color-s`, `--background-color-l`, or `--cl-text-color`.
 
-the colors will take effective.
 
 ```css
 :root {
