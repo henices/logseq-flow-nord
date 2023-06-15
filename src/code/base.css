@@ -322,7 +322,7 @@ Base Settings
 
 /* Selected text */
 ::selection {
-    color: hsl(var(--cl-selected-color, var(--cl-primary), 1));
+    background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
 }
 
 .ls-block.selected {
@@ -652,6 +652,12 @@ Code Mirror Settings
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+.cm-s-solarized.cm-s-light div.CodeMirror-selected,
+.cm-s-solarized.cm-s-dark div.CodeMirror-selected {
+    background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
+}
+
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-light {
     background-color: hsl(var(--cl-background), 0.4);
     text-shadow: none;
