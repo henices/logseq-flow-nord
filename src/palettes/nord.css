@@ -7,8 +7,9 @@ html[data-theme='dark'] {
     --background-color-l: 22%;
     /*--cl-background: 220,16%,28%;*/
     --cl-text-color: var(--nord-snow-storm-nord5);
+    /* --cl-text-color-secondary: */
     --cl-primary: var(--nord-frost-nord8);
-    --cl-secondary: 218, 27%, 92%;
+    --cl-secondary: var(--nord-frost-nord7);
     --cl-accent: var(--nord-frost-nord9);
     /*
     --bullet-threading-active-color: #D08770;
@@ -25,8 +26,8 @@ html[data-theme='light'] {
     /*--cl-background: 218,27%,84%;*/
     --cl-text-color: var(--nord-polar-night-nord0);
     --cl-primary: var(--nord-frost-nord10);
-    --cl-secondary: 222, 16%, 28%;
-    --cl-accent: var(--nord-frost-nord9);
+    --cl-secondary: var(--nord-polar-night-nord1);
+    --cl-accent: var(--nord-frost-nord7);
     /*
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;
