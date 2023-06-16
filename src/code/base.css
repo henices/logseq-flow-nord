@@ -56,6 +56,26 @@ Base Root Settings
     --cl-primary-darker: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) / 1.20));
     --cl-primary-light: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) * 1.10));
     --cl-primary-lighter: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) * 1.20));
+    /* Nord Colors: https://www.nordtheme.com/docs/colors-and-palettes */
+    --nord-polar-night-nord0: 220, 16%, 22%; /* black */
+    --nord-polar-night-nord1: 222, 16%, 28%; /* light black */
+    --nord-polar-night-nord2: 220, 17%, 32%; /* lighter black */
+    --nord-polar-night-nord3: 220, 16%, 36%; /* lightest black */
+
+    --nord-snow-storm-nord4: 219, 28%, 88%; /* darker gray */
+    --nord-snow-storm-nord5: 218, 27%, 92%; /* light gray */
+    --nord-snow-storm-nord6: 218, 27%, 94%; /* lighter gray */
+
+    --nord-frost-nord7:  179, 25%, 65%;  /* green */
+    --nord-frost-nord8:  193, 43%, 67%;  /* light green */
+    --nord-frost-nord9:  210, 34%, 63%;  /* light blue */
+    --nord-frost-nord10: 213, 32%, 52%; /* blue */
+
+    --nord-aurora-nord11: 354, 42%, 56%;  /* red */
+    --nord-aurora-nord12: 14, 51%, 63%; /* orange */
+    --nord-aurora-nord13: 40, 71%, 73%; /* yellow */
+    --nord-aurora-nord14: 92, 28%, 65%; /* green */
+    --nord-aurora-nord15: 311, 20%, 63%; /* purple */
 }
 
 /* Dark settings */
@@ -323,6 +343,7 @@ Base Settings
 /* Selected text */
 ::selection {
     background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
+    color: hsl(var(--cl-selected-color, var(--cl-primary), 1));
 }
 
 .ls-block.selected {
