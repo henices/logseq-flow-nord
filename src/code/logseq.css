@@ -29,15 +29,15 @@
 }*/
 :not(.whiteboard-shape) .block-ref {
     border-bottom: 0px dashed hsl(var(--cl-text-color), 0.15);
-    color: hsl(var(--cl-secondary), 0.85);
-    background-color: hsl(var(--cl-accent), 0);
+    color: hsl(var(--cl-text-color), 0.9);
+/*    background-color: hsl(var(--cl-accent), 0); */
     border-radius: 0px;
     opacity: 1;
     transition: 0.2s;
 }
 .block-ref:hover {
     cursor: pointer;
-    color: hsl(var(--cl-secondary));
+    color: hsl(var(--cl-primary));
     border-radius: var(--cl-border-radius);
     transition: 0.2s;
 }
