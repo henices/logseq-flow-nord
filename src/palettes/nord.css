@@ -27,7 +27,7 @@ html[data-theme='light'] {
     --cl-text-color: var(--nord-polar-night-nord0);
     --cl-primary: var(--nord-frost-nord10);
     --cl-secondary: var(--nord-polar-night-nord1);
-    --cl-accent: var(--nord-frost-nord8);
+    --cl-accent: var(--nord-frost-nord7-1);
     /*
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;
