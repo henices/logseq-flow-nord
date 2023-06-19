@@ -121,6 +121,7 @@ html[data-theme="light"] #main-content-container {
   font-family: var(--ls-font-family);
   font-size: var(--ls-font-size);
   font-weight: var(--ls-font-weight);
+  letter-spacing: 0.02em;
 }
 
 .dark-theme #main-content-container,
@@ -134,6 +135,7 @@ html[data-theme="dark"] #main-content-container {
   font-family: var(--ls-font-family);
   font-size: var(--ls-font-size);
   font-weight: var(--ls-font-weight);
+  letter-spacing: 0.02em;
 }
 
 /*  === Headings ===  */
