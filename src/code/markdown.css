@@ -57,7 +57,7 @@
 
 /* Highlights */
 mark {
-    background-color: hsl(var(--cl-mark-background-color, var(--cl-background)));
+    background-color: hsl(var(--cl-mark-background-color, transparent));
     padding: 0px !important;
     border-radius: 1px;
     text-decoration: var(--cl-mark-decoration, underline);
