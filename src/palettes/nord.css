@@ -62,9 +62,9 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
 .cm-s-solarized span.cm-builtin { color: #81A1C1; }
 .cm-s-solarized span.cm-string { color: #A3BE8C; }
 
-.dark-theme .cm-s-solarized span.cm-variable { color: #d8dee9;; }
-.dark-theme .cm-s-solarized span.cm-variable-2 { color: #d8dee9;; }
-.dark-theme .cm-s-solarized span.cm-variable-3, .cm-s-solarized span.cm-type { color: #d8dee9;; }
+.dark-theme .cm-s-solarized span.cm-variable { color: #d8dee9; }
+.dark-theme .cm-s-solarized span.cm-variable-2 { color: #d8dee9; }
+.dark-theme .cm-s-solarized span.cm-variable-3, .cm-s-solarized span.cm-type { color: #d8dee9; }
 .cm-s-solarized span.cm-def { color: #8FBCBB; }
 .cm-s-solarized span.cm-bracket { color: #81A1C1; }
 .cm-s-solarized span.cm-tag { color: #bf616a; }
