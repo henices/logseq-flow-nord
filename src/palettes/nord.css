@@ -48,26 +48,30 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
     background-color: var(--bg-color);
 }
 
-.cm-s-solarized span.cm-comment { color: #4c566a; }
-.cm-s-solarized span.cm-atom { color: #b48ead; }
-.cm-s-solarized span.cm-number { color: #b48ead; }
+.cm-s-solarized .cm-comment {}
+.cm-s-solarized .cm-atom { color: #b48ead; }
+.cm-s-solarized .cm-number { color: #b48ead; }
 
-.cm-s-solarized span.cm-comment.cm-attribute { color: #97b757; }
-.cm-s-solarized span.cm-comment.cm-def { color: #bc9262; }
-.cm-s-solarized span.cm-comment.cm-tag { color: #bc6283; }
-.cm-s-solarized span.cm-comment.cm-type { color: #5998a6; }
+.cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
+.cm-s-solarized .cm-comment.cm-def { color: #bc9262; }
+.cm-s-solarized .cm-comment.cm-tag { color: #bc6283; }
+.cm-s-solarized .cm-comment.cm-type { color: #5998a6; }
 
-.cm-s-solarized span.cm-property, .cm-s-solarized span.cm-attribute { color: #8FBCBB; }
-.cm-s-solarized span.cm-keyword { color: #81A1C1; }
-.cm-s-solarized span.cm-builtin { color: #81A1C1; }
-.cm-s-solarized span.cm-string { color: #A3BE8C; }
+.cm-s-solarized .cm-property,
+.cm-s-solarized .cm-attribute { color: #8FBCBB; }
 
-.dark-theme .cm-s-solarized span.cm-variable { color: #d8dee9; }
-.dark-theme .cm-s-solarized span.cm-variable-2 { color: #d8dee9; }
-.dark-theme .cm-s-solarized span.cm-variable-3, .cm-s-solarized span.cm-type { color: #d8dee9; }
-.cm-s-solarized span.cm-def { color: #8FBCBB; }
-.cm-s-solarized span.cm-bracket { color: #81A1C1; }
-.cm-s-solarized span.cm-tag { color: #bf616a; }
-.cm-s-solarized span.cm-header { color: #b48ead; }
-.cm-s-solarized span.cm-link { color: #b48ead; }
-.cm-s-solarized span.cm-error { background: #bf616a; color: #f8f8f0; }
+.cm-s-solarized .cm-keyword { color: #81A1C1; }
+.cm-s-solarized .cm-builtin { color: #81A1C1; }
+.cm-s-solarized .cm-string { color: #A3BE8C; }
+
+.cm-s-solarized .cm-variable { color: hsl(var(--cl-text-color)); }
+.cm-s-solarized .cm-variable-2 { color: hsl(var(--cl-text-color)); }
+.cm-s-solarized .cm-variable-3,
+.cm-s-solarized .cm-type { color: hsl(var(--cl-text-color)); }
+
+.cm-s-solarized .cm-def { color: #8FBCBB; }
+.cm-s-solarized .cm-bracket { color: #81A1C1; }
+.cm-s-solarized .cm-tag { color: #bf616a; }
+.cm-s-solarized .cm-header { color: #b48ead; }
+.cm-s-solarized .cm-link { color: #b48ead; }
+.cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
