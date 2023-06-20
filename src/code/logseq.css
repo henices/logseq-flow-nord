@@ -90,3 +90,13 @@ Block Color Styling
     background-color: transparent;
     padding: 0px;
 }
+
+
+/* ==========================================================================
+ ** PDF
+ ===========================================================================*/
+
+.extensions__pdf-container[data-theme=light],
+.extensions__pdf-container[data-theme=dark] {
+    background-color: hsl(var(--cl-background))
+}
