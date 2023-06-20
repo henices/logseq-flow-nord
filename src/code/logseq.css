@@ -98,5 +98,5 @@ Block Color Styling
 
 .extensions__pdf-container[data-theme=light],
 .extensions__pdf-container[data-theme=dark] {
-    background-color: hsl(var(--cl-background))
+    background-color: hsl(var(--cl-background));
 }
