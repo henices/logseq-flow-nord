@@ -76,7 +76,12 @@ Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-
 
 ```css
 :root {
+    --cl-font-family: "Source Han Sans SC VF", sans-serif;
+    /*--cl-font-family: "PingFang SC", sans-serif;*/
 
+    --cl-font-family-code: "Fira Code"; /* code font */
+    --cl-font-size: 18px;
+    --cl-font-weight: 500;
 }
 
 .dark-theme,
@@ -105,7 +110,6 @@ html[data-theme='light'] {
 
   --cl-text-color: 210, 12%, 16%;
 }
-
 ```
 
 ## 🚀 Demo
