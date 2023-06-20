@@ -200,3 +200,4 @@ Install [Bullet Threading](https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@
 ## Thanks
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
 - [CodeMirror](https://github.com/codemirror/codemirror5)
+- [Logseq Dev Theme](https://github.com/pengx17/logseq-dev-theme/)
