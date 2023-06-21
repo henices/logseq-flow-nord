@@ -744,7 +744,6 @@ Code Mirror Settings
 }
 
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-light {
-    background-color: hsl(var(--cl-background), 0.4);
     text-shadow: none;
     color: var(--ls-primary-text-color);
     border: 0px solid var(--bg-color-2);
@@ -752,12 +751,13 @@ Code Mirror Settings
     padding-right: 10px;
 }
 
-.white-theme .cm-s-solarized {
+.cm-s-solarized.cm-s-light {
     background-color: hsl(var(--cl-background), 0.4) !important;
 }
-.dark-theme .cm-s-solarized {
-    background-color: hsl(var(--cl-background), 0.1) !important;
+.cm-s-solarized.cm-s-dark {
+    background-color: hsl(var(--cl-background), 0.3) !important;
 }
+
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters, .cm-s-solarized.cm-s-light .CodeMirror-gutters {
     background-color: hsl(var(--cl-background), 0);
 }
@@ -769,10 +769,6 @@ Code Mirror Settings
     text-shadow: none;
     color: transparent;
     text-align: -webkit-center;
-}
-
-.extensions__code-lang {
-    color: hsl(var(--cl-secondary));
 }
 
 /* === Coloring CodeMirror Keywords === */

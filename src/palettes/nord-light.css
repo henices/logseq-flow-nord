@@ -1,0 +1,63 @@
+@import '../code/base.css';
+
+.white-theme,
+.light-theme,
+html[data-theme='light'] {
+    --background-color-h: 218; /* nord6 */
+    --background-color-s: 27%;
+    --background-color-l: 94%;
+    /*--cl-background: 218,27%,84%;*/
+    --cl-text-color: var(--nord-polar-night-nord0);
+    --cl-primary: var(--nord-frost-nord10);
+    --cl-secondary: var(--nord-polar-night-nord1);
+    --cl-accent: var(--nord-frost-nord7);
+    /*
+    --bullet-threading-active-color: #D08770;
+    --bullet-threading-width: 2px;
+    */
+}
+
+a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
+    color: hsl(var(--nord-aurora-nord11));
+}
+a[priority="B"]::before, a.priority[href="#/page/B" i]::before {
+  color: hsl(var(--nord-aurora-nord13));
+}
+a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
+    color: hsl(var(--nord-aurora-nord14));
+}
+
+:is(.dark-theme, .white-theme) .left-sidebar-inner.flex-1.flex.flex-col.min-h-0 {
+    background-color: var(--bg-color);
+}
+
+.cm-s-solarized .cm-comment {}
+.cm-s-solarized .cm-atom { color: #b48ead; }
+.cm-s-solarized .cm-number { color: #b48ead; }
+.cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
+.cm-s-solarized .cm-comment.cm-def { color: #bc9262; }
+.cm-s-solarized .cm-comment.cm-tag { color: #bc6283; }
+.cm-s-solarized .cm-comment.cm-type { color: #5998a6; }
+.cm-s-solarized .cm-keyword { color: #81A1C1; }
+.cm-s-solarized .cm-builtin { color: #81A1C1; }
+
+.cm-s-solarized .cm-bracket { color: #81A1C1; }
+.cm-s-solarized .cm-tag { color: #bf616a; }
+.cm-s-solarized .cm-header { color: #b48ead; }
+.cm-s-solarized .cm-link { color: #b48ead; }
+.cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
+
+.cm-s-solarized .cm-def { color: #2aa198; }
+
+.cm-s-solarized .cm-variable { color: hsl(var(--nord-polar-night-nord1)); }
+.cm-s-solarized .cm-variable-2 { color: #b58900; }
+.cm-s-solarized .cm-variable-3, .cm-s-solarized .cm-type { color: #6c71c4; }
+
+.cm-s-solarized .cm-property { color: #2aa198; }
+.cm-s-solarized .cm-operator { color: #6c71c4; }
+.cm-s-solarized .cm-attribute { color: #2aa198; }
+
+.cm-s-solarized .cm-string { color: #859900; }
+.cm-s-solarized .cm-string-2 { color: #b58900; }
+
+

@@ -6,14 +6,14 @@
   "logseq": {
     "themes": [
       {
-        "name": "Flow Nord Theme",
-        "url": "./src/palettes/nord.css",
+        "name": "Flow Nord Theme - light",
+        "url": "./src/palettes/nord-light.css",
         "description": "Flow Nord Theme",
         "mode": "light"
       },
       {
-        "name": "Flow Nord Theme",
-        "url": "./src/palettes/nord.css",
+        "name": "Flow Nord Theme - dark",
+        "url": "./src/palettes/nord-dark.css",
         "description": "Flow Nord Theme",
         "mode": "dark"
       }
