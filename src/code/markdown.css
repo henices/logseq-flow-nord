@@ -43,6 +43,10 @@
   font-family: var(--ls-font-family-code);
   font-size: 14px;
   background-color: var(--bg-color-6);
+  text-rendering: optimizelegibility !important;
+  -webkit-text-size-adjust: 100% !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important;
 }
 
 /*:not(pre):not(mark)>code:before {
@@ -112,11 +116,12 @@ blockquote:before {
 
 .white-theme #main-content-container,
 html[data-theme="light"] #main-content-container {
-  -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
-  text-rendering: optimizelegibilit;
-  -webkit-text-size-adjust: 100%;
-  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibilit !important;
+  -webkit-text-size-adjust: 100% !important;
+  font-smoothing: antialiased !important;
+  line-height: var(--ls-line-height);
 
   font-family: var(--ls-font-family);
   font-size: var(--ls-font-size);
@@ -126,11 +131,12 @@ html[data-theme="light"] #main-content-container {
 
 .dark-theme #main-content-container,
 html[data-theme="dark"] #main-content-container {
-  -webkit-font-smoothing: antialiased;
   word-wrap: break-word;
-  text-rendering: optimizelegibilit;
-  -webkit-text-size-adjust: 100%;
-  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibilit !important;
+  -webkit-text-size-adjust: 100% !important;
+  font-smoothing: antialiased !important;
+  line-height: var(--ls-line-height);
 
   font-family: var(--ls-font-family);
   font-size: var(--ls-font-size);
