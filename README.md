@@ -187,14 +187,7 @@ Logseq Marketplace:
 
 ## Recommend Logseq Plugins
 
-### Bullet Threading Plugin
-
-Install [Bullet Threading](https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/bullet_threading.css) plugin via custom.css 
-
-```
-@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@master/bullet_threading.css"); /* bullet thrading*/
-```
-
+### [Bullet Threading](https://github.com/pengx17/logseq-plugin-bullet-threading) Plugin
 ### [Tabs](https://github.com/pengx17/logseq-plugin-tabs) Plugin
 
 ## Thanks
