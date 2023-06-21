@@ -33,7 +33,7 @@
     padding: 2px 6px !important;
     color: hsl(var(--cl-secondary), 1);
     border-radius: 2px;
-    font-family: "SF Mono", MonoLisa, "Fira Code", Monaco, Menlo, Consolas, "COURIER NEW", monospace;
+    font-family: var(--ls-font-family-code);
     border: 0px dashed hsl(var(--cl-text-color), 0.15);
     background-color: hsl(var(--cl-background), 0.25);
 }
@@ -41,8 +41,7 @@
 /* Code */
 .CodeMirror  {
   font-family: var(--ls-font-family-code);
-  font-size: 14px;
-  background-color: var(--bg-color-6);
+  font-size: 1em;
   text-rendering: optimizelegibility !important;
   -webkit-text-size-adjust: 100% !important;
   -webkit-font-smoothing: antialiased !important;
