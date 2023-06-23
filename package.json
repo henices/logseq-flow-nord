@@ -1,6 +1,6 @@
 {
   "name": "Flow Nord theme",
-  "author": "nmartin84 Zyrohex henices",
+  "author": "henices nmartin84",
   "version": "0.6.0",
   "description": "Minimalistic Nord Theme that's soft around the edges.",
   "logseq": {
@@ -8,13 +8,13 @@
       {
         "name": "Flow Nord Theme - light",
         "url": "./src/palettes/nord-light.css",
-        "description": "Flow Nord Theme",
+        "description": "Flow Nord Theme - light",
         "mode": "light"
       },
       {
         "name": "Flow Nord Theme - dark",
         "url": "./src/palettes/nord-dark.css",
-        "description": "Flow Nord Theme",
+        "description": "Flow Nord Theme - dark",
         "mode": "dark"
       }
     ],
