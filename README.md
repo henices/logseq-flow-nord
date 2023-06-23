@@ -86,29 +86,29 @@ Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-
 
 .dark-theme,
 html[data-theme='dark'] {
-  --background-color-h: 210;
-  --background-color-s: 12%;
-  --background-color-l: 16%;
+  --background-color-h: 210 !important;
+  --background-color-s: 12% !important;
+  --background-color-l: 16% !important;
 
-  --cl-primary: 212, 100%, 74%;
-  --cl-secondary: 261, 76%, 76%;
-  --cl-accent: 135, 68%, 72%;
+  --cl-primary: 212, 100%, 74% !important;
+  --cl-secondary: 261, 76%, 76% !important;
+  --cl-accent: 135, 68%, 72% !important;
 
-  --cl-text-color: 0,0%,100%;
+  --cl-text-color: 0,0%,100% !important;
 }
 
 .white-theme,
 .light-theme,
 html[data-theme='light'] {
-  --background-color-h: 0;
-  --background-color-s: 0%;
-  --background-color-l: 100%;
+  --background-color-h: 0 !important;
+  --background-color-s: 0% !important;
+  --background-color-l: 100% !important;
 
-  --cl-primary: 212, 100%, 39%;
-  --cl-secondary: 261, 51%, 51%;
-  --cl-accent: 134, 60%, 33%;
+  --cl-primary: 212, 100%, 39% !important;
+  --cl-secondary: 261, 51%, 51% !important;
+  --cl-accent: 134, 60%, 33% !important;
 
-  --cl-text-color: 210, 12%, 16%;
+  --cl-text-color: 210, 12%, 16% !important;
 }
 ```
 
