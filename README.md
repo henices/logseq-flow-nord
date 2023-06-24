@@ -108,15 +108,7 @@ Logseq Flow Nord use Nord theme Syntax highlight by default. You can use monokai
 by put the following code in custom.css
 
 ```css
-.dark-theme,
-html[data-theme='dark'] {
-    --background-color-h: 285;
-    --background-color-s: 5%;
-    --background-color-l: 17%;
-    --cl-text-color: 60, 25%, 98%;
-    --cl-primary: 186, 71%, 69%;
-    --cl-secondary: 97, 59%, 66%;
-    --cl-accent: 345, 100%, 69%;
+:root {
 }
 
 .dark-theme .cm-s-solarized span.cm-comment { color: #75715e; }
@@ -143,7 +135,6 @@ html[data-theme='dark'] {
 .dark-theme .cm-s-solarized span.cm-link { color: #ae81ff; }
 .dark-theme .cm-s-solarized span.cm-error { background: #f92672; color: #f8f8f0; }
 ```
-
 
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
