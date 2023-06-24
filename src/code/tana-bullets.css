@@ -16,6 +16,7 @@ Fixes & Misc
   color: hsl(var(--cl-accent));
 }
 
+/*
 .ls-block[data-refs-self*='"project']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container>.bullet:before {
   content: "\ea2c" !important;
   font-family: 'tabler-icons240';
@@ -180,6 +181,7 @@ Fixes & Misc
 .ls-block[data-refs-self*='"cluster note']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
   background-color: var(--ls-block-bullet-border-color);
 }
+*/
 
 /* set our position parameters so the new symbols align with the old bullet position */
 .bullet-container {
