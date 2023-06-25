@@ -19,12 +19,18 @@ html[data-theme='light'] {
 
 a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
     color: hsl(var(--nord-aurora-nord11));
+    position: relative;
+    top: -2px;
 }
 a[priority="B"]::before, a.priority[href="#/page/B" i]::before {
-  color: hsl(var(--nord-aurora-nord13));
+    color: hsl(var(--nord-aurora-nord13));
+    position: relative;
+    top: -2px;
 }
 a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
     color: hsl(var(--nord-aurora-nord14));
+    position: relative;
+    top: -2px;
 }
 
 :is(.dark-theme, .white-theme) .left-sidebar-inner.flex-1.flex.flex-col.min-h-0 {
