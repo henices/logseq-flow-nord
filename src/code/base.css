@@ -218,7 +218,7 @@ html[data-theme='dark'] {
     --ls-primary-text-color: hsl(var(--cl-text-color));
     --ls-secondary-text-color: hsl(var(--cl-text-color), 0.5);
     --ls-title-text-color: var(--ls-primary-text-color);
-    --ls-link-text-color: hsl(var(--cl-primary), 0.8);
+    --ls-link-text-color: hsl(var(--cl-primary), 0.9);
     --ls-link-text-hover-color: hsl(var(--cl-primary));
     --ls-link-ref-text-color: hsl(var(--cl-primary));
     --ls-link-ref-text-hover-color: var(--color-primary-light);
