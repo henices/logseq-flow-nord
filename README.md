@@ -22,10 +22,7 @@ Bullets can now be customized to represent whatever tabler-icon you would like. 
   }
 ```
 
-
 https://github.com/henices/logseq-flow-nord/assets/929715/23766aa2-ffff-4f56-b2e8-3f298b69cbd4
-
-
 
 ### ⚙️ Custom Settings
 
@@ -149,10 +146,6 @@ by put the following code in custom.css
 
 ![dark-themes](.images/dark.png)
 ![light-themes](.images/light.png)
-
-## Style
-
-![style2](.images/style2.png)
 
 ## ⌨️ Installation
 
