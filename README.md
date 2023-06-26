@@ -8,7 +8,6 @@ Logseq Flow Theme's nord color palettes, most of code copied from https://github
 ### Custom Bullets
 Bullets in Flow will use the tabler-icons fonts to render bullets. What this means is that you can easily swap out bullets with a custom icon when the block contains page-references that match a particular keyword.
 
-#### Customizing Bullets:
 Bullets can now be customized to represent whatever tabler-icon you would like. Just add the following to your custom.css and replace "REPLACEME" with whatever page-reference you would like to target, and replace the hex code in `content: "\HEX"` with the hex code from the tabler-icons set. For a list of icons check https://tabler-icons.io/.
 ```css
   .ls-block[data-refs-self*='"REPLACEME'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {
@@ -22,6 +21,12 @@ Bullets can now be customized to represent whatever tabler-icon you would like. 
     background-color: var(--ls-block-bullet-border-color);
   }
 ```
+
+
+https://github.com/henices/logseq-flow-nord/assets/929715/23766aa2-ffff-4f56-b2e8-3f298b69cbd4
+
+
+
 ### ⚙️ Custom Settings
 
 The custom.css file can take the following options to tweak the visuals.
