@@ -3,7 +3,7 @@
 ******************************/
 .page-reference .bracket {
     opacity: 0.3;
-    color: hsl(var(--cl-text-color), 1);
+    color: hsl(var(--cl-text-color), 0.5);
 }
 .ls-block .page-reference:hover {
     background-color: transparent !important;
