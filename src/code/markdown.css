@@ -839,12 +839,12 @@ html[data-theme='dark'] h1.title {
         padding-bottom: 2px;
     }
 
-    
+
     /* Make top header bar a neutral color */
     div#head, .cp__right-sidebar-topbar {
         opacity: 1;
     }
-    
+
     .flex.flex-col.wrap.gap-1.relative {
         opacity: 1;
     }
