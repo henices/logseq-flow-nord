@@ -30,7 +30,7 @@
 
 @font-face {
   font-family: "Only Emoji";
-  src: local("Apple Color Emoji"), local("Android Emoji"),
+  src: local("Apple Color Emoji"), local("Android Emoji"), local("Noto Color Emoji"),
     local("Segoe UI Emoji"), local("Segoe UI");
 
   /* the list of emojis may be wrong. */
