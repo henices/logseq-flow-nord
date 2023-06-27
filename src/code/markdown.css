@@ -183,7 +183,6 @@ html[data-theme="dark"] #main-content-container {
 
 .editor-inner .uniline-block:is(.h1, .h2),
 .ls-block :is(h1, h2) {
-    margin: 0px;
 }
 
 .ls-block h1,
@@ -196,7 +195,7 @@ html[data-theme="dark"] #main-content-container {
     border-bottom: 0px;
 }
 
-/*.ls-block :is(h1,h2,h3,h4,h5,h6):after {
+.ls-block :is(h1,h2,h3,h4,h5,h6):after {
     font-weight: 700;
     margin-left: 15px;
     font-size: xx-small;
@@ -223,7 +222,7 @@ html[data-theme="dark"] #main-content-container {
 }
 .ls-block h6:after {
     content: "H6";
-}*/
+}
 
 /* === PRIORITIES === */
 a[priority]:not(a[priority=""])::before,
