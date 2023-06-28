@@ -8,9 +8,9 @@ html[data-theme='dark'] {
     /*--cl-background: 220,16%,28%;*/
     --cl-text-color: var(--nord-snow-storm-nord5);
     /* --cl-text-color-secondary: */
-    --cl-primary: var(--nord-frost-nord8);
+    --cl-primary: var(--nord-frost-nord10);
     --cl-secondary: var(--nord-frost-nord7);
-    --cl-accent: var(--nord-frost-nord9);
+    --cl-accent: var(--nord-polar-night-nord3);
     /*
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;
@@ -23,7 +23,7 @@ a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
     top: -2px;
 }
 a[priority="B"]::before, a.priority[href="#/page/B" i]::before {
-    color: hsl(var(--nord-aurora-nord13));
+    color: hsl(var(--nord-aurora-nord12));
     position: relative;
     top: -2px;
 }

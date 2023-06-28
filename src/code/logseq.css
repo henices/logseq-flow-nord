@@ -10,7 +10,9 @@
     color: hsl(var(--cl-primary), 1);
     filter: brightness(1.2);
 }
-
+.page-ref {
+    color: hsl(var(--cl-secondary));
+}
 /******************************,
 **    Block References    **
 ******************************/

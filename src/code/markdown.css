@@ -143,6 +143,23 @@ html[data-theme="dark"] #main-content-container {
   letter-spacing: 0.02em;
 }
 
+/* Page Titles */
+.white-theme h1.title,
+html[data-theme='white'] h1.title {
+    color: hsl(var(--cl-primary, 203,82%,35%));
+    font-family: var(--cl-title-font, var(--ls-font-family));
+    font-weight: 700;
+    filter:saturate(0.85);
+}
+
+.dark-theme h1.title,
+html[data-theme='dark'] h1.title {
+    color: hsl(var(--cl-primary, 180,33%,54%));
+    font-family: var(--cl-title-font, var(--ls-font-family));
+    font-weight: 700;
+    filter:saturate(0.85);
+}
+
 /*  === Headings ===  */
 .editor-inner .multiline-block:is(.h1, .h2, .h3, .h4, .h5, .h6):first-line,
 .editor-inner .uniline-block:is(.h1, .h2, .h3, .h4, .h5, .h6),
@@ -793,22 +810,7 @@ span.inline.px-1.with-bg-color[style*="pink"] {
     color: var(--ls-highlight-color-pink-text);
 }
 
-/* Page Titles */
-.white-theme h1.title,
-html[data-theme='white'] h1.title {
-    color: hsl(var(--cl-primary, 203,82%,35%));
-    font-family: var(--cl-title-font, var(--ls-font-family));
-    font-weight: 700;
-    filter:saturate(0.85);
-}
 
-.dark-theme h1.title,
-html[data-theme='dark'] h1.title {
-    color: hsl(var(--cl-primary, 180,33%,54%));
-    font-family: var(--cl-title-font, var(--ls-font-family));
-    font-weight: 700;
-    filter:saturate(0.85);
-}
 /* Fixes the line-break for long page titles */
 .ls-page-title.title span {
     white-space: normal !important;
