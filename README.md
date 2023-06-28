@@ -1,7 +1,7 @@
 # 🧠 Logseq Flow Nord Theme
 A minimal theme that focuses on a clean and sleek interface that's soft on the edges and comes with a large variety of color palettes.
 
-Logseq Flow Theme's nord color palettes, most of code copied from https://github.com/nmartin84/logseq-flow.
+Logseq Flow Theme's nord color palettes, some code copied from https://github.com/nmartin84/logseq-flow.
 
 ## 🚀 Features
 
