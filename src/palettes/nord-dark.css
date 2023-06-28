@@ -9,7 +9,7 @@ html[data-theme='dark'] {
     --cl-text-color: var(--nord-snow-storm-nord6);
     /* --cl-text-color-secondary: */
     --cl-primary: var(--nord-frost-nord7);
-    --cl-secondary: var(--nord-polar-night-nord3);
+    --cl-secondary: var(--nord-snow-storm-nord4);
     --cl-accent: var(--nord-frost-nord10);
     /*
     --bullet-threading-active-color: #D08770;
