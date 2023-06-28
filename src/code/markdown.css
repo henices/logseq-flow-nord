@@ -673,7 +673,7 @@ svg.h-4.w-4 {
 
 /* Tags */
 a.tag {
-    /*background-color: hsl(var(--cl-tag-background-color, var(--cl-accent, var(--cl-background)), 0.3));*/
+    /*background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.3);*/
     color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--cl-text-color))));
     opacity: 1;
     padding: 0px 5px;
@@ -684,7 +684,7 @@ a.tag {
     border-color: hsl(var(--cl-accent), 0.15);
     transition: 0.2s;
     vertical-align: middle;
-    font-weight: 500;
+    font-weight: 400;
     position: relative;
     top: -1px;
     text-transform: lowercase;
