@@ -68,7 +68,7 @@ mark {
     text-decoration-color: hsl(var(--cl-primary));
     text-decoration-thickness: var(--cl-mark-decoration-thickness, 4px);
     */
-    color: var(--cl-mark-color, hsl(var(--cl-secondary)));
+    color: var(--cl-mark-color, hsl(var(--cl-primary)));
     text-underline-offset: 0px;
     text-decoration-skip-ink: none;
 }
