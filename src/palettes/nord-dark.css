@@ -6,11 +6,11 @@ html[data-theme='dark'] {
     --background-color-s: 16%;
     --background-color-l: 22%;
     /*--cl-background: 220,16%,28%;*/
-    --cl-text-color: var(--nord-snow-storm-nord5);
+    --cl-text-color: var(--nord-snow-storm-nord6);
     /* --cl-text-color-secondary: */
-    --cl-primary: var(--nord-frost-nord10);
-    --cl-secondary: var(--nord-frost-nord7);
-    --cl-accent: var(--nord-polar-night-nord3);
+    --cl-primary: var(--nord-frost-nord7);
+    --cl-secondary: var(--nord-polar-night-nord3);
+    --cl-accent: var(--nord-frost-nord10);
     /*
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;

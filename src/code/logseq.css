@@ -7,11 +7,11 @@
 }
 .ls-block .page-reference:hover {
     background-color: transparent !important;
-    color: hsl(var(--cl-primary));
-    filter: brightness(1.3);
+    color: hsl(var(--cl-accent));
+    /*filter: brightness(1.2);*/
 }
 .page-ref {
-    color: hsl(var(--cl-secondary));
+    color: hsl(var(--cl-primary));
 }
 /******************************,
 **    Block References    **
@@ -40,7 +40,7 @@
 }
 .block-ref:hover {
     cursor: pointer;
-    color: hsl(var(--cl-primary));
+    color: hsl(var(--cl-accent));
     border-radius: var(--cl-border-radius);
     transition: 0.2s;
 }
