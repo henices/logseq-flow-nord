@@ -629,7 +629,7 @@ svg.h-4.w-4 {
 .block-properties:not(.page-properties) a.tag {
     background-color: transparent;
     padding: 0px;
-    color: hsl(var(--cl-secondary));
+    color: hsl(var(--cl-primary));
     border: 0px solid;
     font-weight: 400;
     font-size: 13px;
