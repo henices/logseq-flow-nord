@@ -713,10 +713,11 @@ body {
 
 /* Tables */
 
-html[data-theme='white'] tr:nth-child(2n),
 html[data-theme='light'] tr:nth-child(2n),
-.white-theme tr:nth-child(2n),
-.light-theme tr:nth-child(2n),
+.light-theme tr:nth-child(2n) {
+    background: hsl(var(--cl-background), 0.30);
+}
+
 html[data-theme='dark'] tr:nth-child(2n),
 .dark-theme tr:nth-child(2n) {
     background: hsl(var(--cl-background), 0.25);
