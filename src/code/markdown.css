@@ -722,7 +722,10 @@ html[data-theme='dark'] tr:nth-child(2n),
     background: hsl(var(--cl-background), 0.25);
 }
 
-tr:hover {
+.light-theme .custom-query-results tr:nth-child(2n):hover,
+.dark-theme .custom-query-results tr:nth-child(2n):hover,
+.light-theme .custom-query-results tr:hover,
+.dark-theme .custom-query-results tr:hover {
     background: hsl(var(--cl-primary), 0.25);
 }
 
