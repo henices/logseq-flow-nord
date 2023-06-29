@@ -76,9 +76,9 @@ Base Root Settings
 
 :root {
     --ls-font-family: var(--cl-font-family, "Only Emoji","Source Sans 3 VF","Source Han Sans VF",Arial,sans-serif);
-    --ls-font-size: var(--cl-font-size, 1.1em);
+    --ls-font-size: var(--cl-font-size, 18px);
     --ls-font-weight: var(--cl-font-weight, 480);
-    --ls-font-family-code: var(--cl-font-family-code, "Fira Code",monospace);
+    --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
     --ls-line-height: var(--ct-line-height, 1.5);
     /*--cl-background: var(--background-color-h), var(--background-color-s), var(--background-color-l);*/
     --cl-block-bullet-fix: 20px;
