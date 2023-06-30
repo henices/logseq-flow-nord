@@ -110,7 +110,7 @@ html[data-theme='light'] {
 }
 ```
 
-[palette](shttps://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes,
+[palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes,
 copy the css code and paste to the custom.css :)
 
 #### Syntax Highlight Custom Settings
