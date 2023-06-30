@@ -1,11 +1,13 @@
 # 🧠 Logseq Flow Nord Theme
-A minimal theme that focuses on a clean and sleek interface that's soft on the edges and comes with a large variety of color palettes.
-
+A minimal theme that focuses on a clean and sleek interface that's soft on the edges and comes with [NordTheme](https://www.nordtheme.com).
 
 ![NordTheme-wallpaper](https://github.com/henices/logseq-flow-nord/assets/929715/b9361f21-543d-4725-b9b0-c50f11d07a65)
 
-Logseq Flow Theme's nord color palettes, some code copied from [logseq-flow](https://github.com/nmartin84/logseq-flow) .
+## History
 
+The logseq-Flow theme was originally developed by a GitHub user named nmartin84. However, for some reason, @nmartin84 left the community. As a result, the Logseq-Flow repository was deleted from GitHub, and the Logseq-Flow theme is now in an unmaintained state.
+
+As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is my favorite theme. Despite its unmaintained state, I see this as an opportunity for new beginnings in its development.
 
 ## 🚀 Features
 
@@ -108,6 +110,9 @@ html[data-theme='light'] {
 }
 ```
 
+[palette](shttps://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes,
+copy the css code and paste to the custom.css :)
+
 #### Syntax Highlight Custom Settings
 
 Logseq Flow Nord use Nord theme Syntax highlight by default. You can use monokai theme syntax highlight
@@ -173,6 +178,7 @@ Logseq Marketplace:
 ### [Tabs](https://github.com/pengx17/logseq-plugin-tabs) Plugin
 
 ## Thanks
+- [logseq-flow](https://github.com/nmartin84/logseq-flow) 
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
 - [CodeMirror](https://github.com/codemirror/codemirror5)
 - [Logseq Dev Theme](https://github.com/pengx17/logseq-dev-theme/)
