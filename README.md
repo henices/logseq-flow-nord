@@ -9,6 +9,8 @@ The logseq-Flow theme was originally developed by a GitHub user named nmartin84.
 
 As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is my favorite theme. Despite its unmaintained state, I see this as an opportunity for new beginnings in its development.
 
+Bad3r, just wanted to let you know about the amazing NordTheme. When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
+
 ## 🚀 Features
 
 ### Custom Bullets
