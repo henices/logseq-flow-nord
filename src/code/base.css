@@ -1,7 +1,7 @@
 @import './fonts.css';
 @import './interface.css';
 @import './markdown.css';
-@import './tana-bullets.css';
+/*@import './tana-bullets.css';*/
 @import './live-query.css';
 @import './logseq.css';
 
@@ -22,7 +22,7 @@
 }
 
 @font-face { 
-    font-family: 'tabler-icons240';
+    font-family: 'tabler-icons';
     src: url('./tabler-icons.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -485,35 +485,6 @@ Base Settings
     padding: 0px !important;
 }
 */
-
-/* ==========================================================================
-Bullet Containers
-========================================================================== */
-
-/* Adjust size of bullets so they are not so big */
-.bullet-container.bullet-closed {
-    border: 0px dashed hsl(var(--cl-text-color), 0.2);
-    width: 13px;
-    height: 13px;
-}
-/* General bullet settings */
-.bullet-container {
-    width: 13px;
-    height: 13px;
-    /*margin-left: calc(var(--ls-block-bullet-threading-width-overwrite, var(--cl-block-bullet-fix)) * .24); /* Fix for bullet threading */
-    position: relative;
-    margin-top: -3.5px;
-}
-.bullet-container .bullet {
-    width: 5px;
-    height: 5px;
-    margin-left: 2px;
-}
-
-.bullet-container.as-order-list {
-  display: inline;
-  top: 0px;
-}
 
 /* Unknown */
 .ls-block .ls-block > div > div.items-center::before {

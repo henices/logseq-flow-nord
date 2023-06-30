@@ -230,7 +230,7 @@ html[data-theme='dark'] h1.title {
 a[priority]:not(a[priority=""])::before,
 a.priority::before {
     font-size: 16px;
-    font-family: 'tabler-icons240';
+    font-family: 'tabler-icons';
     vertical-align: bottom;
 }
 
