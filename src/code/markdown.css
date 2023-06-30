@@ -707,6 +707,10 @@ body {
     text-rendering: optimizelegibilit !important;
     -webkit-text-size-adjust: 100% !important;
     font-smoothing: antialiased !important;
+
+    font-family: var(--ls-font-family);
+    font-size: var(--ls-font-size);
+    font-weight: var(--ls-font-weight);
     line-height: var(--ls-line-height);
     letter-spacing: 0.02em;
 }
