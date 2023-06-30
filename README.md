@@ -155,8 +155,8 @@ by put the following code in custom.css
 - Reference Panels Style around each match rather than each document
 - Improved block ref styling
 
-![dark-themes](.images/dark.png)
-![light-themes](.images/light.png)
+![dark-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark.png)
+![light-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/light.png)
 
 ## ⌨️ Installation
 
