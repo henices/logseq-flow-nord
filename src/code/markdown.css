@@ -138,27 +138,21 @@ html[data-theme="dark"] #main-content-container {
 html[data-theme='white'] h1.title {
     color: hsl(var(--cl-primary, 203,82%,35%));
     font-family: var(--cl-title-font, var(--ls-font-family));
-    font-weight: 700;
-    filter:saturate(0.95);
 }
 
 .dark-theme h1.title,
 html[data-theme='dark'] h1.title {
     color: hsl(var(--cl-primary, 180,33%,54%));
     font-family: var(--cl-title-font, var(--ls-font-family));
-    font-weight: 700;
-    filter:saturate(0.85);
 }
 
 /*  === Headings ===  */
 .editor-inner .multiline-block:is(.h1, .h2, .h3, .h4, .h5, .h6):first-line,
 .editor-inner .uniline-block:is(.h1, .h2, .h3, .h4, .h5, .h6),
 .ls-block :is(h1, h2, h3, h4, h5, h6) {
-    font-weight: 700;
     font-family: var(--cl-header-font, var(--ls-font-family));
 }
 
-/*
 .ls-block h1,
 .editor-inner .h1.uniline-block {
     font-size: 28px;
@@ -188,7 +182,7 @@ html[data-theme='dark'] h1.title {
 .editor-inner .h6.uniline-block {
     font-size: 17px;
 }
-*/
+
 .editor-inner .uniline-block:is(.h1, .h2),
 .ls-block :is(h1, h2) {
 }
