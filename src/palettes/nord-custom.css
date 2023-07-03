@@ -2,10 +2,10 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-    --background-color-h: var(--ct-bg-color-h);
-    --background-color-s: var(--ct-bg-color-s);
-    --background-color-l: var(--ct-bg-color-l);
-    --cl-text-color: var(--ct-text-color);
+    --background-color-h: var(--ct-bg-color-h, 222);
+    --background-color-s: var(--ct-bg-color-s, 16%);
+    --background-color-l: var(--ct-bg-color-l, 22%);
+    --cl-text-color: var(--ct-text-color, var(--nord-snow-storm-nord6));
     --cl-primary: var(--ct-primariy-color);
     --cl-secondary: var(--ct-secondary-color);
     --cl-accent: var(--ct-accent-color);
@@ -14,10 +14,10 @@ html[data-theme='dark'] {
 .white-theme,
 .light-theme,
 html[data-theme='light'] {
-    --background-color-h: var(--ct-bg-color-h);
-    --background-color-s: var(--ct-bg-color-s);
-    --background-color-l: var(--ct-bg-color-l);
-    --cl-text-color: var(--ct-text-color);
+    --background-color-h: var(--ct-bg-color-h, 218);
+    --background-color-s: var(--ct-bg-color-s, 27%);
+    --background-color-l: var(--ct-bg-color-l, 94%);
+    --cl-text-color: var(--ct-text-color, var(--nord-polar-night-nord0));
     --cl-primary: var(--ct-primariy-color);
     --cl-secondary: var(--ct-secondary-color);
     --cl-accent: var(--ct-accent-color);
