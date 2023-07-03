@@ -1,7 +1,7 @@
 {
   "name": "Flow Nord theme",
   "author": "henices nmartin84",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "description": "Minimalistic Nord Theme that's soft around the edges.",
   "logseq": {
     "themes": [
@@ -29,7 +29,6 @@
         "description": "Flow Nord Theme - custom",
         "mode": "dark"
       }
-
     ],
     "id": "flowtheme-nord",
     "icon": "icon.png"
