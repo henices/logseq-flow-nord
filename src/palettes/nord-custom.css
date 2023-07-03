@@ -1,1 +1,24 @@
 @import '../code/base.css';
+
+.dark-theme,
+html[data-theme='dark'] {
+    --background-color-h: var(--ct-bg-color-h);
+    --background-color-s: var(--ct-bg-color-s);
+    --background-color-l: var(--ct-bg-color-l);
+    --cl-text-color: var(--ct-text-color);
+    --cl-primary: var(--ct-primariy-color);
+    --cl-secondary: var(--ct-secondary-color);
+    --cl-accent: var(--ct-accent-color);
+}
+
+.white-theme,
+.light-theme,
+html[data-theme='light'] {
+    --background-color-h: var(--ct-bg-color-h);
+    --background-color-s: var(--ct-bg-color-s);
+    --background-color-l: var(--ct-bg-color-l);
+    --cl-text-color: var(--ct-text-color);
+    --cl-primary: var(--ct-primariy-color);
+    --cl-secondary: var(--ct-secondary-color);
+    --cl-accent: var(--ct-accent-color);
+}
