@@ -145,12 +145,10 @@ i {
 .dark-theme,
 html[data-theme='dark'] {
     /* =====BACKGROUND ===========*/
-    /*
-    --cl-text-color: var(--cl-dark-text-color, 219, 28%, 88%);
-    --background-color-h: var(--cl-dark-bg-color-h, 222);
-    --background-color-s: var(--cl-dark-bg-color-s, 16%);
-    --background-color-l: var(--cl-dark-bg-color-l, 22%);
-    */
+    --cl-text-color: var(--nord-snow-storm-nord6);
+    --background-color-h: 222;
+    --background-color-s: 16%;
+    --background-color-l: 22%;
     --cl-background: var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.30);
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;
@@ -274,12 +272,10 @@ html[data-theme='dark'] {
 .light-theme,
 html[data-theme='light'] {
     /* =====BACKGROUND ===========*/
-    /*
-    --cl-text-color: var(--cl-light-text-color, 220,16%,22%);
-    --background-color-h: var(--cl-light-bg-color-h, 0);
-    --background-color-s: var(--cl-light-bg-color-s, 0%);
-    --background-color-l: var(--cl-light-bg-color-l, 100%);
-    */
+    --cl-text-color: var(--nord-polar-night-nord0);
+    --background-color-h: 218;
+    --background-color-s: 27%;
+    --background-color-l: 94%;
     --cl-background: var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) / 1.10);
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;

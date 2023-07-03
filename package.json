@@ -16,7 +16,20 @@
         "url": "./src/palettes/nord-dark.css",
         "description": "Flow Nord Theme - dark",
         "mode": "dark"
+      },
+      {
+        "name": "Flow Nord Theme - custom",
+        "url": "./src/palettes/nord-custom.css",
+        "description": "Flow Nord Theme - custom",
+        "mode": "light"
+      },
+      {
+        "name": "Flow Nord Theme - custom",
+        "url": "./src/palettes/nord-custom.css",
+        "description": "Flow Nord Theme - custom",
+        "mode": "dark"
       }
+
     ],
     "id": "flowtheme-nord",
     "icon": "icon.png"
