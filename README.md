@@ -13,25 +13,6 @@ Bad3r, just wanted to let you know about the amazing NordTheme. When combined wi
 
 ## 🚀 Features
 
-### Custom Bullets
-Bullets in Flow will use the tabler-icons fonts to render bullets. What this means is that you can easily swap out bullets with a custom icon when the block contains page-references that match a particular keyword.
-
-Bullets can now be customized to represent whatever tabler-icon you would like. Just add the following to your custom.css and replace "REPLACEME" with whatever page-reference you would like to target, and replace the hex code in `content: "\HEX"` with the hex code from the tabler-icons set. For a list of icons check https://tabler-icons.io/.
-```css
-  .ls-block[data-refs-self*='"REPLACEME'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {
-    content: "\edcd" !important;
-    font-family: 'tabler-icons240';
-    color: hsl(var(--cl-primary), 0.95);
-    background-color: hsl(var(--cl-primary), 0.15);
-    border-radius: 50%;
-  }
-  .ls-block[data-refs-self*='"REPLACEME']>.flex.flex-row.pr-2>.block-control-wrap a>.bullet-container.bullet-closed>.bullet:before {
-    background-color: var(--ls-block-bullet-border-color);
-  }
-```
-
-https://github.com/henices/logseq-flow-nord/assets/929715/23766aa2-ffff-4f56-b2e8-3f298b69cbd4
-
 ### ⚙️ Custom Settings
 
 The custom.css file can take the following options to tweak the visuals.
@@ -114,6 +95,41 @@ html[data-theme='light'] {
 
 [palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes,
 copy the css code and paste to the custom.css :)
+
+
+The following color options will only affect custom theme `--ct-bg-color-h`, `--ct-bg-color-s`, `--ct-bg-color-l`,
+`--ct-primariy-color`, `--ct-secondary-color`, `--ct-accent-color`, or `--ct-text-color`.
+
+```css
+:root {}
+
+.dark-theme,
+html[data-theme='dark'] {
+  --ct-bg-color-h: 210;
+  --ct-bg-color-s: 12%;
+  --ct-bg-color-l: 16%;
+
+  --ct-primariy-color: 212, 100%, 74%;
+  --ct-secondary-color: 261, 76%, 76%;
+  --ct-accent-color: 135, 68%, 72%;
+
+  --ct-text-color: 0,0%,100%;
+}
+
+.white-theme,
+.light-theme,
+html[data-theme='light'] {
+  --ct-bg-color-h: 0;
+  --ct-bg-color-s: 0%;
+  --ct-bg-color-l: 100%;
+
+  --ct-primariy-color: 212, 100%, 39%;
+  --ct-secondary-color: 261, 51%, 51%;
+  --ct-accent-color: 134, 60%, 33%;
+
+  --ct-text-color: 210, 12%, 16%;
+}
+```
 
 #### Syntax Highlight Custom Settings
 
