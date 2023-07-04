@@ -267,9 +267,7 @@ a.priority[href="#/page/C" i]::before {
     border-style: solid;
     border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
     border-radius: var(--cl-checkbox-radius, 2px);
-    position: relative;
     opacity: var(--cl-checkbox-opacity, 1);
-    top: -1.6px;
     width: 14px;
     height: 14px;
 }
