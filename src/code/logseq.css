@@ -117,3 +117,11 @@ Block Color Styling
 .cp__sidebar-help-btn {
     display: none;
 }
+
+.asset-ref.is-pdf:after {
+    color: hsl(var(--cl-text-color), 0.5);
+}
+
+.asset-ref.is-pdf:before {
+    color: hsl(var(--cl-text-color), 0.5);
+}
