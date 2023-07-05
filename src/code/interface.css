@@ -27,13 +27,17 @@
     height: fit-content !important;
 }
 .menu-link {
-    background-color: var(--bg-dark);
+    background-color: var(--bg-color-1);
 }
 .menu-links-outer, .menu-links-wrapper, .dropdown-wrapper {
     background-color: var(--bg-color-2);
 }
 .menu-separator {
     border-color: var(--bg-color-2);
+}
+
+.menu-link.chosen {
+    background-color: hsl(var(--cl-primary), 0.15);
 }
 
 /********************************************
