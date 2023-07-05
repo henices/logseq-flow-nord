@@ -125,3 +125,8 @@ Block Color Styling
 .asset-ref.is-pdf:before {
     color: hsl(var(--cl-text-color), 0.5);
 }
+
+.cp__plugins-item-card .updates-actions {
+    opacity: 0.5;
+}
+
