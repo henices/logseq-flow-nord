@@ -105,41 +105,49 @@ Block Color Styling
  ** PDF
  ===========================================================================*/
 
-/*
 .extensions__pdf-container[data-theme=light],
 .extensions__pdf-container[data-theme=dark] {
     background-color: hsl(var(--cl-background));
 }
-*/
 
-
-.extensions__pdf-container[data-theme=dark] .extensions__pdf-toolbar .buttons,
 .extensions__pdf-container[data-theme=dark] .pdfViewer .textLayer {
-    background-color: var(--cl-pdf-dark-background);
+    background-color: var(--cl-pdf-dark-background, #042f3c);
     opacity: 1;
-    /*
-    -webkit-filter: invert(0%);
-    filter: invert(0%);
-    */
 }
 
-.extensions__pdf-container[data-theme=light] .extensions__pdf-toolbar .buttons,
 .extensions__pdf-container[data-theme=light] .pdfViewer .textLayer {
-    background-color: var(--cl-pdf-light-background);
+    background-color: var(--cl-pdf-light-background, #ffffff);
     opacity: 1;
-    /*
-    -webkit-filter: invert(0%);
-    filter: invert(0%);
-    */
 }
+
+.extensions__pdf-container[data-theme=warm] .pdfViewer .textLayer {
+    background-color: #f8eeda;
+    opacity: 1;
+}
+
 .extensions__pdf-container .textLayer {
     -webkit-filter: invert(0%);
     filter: invert(0%);
 }
 
-.extensions__pdf-container[data-theme=warm] .pdfViewer .textLayer {
+.extensions__pdf-container .extensions__pdf-toolbar .buttons {
+    background-color: transparent;
 }
 
+.extensions__pdf-container .extensions__pdf-toolbar>.inner>.r a.button {
+    color: var(--ls-icon-color, #8abbbb);
+    opacity: 1;
+}
+
+.extensions__pdf-toolbar>.inner .pager>.nu input {
+    color: var(--ls-icon-color, #8abbbb);
+    opacity: 1;
+}
+
+.extensions__pdf-toolbar small {
+    color: var(--ls-icon-color, #8abbbb);
+    opacity: 1;
+}
 
 /* ============================================================================
  MISC
