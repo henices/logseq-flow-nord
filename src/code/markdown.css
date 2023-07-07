@@ -613,7 +613,7 @@ svg.h-4.w-4 {
     color: hsl(var(--cl-primary));
     border: 0px solid;
     font-weight: 400;
-    font-size: 13px;
+    font-size: calc(var(--ls-font-size) * 0.75);
 }
 
 .block-properties:not(.page-properties) a.tag:hover {
