@@ -36,9 +36,11 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
     background-color: var(--bg-color);
 }
 
+/*
 .light-theme h1.title {
     color: hsl(var(--cl-accent));
 }
+*/
 
 .cm-s-solarized .cm-comment {}
 .cm-s-solarized .cm-atom { color: #b48ead; }
