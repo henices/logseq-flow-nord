@@ -113,6 +113,7 @@ Block Color Styling
 */
 
 
+.extensions__pdf-container[data-theme=dark] .extensions__pdf-toolbar .buttons,
 .extensions__pdf-container[data-theme=dark] .pdfViewer .textLayer {
     background-color: var(--cl-pdf-dark-background);
     opacity: 1;
@@ -122,6 +123,7 @@ Block Color Styling
     */
 }
 
+.extensions__pdf-container[data-theme=light] .extensions__pdf-toolbar .buttons,
 .extensions__pdf-container[data-theme=light] .pdfViewer .textLayer {
     background-color: var(--cl-pdf-light-background);
     opacity: 1;
@@ -137,6 +139,7 @@ Block Color Styling
 
 .extensions__pdf-container[data-theme=warm] .pdfViewer .textLayer {
 }
+
 
 /* ============================================================================
  MISC
