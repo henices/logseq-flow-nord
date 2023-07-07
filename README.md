@@ -176,9 +176,11 @@ by put the following code in custom.css
 Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-dark-background`, or `--ls-icon-color`.
 
 ```
+.dark-theme, .light-theme {
     --cl-pdf-light-background: transparent;
     --cl-pdf-dark-background: transparent;
     --ls-icon-color: #8abbbb;
+}
 ```
 
 If you find that the text in a PDF is unclear, setting the background to "transparent" can improve the display. This may also resolve issues with displaying PDFs in Logseq's default theme under certain conditions.
