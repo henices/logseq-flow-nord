@@ -1,5 +1,10 @@
 @import '../code/base.css';
 
+:root {
+    --cl-pdf-light-background: hsl(var(--nord-snow-storm-nord6));
+    --cl-pdf-dark-background: hsl(var(--nord-polar-night-nord0));
+}
+
 .white-theme,
 .light-theme,
 html[data-theme='light'] {
