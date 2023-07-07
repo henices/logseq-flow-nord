@@ -400,12 +400,12 @@ Base Settings
 /* Selected text */
 ::selection {
     background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
-    color: hsl(var(--cl-selected-color, var(--cl-primary), 1));
+    color: hsl(var(--cl-selected-color, var(--cl-primary, var(--nord-frost-nord8)), 1));
 }
 
 .ls-block.selected {
     background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
-    color: hsl(var(--cl-selected-color, var(--cl-primary), 1));
+    color: hsl(var(--cl-selected-color, var(--cl-primary, var(--nord-frost-nord8)), 1));
 }
 
 /* Setting up the container view */
