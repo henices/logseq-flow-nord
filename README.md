@@ -170,6 +170,19 @@ by put the following code in custom.css
 .dark-theme .cm-s-solarized span.cm-error { background: #f92672; color: #f8f8f0; }
 ```
 
+#### PDF Custom Settings
+
+
+Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-dark-background`, or `--ls-icon-color`.
+
+```
+    --cl-pdf-light-background: transparent;
+    --cl-pdf-dark-background: transparent;
+    --ls-icon-color: #8abbbb;
+```
+
+If you find that the text in a PDF is unclear, setting the background to "transparent" can improve the display. This may also resolve issues with displaying PDFs in Logseq's default theme under certain conditions.
+
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
 - Curved edges over jagged edges
