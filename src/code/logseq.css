@@ -130,15 +130,14 @@ Block Color Styling
     filter: invert(0%);
 }
 
-.extensions__pdf-container .extensions__pdf-toolbar .buttons {
-    &[data-theme=dark] {
-        background-color: var(--cl-pdf-dark-background, #042f3c);
-        opacity: 1;
-    }
-    &[data-theme=light] {
-        background-color: var(--cl-pdf-light-background, #ffffff);
-        opacity: 1;
-    }
+.extensions__pdf-container[data-theme=dark] .extensions__pdf-toolbar .buttons {
+    background-color: var(--cl-pdf-dark-background, #042f3c);
+    opacity: 1;
+}
+
+.extensions__pdf-container[data-theme=light] .extensions__pdf-toolbar .buttons {
+    background-color: var(--cl-pdf-light-background, #ffffff);
+    opacity: 1;
 }
 
 .extensions__pdf-container .extensions__pdf-toolbar>.inner>.r a.button {
