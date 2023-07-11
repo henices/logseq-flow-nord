@@ -80,8 +80,10 @@ Base Root Settings
     --ls-line-height: var(--ct-line-height, 1.5);
     /*--cl-background: var(--background-color-h), var(--background-color-s), var(--background-color-l);*/
     --cl-block-bullet-fix: 20px;
+    /*
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);
     --ls-block-bullet-threading-width: var(--bullet-threading-width);
+    */
     --ls-main-content-max-width: var(--cl-page-width, 1000px);
     --ls-main-content-max-width-wide: var(--cl-page-max-width, 95%);
     /*--ls-page-title-size: 28px;*/
@@ -214,7 +216,7 @@ html[data-theme='dark'] {
     --ls-primary-text-color: hsl(var(--cl-text-color));
     --ls-secondary-text-color: hsl(var(--cl-text-color), 0.5);
     --ls-title-text-color: var(--ls-primary-text-color);
-    --ls-link-text-color: hsl(var(--cl-primary), 0.9);
+    --ls-link-text-color: hsl(var(--cl-primary, var(--cl-text-color)), 1);
     --ls-link-text-hover-color: hsl(var(--cl-primary));
     --ls-link-ref-text-color: hsl(var(--cl-primary));
     --ls-link-ref-text-hover-color: var(--color-primary-light);
@@ -341,7 +343,7 @@ html[data-theme='light'] {
     --ls-primary-text-color: hsl(var(--cl-text-color));
     --ls-secondary-text-color: hsl(var(--cl-text-color), 0.5);
     --ls-title-text-color: var(--ls-primary-text-color);
-    --ls-link-text-color: hsl(var(--cl-primary), 0.8);
+    --ls-link-text-color: hsl(var(--cl-primary, var(--cl-text-color)), 1);
     --ls-link-text-hover-color: hsl(var(--cl-primary));
     --ls-link-ref-text-color: hsl(var(--cl-primary));
     --ls-link-ref-text-hover-color: var(--color-primary-light);

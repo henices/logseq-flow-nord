@@ -668,7 +668,6 @@ a.tag {
     font-weight: 400;
     font-size: 14px;
     position: relative;
-    top: -1px;
     text-transform: lowercase;
 }
 
