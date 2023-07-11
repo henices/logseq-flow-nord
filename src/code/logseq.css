@@ -131,7 +131,14 @@ Block Color Styling
 }
 
 .extensions__pdf-container .extensions__pdf-toolbar .buttons {
-    background-color: transparent;
+    &[data-theme=dark] {
+        background-color: var(--cl-pdf-dark-background, #042f3c);
+        opacity: 1;
+    }
+    &[data-theme=light] {
+        background-color: var(--cl-pdf-light-background, #ffffff);
+        opacity: 1;
+    }
 }
 
 .extensions__pdf-container .extensions__pdf-toolbar>.inner>.r a.button {
