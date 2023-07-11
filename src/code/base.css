@@ -80,8 +80,10 @@ Base Root Settings
     --ls-line-height: var(--ct-line-height, 1.5);
     /*--cl-background: var(--background-color-h), var(--background-color-s), var(--background-color-l);*/
     --cl-block-bullet-fix: 20px;
+    /*
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);
     --ls-block-bullet-threading-width: var(--bullet-threading-width);
+    */
     --ls-main-content-max-width: var(--cl-page-width, 1000px);
     --ls-main-content-max-width-wide: var(--cl-page-max-width, 95%);
     /*--ls-page-title-size: 28px;*/
