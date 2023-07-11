@@ -584,6 +584,10 @@ Code Mirror Settings
     margin-bottom: 10px;
 }
 
+.cm-s-solarized.CodeMirror {
+    box-shadow: none;
+}
+
 .cm-s-solarized.cm-s-light div.CodeMirror-selected,
 .cm-s-solarized.cm-s-dark div.CodeMirror-selected {
     background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
