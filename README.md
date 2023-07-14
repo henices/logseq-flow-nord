@@ -51,10 +51,6 @@ The custom.css file can take the following options to tweak the visuals.
 - `--cl-font-weight`  :  set font weight
 - `--cl-font-family-code`  :  set code font famliy
 
-Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-accent`,
-`--background-color-h`, `--background-color-s`, `--background-color-l`, or `--cl-text-color`.
-
-
 ```css
 :root {
     --cl-font-family: "Source Han Sans SC VF", sans-serif;
@@ -64,79 +60,50 @@ Valid color options you can specify are `--cl-primary`, `--cl-secondary`, `--cl-
     --cl-font-size: 18px;
     --cl-font-weight: 500;
 }
-
-.dark-theme,
-html[data-theme='dark'] {
-  --background-color-h: 210 !important;
-  --background-color-s: 12% !important;
-  --background-color-l: 16% !important;
-
-  --cl-primary: 212, 100%, 74% !important;
-  --cl-secondary: 261, 76%, 76% !important;
-  --cl-accent: 135, 68%, 72% !important;
-
-  --cl-text-color: 0,0%,100% !important;
-}
-
-.white-theme,
-.light-theme,
-html[data-theme='light'] {
-  --background-color-h: 0 !important;
-  --background-color-s: 0% !important;
-  --background-color-l: 100% !important;
-
-  --cl-primary: 212, 100%, 39% !important;
-  --cl-secondary: 261, 51%, 51% !important;
-  --cl-accent: 134, 60%, 33% !important;
-
-  --cl-text-color: 210, 12%, 16% !important;
-}
 ```
 
+### Custom Color Palette
+
 [palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes,
-copy the css code and paste to the custom.css :)
+copy the css code and paste to the custom.css and select nord-custom theme, enjoy :)
 
 
-The following color options will only affect custom theme `--ct-bg-color-h`, `--ct-bg-color-s`, `--ct-bg-color-l`,
+The following color options will only affect custom theme `--ct-bg-color-h`, `--ct-bg-color-s`, `--ct-bg-color-l`, `--ct-bg-color`,
 `--ct-primariy-color`, `--ct-secondary-color`, `--ct-accent-color`, or `--ct-text-color`.
 
 ```css
-:root {}
+
+:root {
+}
 
 .dark-theme,
 html[data-theme='dark'] {
-  --ct-bg-color-h: 210;
-  --ct-bg-color-s: 12%;
-  --ct-bg-color-l: 16%;
-
-  --ct-primariy-color: 212, 100%, 74%;
-  --ct-secondary-color: 261, 76%, 76%;
-  --ct-accent-color: 135, 68%, 72%;
-
-  --ct-text-color: 0,0%,100%;
+    --ct-bg-color-h: 210;
+    --ct-bg-color-s: 16%;
+    --ct-bg-color-l: 17%;
+    --ct-bg-color: 210, 16%, 27%;
+    --ct-text-color: 213, 22%, 92%;
+    --ct-primariy-color: 186, 47%, 58%;
+    --ct-secondary-color: 186, 63%, 36%;
+    --ct-accent-color: 140, 39%, 77%;
 }
 
 .white-theme,
-.light-theme,
 html[data-theme='light'] {
-  --ct-bg-color-h: 0;
-  --ct-bg-color-s: 0%;
-  --ct-bg-color-l: 100%;
-
-  --ct-primariy-color: 212, 100%, 39%;
-  --ct-secondary-color: 261, 51%, 51%;
-  --ct-accent-color: 134, 60%, 33%;
-
-  --ct-text-color: 210, 12%, 16%;
+    --ct-bg-color-h: 0;
+    --ct-bg-color-s: 0%;
+    --ct-bg-color-l: 100%;
+    --ct-bg-color: 0, 0%, 90%;
+    --ct-text-color: 210, 16%, 33%;
+    --ct-primariy-color: 186, 63%, 36%;
+    --ct-secondary-color: 186, 47%, 58%;
+    --ct-accent-color: 140, 33%, 42%;
 }
 ```
 
-
 https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
-
-
-#### Syntax Highlight Custom Settings
+### Custom Syntax highlight
 
 Logseq Flow Nord use Nord theme Syntax highlight by default. You can use monokai theme syntax highlight
 by put the following code in custom.css
@@ -170,12 +137,12 @@ by put the following code in custom.css
 .dark-theme .cm-s-solarized span.cm-error { background: #f92672; color: #f8f8f0; }
 ```
 
-#### PDF Custom Settings
+### Custom PDF Settings
 
 
 Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-dark-background`, or `--ls-icon-color`.
 
-```
+```css
 .dark-theme, .light-theme {
     --cl-pdf-light-background: transparent;
     --cl-pdf-dark-background: transparent;
