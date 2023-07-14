@@ -2,12 +2,12 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-    --background-color-h: 210;
-    --background-color-s: 9%;
-    --background-color-l: 14%;
-    --cl-background: 210,9%,24%;
-    --cl-text-color: 210,7%,94%;
-    --cl-primary: 159,77%,49%;
-    --cl-secondary: 201,80%,58%;
-    --cl-accent: 38,98%,64%;
+    --ct-bg-color-h: 210;
+    --ct-bg-color-s: 9%;
+    --ct-bg-color-l: 14%;
+    --ct-bg-color: 210,9%,24%;
+    --ct-text-color: 210,7%,94%;
+    --ct-primariy-color: 159,77%,49%;
+    --ct-secondary-color: 201,80%,58%;
+    --ct-accent-color: 38,98%,64%;
 }

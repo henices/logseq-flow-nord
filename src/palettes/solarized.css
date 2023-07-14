@@ -2,24 +2,24 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-    --background-color-h: 192;
-    --background-color-s: 100%;
-    --background-color-l: 11%;
-    --cl-background: 192,100%,21%;
-    --cl-text-color: 186,8%,55%;
-    --cl-primary: 205,69%,49%;
-    --cl-secondary: 68,100%,30%;
-    --cl-accent: 175,52%,43%;
+    --ct-bg-color-h: 192;
+    --ct-bg-color-s: 100%;
+    --ct-bg-color-l: 11%;
+    --ct-bg-color: 192,100%,21%;
+    --ct-text-color: 186,8%,55%;
+    --ct-primariy-color: 205,69%,49%;
+    --ct-secondary-color: 68,100%,30%;
+    --ct-accent-color: 175,52%,43%;
 }
 
 .white-theme,
 html[data-theme='light'] {
-    --background-color-h: 44;
-    --background-color-s: 87%;
-    --background-color-l: 94%;
-    --cl-background: 44,87%,84%;
-    --cl-text-color: 192,100%,11%;
-    --cl-primary: 175,59%,40%;
-    --cl-secondary: 45,100%,35%;
-    --cl-accent: 68,100%,30%;
+    --ct-bg-color-h: 44;
+    --ct-bg-color-s: 87%;
+    --ct-bg-color-l: 94%;
+    --ct-bg-color: 44,87%,84%;
+    --ct-text-color: 192,100%,11%;
+    --ct-primariy-color: 175,59%,40%;
+    --ct-secondary-color: 45,100%,35%;
+    --ct-accent-color: 68,100%,30%;
 }

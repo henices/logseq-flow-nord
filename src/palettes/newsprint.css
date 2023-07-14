@@ -2,24 +2,24 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-    --background-color-h: 0;
-    --background-color-s: 0%;
-    --background-color-l: 20%;
-    --cl-background: 0, 0%, 30%;
-    --cl-text-color: 0, 0%, 80%;
-    --cl-primary: 0, 0%, 65%;
-    --cl-secondary: 0, 0%, 59%;
-    --cl-accent: 0, 0%, 59%;
+    --ct-bg-color-h: 0;
+    --ct-bg-color-s: 0%;
+    --ct-bg-color-l: 20%;
+    --ct-bg-color: 0, 0%, 30%;
+    --ct-text-color: 0, 0%, 80%;
+    --ct-primariy-color: 0, 0%, 65%;
+    --ct-secondary-color: 0, 0%, 59%;
+    --ct-accent-color: 0, 0%, 59%;
 }
 
 .white-theme, 
 html[data-theme='light'] {
-    --background-color-h: 0;
-    --background-color-s: 0%;
-    --background-color-l: 93%;
-    --cl-background: 0, 0%, 83%;
-    --cl-text-color: 0, 0%, 20%;
-    --cl-primary: 0, 0%, 35%;
-    --cl-secondary: 0, 0%, 49%;
-    --cl-accent: 0, 0%, 49%;
+    --ct-bg-color-h: 0;
+    --ct-bg-color-s: 0%;
+    --ct-bg-color-l: 93%;
+    --ct-bg-color: 0, 0%, 83%;
+    --ct-text-color: 0, 0%, 20%;
+    --ct-primariy-color: 0, 0%, 35%;
+    --ct-secondary-color: 0, 0%, 49%;
+    --ct-accent-color: 0, 0%, 49%;
 }

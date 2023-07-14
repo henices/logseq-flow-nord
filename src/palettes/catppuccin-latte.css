@@ -2,12 +2,12 @@
 
 .white-theme,
 html[data-theme='light'] {
-    --background-color-h: 220;
-    --background-color-s: 23%;
-    --background-color-l: 95%;
-    --cl-background: 220,23%,85%;
-    --cl-text-color: 234,16%,35%;
-    --cl-primary: 35, 77%, 49%;
-    --cl-secondary: 11,59%,67%;
-    --cl-accent: 355, 76%, 59%;
+    --ct-bg-color-h: 220;
+    --ct-bg-color-s: 23%;
+    --ct-bg-color-l: 95%;
+    --ct-bg-color: 220,23%,85%;
+    --ct-text-color: 234,16%,35%;
+    --ct-primariy-color: 35, 77%, 49%;
+    --ct-secondary-color: 11,59%,67%;
+    --ct-accent-color: 355, 76%, 59%;
 }
