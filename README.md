@@ -13,7 +13,7 @@ Bad3r, just wanted to let you know about the amazing NordTheme. When combined wi
 
 ## 🚀 Features
 
-### ⚙️ Custom Settings
+### ⚙️  Custom Settings
 
 The custom.css file can take the following options to tweak the visuals.
 ```css
@@ -62,7 +62,7 @@ The custom.css file can take the following options to tweak the visuals.
 }
 ```
 
-### Custom Color Palette
+### 🎨️ Custom Color Palette
 
 [palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes, select your favorite one.
 
@@ -139,7 +139,7 @@ by put the following code in custom.css
 .dark-theme .cm-s-solarized span.cm-error { background: #f92672; color: #f8f8f0; }
 ```
 
-### Custom PDF Settings
+### 📄️ Custom PDF Settings
 
 
 Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-dark-background`, or `--ls-icon-color`.
