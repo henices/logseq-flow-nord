@@ -136,13 +136,13 @@ html[data-theme="dark"] #main-content-container {
 /* Page Titles */
 .white-theme h1.title,
 html[data-theme='white'] h1.title {
-    color: hsl(var(--cl-primary, var(--nord-frost-nord10)));
+    color: hsl(var(--cl-primary, var(--ct-primary-color, var(--nord-frost-nord10))));
     font-family: var(--cl-title-font, var(--ls-font-family));
 }
 
 .dark-theme h1.title,
 html[data-theme='dark'] h1.title {
-    color: hsl(var(--cl-primary, var(--nord-frost-nord7)));
+    color: hsl(var(--cl-primary, var(--ct-primary-color, var(--nord-frost-nord7))));
     font-family: var(--cl-title-font, var(--ls-font-family));
 }
 
