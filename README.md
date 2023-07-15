@@ -156,6 +156,9 @@ Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-d
 
 If you find that the text in a PDF is unclear, setting the background to "transparent" can improve the display. This may also resolve issues with displaying PDFs in Logseq's default theme under certain conditions.
 
+
+https://github.com/henices/logseq-flow-nord/assets/929715/52d5d486-27fe-4f3a-aede-541e8826e71c
+
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
 - Curved edges over jagged edges
