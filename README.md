@@ -69,7 +69,7 @@ The custom.css file can take the following options to tweak the visuals.
 1. copy the css code and paste to the custom.css
 2. select `Flow Nord Theme-custom` theme, enjoy :)
 
-[default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar with Logseq's default theme.
+The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
 
 
 The following color options will only affect custom theme `--ct-bg-color-h`, `--ct-bg-color-s`, `--ct-bg-color-l`, `--ct-bg-color`,
