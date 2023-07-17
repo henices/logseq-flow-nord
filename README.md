@@ -57,7 +57,7 @@ The custom.css file can take the following options to tweak the visuals.
     /*--cl-font-family: "PingFang SC", sans-serif;*/
 
     --cl-font-family-code: "Fira Code"; /* code font */
-    --cl-font-size: 18px;
+    --cl-font-size: 1.2rem;
     --cl-font-weight: 500;
 }
 ```
