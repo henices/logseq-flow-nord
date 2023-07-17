@@ -586,8 +586,11 @@ Code Mirror Settings
     margin-bottom: 10px;
 }
 
-.cm-s-solarized.CodeMirror {
-    box-shadow: none;
+.CodeMirror,
+.cm-s-solarized.CodeMirror,
+.cm-s-solarized.cm-s-light,
+.cm-s-solarized.cm-s-dark {
+    box-shadow: none !important;
 }
 
 .cm-s-solarized.cm-s-light div.CodeMirror-selected,

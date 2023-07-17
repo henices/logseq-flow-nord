@@ -69,6 +69,8 @@ The custom.css file can take the following options to tweak the visuals.
 1. copy the css code and paste to the custom.css
 2. select `Flow Nord Theme-custom` theme, enjoy :)
 
+The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
+
 
 The following color options will only affect custom theme `--ct-bg-color-h`, `--ct-bg-color-s`, `--ct-bg-color-l`, `--ct-bg-color`,
 `--ct-primariy-color`, `--ct-secondary-color`, `--ct-accent-color`, or `--ct-text-color`.
@@ -153,6 +155,9 @@ Valid color options you can specify are `--cl-pdf-light-background`, `--cl-pdf-d
 ```
 
 If you find that the text in a PDF is unclear, setting the background to "transparent" can improve the display. This may also resolve issues with displaying PDFs in Logseq's default theme under certain conditions.
+
+
+https://github.com/henices/logseq-flow-nord/assets/929715/52d5d486-27fe-4f3a-aede-541e8826e71c
 
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
