@@ -60,7 +60,7 @@
 
 /* Highlights */
 mark {
-    background-color: hsl(var(--cl-mark-background-color, var(--cl-background)));
+    background-color: hsl(var(--cl-mark-background-color, var(--nord-aurora-nord13)));
     padding: 0px !important;
     border-radius: 1px;
     /*
@@ -68,7 +68,7 @@ mark {
     text-decoration-color: hsl(var(--cl-primary));
     text-decoration-thickness: var(--cl-mark-decoration-thickness, 4px);
     */
-    color: var(--cl-mark-color, hsl(var(--cl-primary)));
+    color: var(--cl-mark-color, hsl(var(--nord-polar-night-nord0)));
     text-underline-offset: 0px;
     text-decoration-skip-ink: none;
 }
@@ -279,6 +279,10 @@ a.priority[href="#/page/C" i]::before {
     border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
     border-radius: var(--cl-checkbox-radius, 2px);
     opacity: 1;
+}
+
+.form-radio {
+    border: 1.7px solid hsl(var(--cl-text-color), 0.15);
 }
 
 /* TASK NAMES */
@@ -634,9 +638,12 @@ svg.h-4.w-4 {
 /* Input */
 
 .dark-theme input,
-.dark-theme input.form-input,
-.light-theme input,
-.light-theme input.form-input {
+.light-theme input {
+    background: hsl(var(--cl-background));
+}
+
+html[data-theme=light] input.form-input,
+html[data-theme=dark] input.form-input {
     background: hsl(var(--cl-background));
 }
 
