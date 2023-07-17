@@ -617,7 +617,7 @@ svg.h-4.w-4 {
     color: hsl(var(--cl-primary));
     border: 0px solid;
     font-weight: 400;
-    font-size: calc(var(--ls-font-size) * 0.75);
+    font-size: calc(var(--ls-font-size) * 0.8);
 }
 
 .block-properties:not(.page-properties) a.tag:hover {
@@ -663,7 +663,7 @@ html[data-theme=dark] input.form-input {
 
 /* Tags */
 a.tag {
-    background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);
+    /*background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);*/
     color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--cl-text-color))));
     opacity: 1;
     padding: 0px 5px;
@@ -675,7 +675,7 @@ a.tag {
     transition: 0.2s;
     vertical-align: middle;
     font-weight: 400;
-    font-size: 14px;
+    font-size: calc(var(--ls-font-size) * 0.8);
     position: relative;
     text-transform: lowercase;
 }
