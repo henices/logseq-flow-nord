@@ -634,7 +634,9 @@ svg.h-4.w-4 {
 /* Input */
 
 .dark-theme input,
-.light-theme input {
+.dark-theme input.form-input,
+.light-theme input,
+.light-theme input.form-input {
     background: hsl(var(--cl-background));
 }
 
