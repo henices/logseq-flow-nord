@@ -603,7 +603,6 @@ Code Mirror Settings
     color: var(--ls-primary-text-color);
     border: 0px solid var(--bg-color-2);
     border-radius: 3px;
-    padding-right: 10px;
 }
 
 .cm-s-solarized.cm-s-light {
@@ -622,8 +621,14 @@ Code Mirror Settings
 }
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber, .cm-s-solarized.cm-s-light .CodeMirror-linenumber {
     text-shadow: none;
-    color: transparent;
+    color: slategray;
     text-align: -webkit-center;
+}
+
+.cm-s-solarized.CodeMirror pre.CodeMirror-line,
+.cm-s-solarized.cm-s-dark pre.CodeMirror-line,
+.cm-s-solarized.cm-s-light pre.CodeMirror-line {
+    padding: 0 1em;
 }
 
 /* === Coloring CodeMirror Keywords === */
