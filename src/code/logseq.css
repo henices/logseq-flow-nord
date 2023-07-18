@@ -174,3 +174,6 @@ Block Color Styling
     opacity: 0.5;
 }
 
+a.settings-plugin-item {
+    color: hsl(var(--cl-text-color));
+}
