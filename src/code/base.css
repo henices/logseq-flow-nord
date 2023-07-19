@@ -628,7 +628,7 @@ Code Mirror Settings
 .cm-s-solarized.CodeMirror pre.CodeMirror-line,
 .cm-s-solarized.cm-s-dark pre.CodeMirror-line,
 .cm-s-solarized.cm-s-light pre.CodeMirror-line {
-    padding: 0 1em;
+    padding: 0 1.5em;
 }
 
 /* === Coloring CodeMirror Keywords === */
