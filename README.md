@@ -194,3 +194,4 @@ Logseq Marketplace:
 - [Tabler Icons](https://github.com/tabler/tabler-icons)
 - [CodeMirror](https://github.com/codemirror/codemirror5)
 - [Logseq Dev Theme](https://github.com/pengx17/logseq-dev-theme/)
+- [logseq-logtools-custom](https://github.com/elgatopanzon/logseq-logtools-custom)
