@@ -70,6 +70,9 @@ The custom.css file can take the following options to tweak the visuals.
 2. select `Flow Nord Theme-custom` theme, enjoy :)
 
 The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
+[monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
+[gruvbox color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/gruvbox.css)
+[bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
 
 
 The following color options will only affect custom theme `--ct-bg-color-h`, `--ct-bg-color-s`, `--ct-bg-color-l`, `--ct-bg-color`,
