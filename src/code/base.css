@@ -578,7 +578,6 @@ Code Mirror Settings
 
 .extensions__code-lang {
     margin: 2px;
-    background-color: transparent;
     color: hsl(var(--cl-secondary));
 }
 
