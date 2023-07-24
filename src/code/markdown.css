@@ -231,7 +231,6 @@ a[priority]:not(a[priority=""])::before,
 a.priority::before {
     font-size: 16px;
     font-family: 'tabler-icons';
-    vertical-align: bottom;
 }
 
 a[priority]:not(a[priority=""]),
@@ -239,7 +238,7 @@ a.priority {
     font-size: 0px;
     opacity: 0.8;
     font-weight: 500;
-    margin-right: 0px !important;
+    margin-right: 1px !important;
 }
 
 a[priority="A"]::before,
