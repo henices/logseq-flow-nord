@@ -245,19 +245,19 @@ a.priority {
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
     content: "\f6e7";
-    color: #ef4444;
+    color: hsl(var(--nord-aurora-nord11));
 }
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
     content: "\f6e0";
-    color: #f59e0b;
+    color: hsl(var(--nord-aurora-nord12));
 }
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
     content: "\f6e4";
-    color: #3b82f6;
+    color: hsl(var(--nord-aurora-nord14));
 }
 
 /*  === Checkboxes ===  */
