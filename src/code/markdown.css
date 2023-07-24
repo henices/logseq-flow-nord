@@ -714,6 +714,9 @@ body {
     font-weight: var(--ls-font-weight);
     line-height: var(--ls-line-height);
     letter-spacing: 0.02em;
+
+    content-visibility: auto;
+    contain-intrinsic-size: auto 500px; /* Explained in the next section. */
 }
 
 /* Tables */
