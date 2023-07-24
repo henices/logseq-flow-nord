@@ -75,17 +75,7 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 - [gruvbox color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/gruvbox.css)
 - [bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
 
-The following color options will only affect custom theme :
-
-- `--ct-primariy-color` required
-- `--ct-secondary-color` required
-- `--ct-accent-color` required
-- `--ct-text-color` required
-
-- `--ct-bg-color-h` optional
-- `--ct-bg-color-s` optional
-- `--ct-bg-color-l` optional
-- `--ct-bg-color` optional
+The following color options will only affect custom theme `--ct-primariy-color` (required), `--ct-secondary-color` (required), `--ct-accent-color` (required), `--ct-text-color` (required), `--ct-bg-color-h` (optional), `--ct-bg-color-s` (optional), `--ct-bg-color-l` (optional), or `--ct-bg-color` (optional)
 
 
 ```css
