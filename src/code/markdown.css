@@ -91,11 +91,11 @@ mark>code:after {
 
 /* Blockquotes */
 blockquote {
-    background-color: hsl(var(--cl-accent), 0.05);
+    background-color: hsl(var(--cl-background), 0.4);
     color: var(--ls-primary-text-color);
     display: flex;
     /* padding-left: 0px; */
-    border-left: 2px solid hsl(var(--cl-accent));
+    border-left: 2px solid hsl(var(--cl-accent), 0.8);
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -108,7 +108,7 @@ blockquote:before {
     position: relative;
     left: -25px;
     z-index: 3;
-    background-color: var(--bg-color);
+    background-color: var(--bg-color-1);
     padding-bottom: 2px;
     border-radius: 1px;
 }
