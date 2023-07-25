@@ -95,7 +95,7 @@ blockquote {
     color: var(--ls-primary-text-color);
     display: flex;
     /* padding-left: 0px; */
-    border-left: 1px solid hsl(var(--cl-accent), 0.8);
+    border-left: 1px solid hsl(var(--cl-primary, var(--cl-text-color)), 0.6);
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -104,7 +104,7 @@ blockquote:before {
     content: "\efbe";
     font-family: 'tabler-icons';
     align-self: center;
-    color: hsl(var(--cl-accent), 1);
+    color: hsl(var(--cl-primary), 0.8);
     position: relative;
     left: -25px;
     z-index: 3;
