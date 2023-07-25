@@ -95,20 +95,20 @@ blockquote {
     color: var(--ls-primary-text-color);
     display: flex;
     /* padding-left: 0px; */
-    border-left: 2px solid hsl(var(--cl-accent), 0.8);
+    border-left: 1px solid hsl(var(--cl-accent), 0.8);
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 blockquote:before {
-    content: "\ee09";
+    content: "\efbe";
     font-family: 'tabler-icons';
     align-self: center;
-    color: hsl(var(--cl-accent));
+    color: hsl(var(--cl-accent), 1);
     position: relative;
     left: -25px;
     z-index: 3;
-    background-color: var(--bg-color-1);
+    background-color: var(--bg-color);
     padding-bottom: 2px;
     border-radius: 1px;
 }
