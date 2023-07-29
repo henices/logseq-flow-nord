@@ -1,0 +1,102 @@
+@import '../code/base.css';
+
+:root {
+    --cl-pdf-light-background: hsl(var(--nord-snow-storm-nord6));
+    --cl-pdf-dark-background: hsl(var(--nord-polar-night-nord0));
+}
+
+.white-theme,
+.light-theme,
+html[data-theme='light'] {
+    --background-color-h: 218; /* nord6 */
+    --background-color-s: 27%;
+    --background-color-l: 94%;
+    --cl-text-color: var(--nord-polar-night-nord0);
+    --cl-primary: var(--nord-frost-nord10);
+    --cl-secondary: var(--nord-polar-night-nord3);
+    --cl-accent: var(--nord-frost-nord7);
+    /*
+    --bullet-threading-active-color: #D08770;
+    --bullet-threading-width: 2px;
+    */
+}
+
+.dark-theme,
+html[data-theme='dark'] {
+    --background-color-h: 220; /* nord0 */
+    --background-color-s: 16%;
+    --background-color-l: 22%;
+    --cl-text-color: var(--nord-snow-storm-nord6);
+    --cl-primary: var(--nord-frost-nord7);
+    --cl-secondary: var(--nord-snow-storm-nord4);
+    --cl-accent: var(--nord-frost-nord10);
+    /*
+    --bullet-threading-active-color: #D08770;
+    --bullet-threading-width: 2px;
+    */
+}
+
+a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
+    color: hsl(var(--nord-aurora-nord11));
+}
+a[priority="B"]::before, a.priority[href="#/page/B" i]::before {
+    color: hsl(var(--nord-aurora-nord12));
+}
+a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
+    color: hsl(var(--nord-aurora-nord14));
+}
+
+:is(.dark-theme, .white-theme) .left-sidebar-inner.flex-1.flex.flex-col.min-h-0 {
+    background-color: var(--bg-color);
+}
+
+/*
+.light-theme h1.title {
+    color: hsl(var(--cl-accent));
+}
+*/
+
+.light-theme .cm-s-solarized .cm-atom { color: #b48ead; }
+.light-theme .cm-s-solarized .cm-number { color: #b48ead; }
+.light-theme .cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
+.light-theme .cm-s-solarized .cm-comment.cm-def { color: #bc9262; }
+.light-theme .cm-s-solarized .cm-comment.cm-tag { color: #bc6283; }
+.light-theme .cm-s-solarized .cm-comment.cm-type { color: #5998a6; }
+.light-theme .cm-s-solarized .cm-keyword { color: #81A1C1; }
+.light-theme .cm-s-solarized .cm-builtin { color: #81A1C1; }
+.light-theme .cm-s-solarized .cm-bracket { color: #81A1C1; }
+.light-theme .cm-s-solarized .cm-tag { color: #bf616a; }
+.light-theme .cm-s-solarized .cm-header { color: #b48ead; }
+.light-theme .cm-s-solarized .cm-link { color: #b48ead; }
+.light-theme .cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
+.light-theme .cm-s-solarized .cm-def { color: #2aa198; }
+.light-theme .cm-s-solarized .cm-variable { color: hsl(var(--nord-polar-night-nord1)); }
+.light-theme .cm-s-solarized .cm-variable-2 { color: #b58900; }
+.light-theme .cm-s-solarized .cm-variable-3, .cm-s-solarized .cm-type { color: #6c71c4; }
+.light-theme .cm-s-solarized .cm-property { color: #2aa198; }
+.light-theme .cm-s-solarized .cm-operator { color: #6c71c4; }
+.light-theme .cm-s-solarized .cm-attribute { color: #2aa198; }
+.light-theme .cm-s-solarized .cm-string { color: #859900; }
+.light-theme .cm-s-solarized .cm-string-2 { color: #b58900; }
+
+.dark-theme .cm-s-solarized .cm-atom { color: #b48ead; }
+.dark-theme .cm-s-solarized .cm-number { color: #b48ead; }
+.dark-theme .cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
+.dark-theme .cm-s-solarized .cm-comment.cm-def { color: #bc9262; }
+.dark-theme .cm-s-solarized .cm-comment.cm-tag { color: #bc6283; }
+.dark-theme .cm-s-solarized .cm-comment.cm-type { color: #5998a6; }
+.dark-theme .cm-s-solarized .cm-property,
+.dark-theme .cm-s-solarized .cm-attribute { color: #8FBCBB; }
+.dark-theme .cm-s-solarized .cm-keyword { color: #81A1C1; }
+.dark-theme .cm-s-solarized .cm-builtin { color: #81A1C1; }
+.dark-theme .cm-s-solarized .cm-string { color: #A3BE8C; }
+.dark-theme .cm-s-solarized .cm-variable { color: #d8dee9; }
+.dark-theme .cm-s-solarized .cm-variable-2 { color: #d8dee9; }
+.dark-theme .cm-s-solarized .cm-variable-3,
+.dark-theme .cm-s-solarized .cm-type { color: #d8dee9; }
+.dark-theme .cm-s-solarized .cm-def { color: #8FBCBB; }
+.dark-theme .cm-s-solarized .cm-bracket { color: #81A1C1; }
+.dark-theme .cm-s-solarized .cm-tag { color: #bf616a; }
+.dark-theme .cm-s-solarized .cm-header { color: #b48ead; }
+.dark-theme .cm-s-solarized .cm-link { color: #b48ead; }
+.dark-theme .cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
