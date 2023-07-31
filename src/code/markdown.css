@@ -558,12 +558,12 @@ svg.h-4.w-4 {
 }
 
 /* Block Properties */
-.page-property-key {
+.page-ref.page-property-key {
     color: hsl(var(--cl-text-color), 0.95);
     text-transform: lowercase;
 }
 
-.page-property-key:hover {
+.page-ref.page-property-key:hover {
     color: hsl(var(--cl-text-color));
     background-color: transparent;
 }
