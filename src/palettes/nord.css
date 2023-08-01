@@ -56,6 +56,10 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
 }
 */
 
+.dark-theme h1.title {
+    color: hsl(var(--nord-frost-nord7)) !important;
+}
+
 .light-theme .cm-s-solarized .cm-atom { color: #b48ead; }
 .light-theme .cm-s-solarized .cm-number { color: #b48ead; }
 .light-theme .cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
