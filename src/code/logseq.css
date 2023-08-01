@@ -40,7 +40,8 @@
 }
 .block-ref:hover {
     cursor: pointer;
-    color: hsl(var(--cl-accent));
+    text-decoration: 1px solid underline hsl(var(--cl-text-color), 0.5);
+/*    color: hsl(var(--cl-accent)); */
     border-radius: var(--cl-border-radius);
     transition: 0.2s;
 }
