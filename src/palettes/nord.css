@@ -27,7 +27,7 @@ html[data-theme='dark'] {
     --background-color-s: 16%;
     --background-color-l: 22%;
     --cl-text-color: var(--nord-snow-storm-nord6);
-    --cl-primary: var(--nord-frost-nord7);
+    --cl-primary: var(--nord-frost-nord8);
     --cl-secondary: var(--nord-snow-storm-nord4);
     --cl-accent: var(--nord-frost-nord10);
     /*
