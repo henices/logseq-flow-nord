@@ -582,7 +582,7 @@ svg.h-4.w-4 {
     background-color: transparent;
     padding: 0px;
     border: 0px solid;
-    color: hsl(var(--cl-accent));
+    color: hsl(var(--cl-primary));
     font-weight: 400;
 }
 
