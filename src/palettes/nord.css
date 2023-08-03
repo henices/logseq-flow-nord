@@ -46,9 +46,11 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
     color: hsl(var(--nord-aurora-nord14));
 }
 
+/*
 :is(.dark-theme, .white-theme) .left-sidebar-inner.flex-1.flex.flex-col.min-h-0 {
     background-color: var(--bg-color);
 }
+*/
 
 /*
 .light-theme h1.title {
