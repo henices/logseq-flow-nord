@@ -41,7 +41,7 @@
 /* Code */
 .CodeMirror  {
   font-family: var(--ls-font-family-code);
-  font-size: 1em;
+  font-size: calc(var(--ls-font-size) * 0.9);
   text-rendering: optimizelegibility !important;
   -webkit-text-size-adjust: 100% !important;
   -webkit-font-smoothing: antialiased !important;
