@@ -591,6 +591,7 @@ Code Mirror Settings
 .cm-s-solarized.cm-s-light,
 .cm-s-solarized.cm-s-dark {
     box-shadow: none !important;
+    letter-spacing: 0.0.1em;
 }
 
 .cm-s-solarized.cm-s-light div.CodeMirror-selected,
