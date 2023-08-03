@@ -60,14 +60,14 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
     color: hsl(var(--nord-frost-nord7)) !important;
 }
 
-.light-theme .cm-s-solarized .cm-atom { color: #b48ead; }
-.light-theme .cm-s-solarized .cm-number { color: #b48ead; }
+.light-theme .cm-s-solarized .cm-atom { color: #aa759f; }
+.light-theme .cm-s-solarized .cm-number { color: #aa759f; }
 .light-theme .cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
 .light-theme .cm-s-solarized .cm-comment.cm-def { color: #bc9262; }
 .light-theme .cm-s-solarized .cm-comment.cm-tag { color: #bc6283; }
 .light-theme .cm-s-solarized .cm-comment.cm-type { color: #5998a6; }
-.light-theme .cm-s-solarized .cm-keyword { color: #81A1C1; }
-.light-theme .cm-s-solarized .cm-builtin { color: #81A1C1; }
+.light-theme .cm-s-solarized .cm-keyword { color: #5E81AC; }
+.light-theme .cm-s-solarized .cm-builtin { color: #5E81AC; }
 .light-theme .cm-s-solarized .cm-bracket { color: #81A1C1; }
 .light-theme .cm-s-solarized .cm-tag { color: #bf616a; }
 .light-theme .cm-s-solarized .cm-header { color: #b48ead; }
