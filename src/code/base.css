@@ -236,7 +236,7 @@ html[data-theme='dark'] {
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: hsl(var(--cl-primary));
     --ls-page-inline-code-bg-color: hsl(var(--cl-primary), 0.1);
-    --ls-scrollbar-foreground-color: hsl(var(--cl-text-color), 0.4);
+    --ls-scrollbar-foreground-color: hsl(var(--cl-text-color), 0.2);
     --ls-scrollbar-background-color: hsl(var(--cl-text-color), 0);
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
     --ls-head-text-color: var(--ls-link-text-color);
@@ -363,7 +363,7 @@ html[data-theme='light'] {
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: hsl(var(--cl-primary));
     --ls-page-inline-code-bg-color: hsl(var(--cl-primary), 0.1);
-    --ls-scrollbar-foreground-color: hsl(var(--cl-text-color), 0.4);
+    --ls-scrollbar-foreground-color: hsl(var(--cl-text-color), 0.2);
     --ls-scrollbar-background-color: hsl(var(--cl-text-color), 0);
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
     --ls-head-text-color: var(--ls-link-text-color);
