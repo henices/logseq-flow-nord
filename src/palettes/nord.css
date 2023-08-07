@@ -8,13 +8,14 @@
 .white-theme,
 .light-theme,
 html[data-theme='light'] {
-    --background-color-h: 218; /* nord6 */
-    --background-color-s: 27%;
-    --background-color-l: 94%;
+    --background-color-h: 0;
+    --background-color-s: 0%;
+    --background-color-l: 100%;
+    --cl-background: var(--nord-snow-storm-nord6);
     --cl-text-color: var(--nord-polar-night-nord0);
     --cl-primary: var(--nord-frost-nord10);
     --cl-secondary: var(--nord-polar-night-nord3);
-    --cl-accent: var(--nord-frost-nord7);
+    --cl-accent: var(--nord-frost-nord8);
     /*
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;
@@ -26,6 +27,7 @@ html[data-theme='dark'] {
     --background-color-h: 220; /* nord0 */
     --background-color-s: 16%;
     --background-color-l: 22%;
+    --cl-background: var(--nord-polar-night-nord1);
     --cl-text-color: var(--nord-snow-storm-nord6);
     --cl-primary: var(--nord-frost-nord8);
     --cl-secondary: var(--nord-snow-storm-nord4);
@@ -52,11 +54,9 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
 }
 */
 
-/*
 .light-theme h1.title {
-    color: hsl(var(--cl-accent));
+    color: hsl(var(--nord-frost-nord9)) !important;
 }
-*/
 
 .dark-theme h1.title {
     color: hsl(var(--nord-frost-nord7)) !important;
