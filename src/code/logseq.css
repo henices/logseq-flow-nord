@@ -30,13 +30,13 @@
     padding-right: 1px;
 }*/
 :not(.whiteboard-shape) .block-ref {
-    border-bottom: 0px dashed hsl(var(--cl-text-color), 0.15);
-    color: hsl(var(--cl-text-color));
+    border-bottom-style: dashed;
+    border-bottom-color: hsl(var(--cl-text-color), 0.25);
+    color: hsl(var(--cl-text-color), 0.9);
     background-color: hsl(var(--cl-accent), 0);
     border-radius: 0px;
     opacity: 1;
 /*    transition: 0.2s; */
-    margin-top: 0.5em;
 }
 .block-ref:hover {
     cursor: pointer;
