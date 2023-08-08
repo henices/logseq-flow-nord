@@ -79,7 +79,6 @@ Base Root Settings
     --ls-font-weight: var(--cl-font-weight, 480);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
     --ls-line-height: var(--ct-line-height, 1.5);
-    /*--cl-background: var(--background-color-h), var(--background-color-s), var(--background-color-l);*/
     --cl-block-bullet-fix: 20px;
     /*
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);
@@ -125,7 +124,6 @@ Base Root Settings
     --nord-snow-storm-nord6: 218, 27%, 94%; /* lighter gray */
 
     --nord-frost-nord7:  179, 25%, 65%;  /* green */
-    --nord-frost-nord7-1:182, 25%, 45%;  /* Cadet Blue */
     --nord-frost-nord8:  193, 43%, 67%;  /* light green */
     --nord-frost-nord9:  210, 34%, 63%;  /* light blue */
     --nord-frost-nord10: 213, 32%, 52%; /* blue */
@@ -146,11 +144,13 @@ i {
 .dark-theme,
 html[data-theme='dark'] {
     /* =====BACKGROUND ===========*/
+    /*
     --cl-text-color: var(--nord-snow-storm-nord6);
     --background-color-h: 222;
     --background-color-s: 16%;
     --background-color-l: 22%;
     --cl-background: var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.30);
+    */
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;
     --lightnessTransform: 5%;
@@ -273,11 +273,13 @@ html[data-theme='dark'] {
 .light-theme,
 html[data-theme='light'] {
     /* =====BACKGROUND ===========*/
+    /*
     --cl-text-color: var(--nord-polar-night-nord0);
     --background-color-h: 218;
     --background-color-s: 27%;
     --background-color-l: 94%;
     --cl-background: var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) / 1.10);
+    */
     /* ==== BASE CALCULATORS ==== */
     --contrastThreshold: 60%;
     --lightnessTransform: 5%;
