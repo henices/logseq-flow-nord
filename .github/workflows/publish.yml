@@ -36,7 +36,9 @@ jobs:
           tag_name:  ${{ steps.create_tag.outputs.new_tag }}
           draft: false
           prerelease: false
-          files: logseq-flow-nord-theme.zip
+          files: |
+            logseq-flow-nord-theme.zip
+            package.json
           repository: henices/logseq-flow-nord
           token: ${{ secrets.GITHUB_TOKEN }}
           generate_release_notes: true
