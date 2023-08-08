@@ -28,7 +28,7 @@ jobs:
           DEFAULT_BUMP: patch
       - name: Create ZIP Archive
         run: |
-          zip -r logseq-flow-nord-theme.zip package.json icon.png src/*
+          zip -r logseq-flow-nord.zip package.json icon.png src/*
       - name: GH Release
         uses: softprops/action-gh-release@v0.1.15
         with:
@@ -37,7 +37,7 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            logseq-flow-nord-theme.zip
+            logseq-flow-nord.zip
             package.json
           repository: henices/logseq-flow-nord
           token: ${{ secrets.GITHUB_TOKEN }}
