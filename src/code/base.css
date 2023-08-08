@@ -606,13 +606,7 @@ Code Mirror Settings
     color: var(--ls-primary-text-color);
     border: 0px solid var(--bg-color-2);
     border-radius: 3px;
-}
-
-.cm-s-solarized.cm-s-light {
-    background-color: hsl(var(--cl-background), 0.4) !important;
-}
-.cm-s-solarized.cm-s-dark {
-    background-color: hsl(var(--cl-background), 0.3) !important;
+    background-color: hsl(var(--cl-background));
 }
 
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters, .cm-s-solarized.cm-s-light .CodeMirror-gutters {
