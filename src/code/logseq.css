@@ -30,9 +30,6 @@
     padding-right: 1px;
 }*/
 
-.block-ref {
-    border-bottom: 0px solid !important;
-}
 :not(.whiteboard-shape) .block-ref {
     border-bottom-style: dashed;
     border-bottom-color: hsl(var(--cl-text-color), 0.35);
