@@ -726,5 +726,5 @@ Parent Block Header Style
 /* set HR if it's the only child element */
 .block-body hr:is(:only-child) {
     margin: 1.5em 0 !important;
-    border-top: 1.5px dashed hsl(var(--cl-text-color), 0.2);
+    border-top: 1.5px solid hsl(var(--cl-text-color), 0.2);
 }
