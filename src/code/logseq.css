@@ -29,14 +29,18 @@
     margin-left: 2px;
     padding-right: 1px;
 }*/
+
+.block-ref {
+    border-bottom: 0px solid !important;
+}
 :not(.whiteboard-shape) .block-ref {
     border-bottom-style: dashed;
-    border-bottom-color: hsl(var(--cl-text-color), 0.25);
+    border-bottom-color: hsl(var(--cl-text-color), 0.35);
     color: hsl(var(--cl-text-color), 0.9);
     background-color: hsl(var(--cl-accent), 0);
     border-radius: 0px;
     opacity: 1;
-/*    transition: 0.2s; */
+    /* transition: 0.2s; */
 }
 .block-ref:hover {
     cursor: pointer;
@@ -51,11 +55,9 @@
 .block-ref .external-link {
     text-underline-offset: 4px !important;
 }
-.block-ref .block-ref {
-    border-bottom: 0px solid !important;
-}
 .block-ref a.tag { text-decoration: none; }
 .block-ref a.tag:hover {
+    cursor: pointer;
     border-bottom: 0px solid;
     text-decoration: none !important;
 }
