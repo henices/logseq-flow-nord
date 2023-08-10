@@ -5,18 +5,13 @@ html[data-theme='dark'] {
     --ct-bg-color-h: 192;
     --ct-bg-color-s: 100%;
     --ct-bg-color-l: 11%;
-    --ct-bg-color: 192,100%,21%;
+    --ct-bg-color: 192,94%,14%;
     --ct-text-color: 183,11%,68%;
     --ct-primariy-color: 180,33%,54%;
     --ct-secondary-color: 175,59%,40%;
     --ct-accent-color: 175,59%,40%;
 }
-/***
-    --ct-primariy-color: 200,17%,48%;
-    180,26%,64%
-    --ct-secondary-color: 20,19%,48%;
-    --ct-accent-color: 0,87%,74%;
-***/
+
 .white-theme,
 html[data-theme='light'] {
     --ct-bg-color-h: 0;
