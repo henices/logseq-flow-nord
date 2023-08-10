@@ -46,7 +46,7 @@
 /* Color Left Sidebar Items */
 a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th {
     color: hsl(var(--cl-text-color));
-    opacity: 0.7;
+    opacity: 1;
     margin-left: -10px;
 }
 a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
@@ -58,6 +58,7 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     background-color: hsl(var(--cl-text-color),0.1);
     border-radius: 4px;
 }
+
 /********************************************
         RIGHT SIDEBAR IMPROVEMENTS
 ********************************************/

@@ -431,7 +431,7 @@ Base Settings
 .left-sidebar-inner {
     padding-top: 0px;
     width: var(--ls-left-sidebar-width);
-    background-color: var(--bg-color);
+    background-color: hsl(var(--cl-background));
 }
 .left-sidebar-inner .create {
     background-image: none !important;
