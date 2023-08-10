@@ -829,96 +829,9 @@ span.inline.px-1.with-bg-color[style*="pink"] {
     color: var(--ls-highlight-color-pink-text);
 }
 
-
 /* Fixes the line-break for long page titles */
 .ls-page-title.title span {
     white-space: normal !important;
-}
-
-/* Interface Improvements */
-
-@media (hover: hover) {
-
-    body {
-        letter-spacing: -0.00622354em;
-    }
-
-    .left-sidebar-inner>div>nav {
-        margin-left: 0px !important;
-    }
-
-    .left-sidebar-inner>div>nav>div>a {
-        font-size: 13px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-    }
-
-    .left-sidebar-inner>div>nav>div>div>a {
-        font-size: 13px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-    }
-
-
-    /* Make top header bar a neutral color */
-    div#head, .cp__right-sidebar-topbar {
-        opacity: 1;
-    }
-
-    .flex.flex-col.wrap.gap-1.relative {
-        opacity: 1;
-    }
-
-    /* Favorites & Recent Bar */
-    .left-sidebar-inner .nav-contents-container.is-scrolled, .left-sidebar-inner .nav-contents-container {
-        border-top: 0px solid var(--ls-tertiary-border-color);
-        max-height: 65%;
-    }
-
-    .favorites {
-        margin-left: 0px;
-        margin-top: 16px;
-        font-size: 13px;
-    }
-
-    .favorite-item,
-    .recent-item {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    .cp__sidebar-left-layout.is-open+#main-content-container {
-        margin: 0 10px 10px 0px;
-    }
-
-    .cp__header {
-        height: 44px;
-    }
-
-    .cp__header>.r {
-        flex: 0 1 auto;
-    }
-
-    .cp__header>.l {
-        margin-top: 4px;
-    }
-
-    .cp__right-sidebar-topbar {
-        /* display: none; */
-        height: 44px;
-    }
-
-    .sidebar-item-list {
-        /* margin-top: 44px; */
-        margin-right: 12px;
-        border-radius: 6px;
-        height: calc(100vh - 56px) !important;
-    }
-
-    .sidebar-item {
-        margin: 0 0 4px 0px;
-        box-shadow: none;
-    }
 }
 
 /* References Section */

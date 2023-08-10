@@ -40,6 +40,94 @@
     background-color: hsl(var(--cl-primary), 0.15);
 }
 
+/*********************************************
+              Interface Improvements
+**********************************************/
+
+@media (hover: hover) {
+
+    body {
+        letter-spacing: -0.00622354em;
+    }
+
+    .left-sidebar-inner>div>nav {
+        margin-left: 0px !important;
+    }
+
+    .left-sidebar-inner>div>nav>div>a {
+        font-size: 13px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .left-sidebar-inner>div>nav>div>div>a {
+        font-size: 13px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+
+    /* Make top header bar a neutral color */
+    div#head, .cp__right-sidebar-topbar {
+        opacity: 1;
+    }
+
+    .flex.flex-col.wrap.gap-1.relative {
+        opacity: 1;
+    }
+
+    /* Favorites & Recent Bar */
+    .left-sidebar-inner .nav-contents-container.is-scrolled, .left-sidebar-inner .nav-contents-container {
+        border-top: 0px solid var(--ls-tertiary-border-color);
+        max-height: 65%;
+    }
+
+    .favorites {
+        margin-left: 0px;
+        margin-top: 16px;
+        font-size: 13px;
+    }
+
+    .favorite-item,
+    .recent-item {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .cp__sidebar-left-layout.is-open+#main-content-container {
+        margin: 0 10px 10px 0px;
+    }
+
+    .cp__header {
+        height: 44px;
+    }
+
+    .cp__header>.r {
+        flex: 0 1 auto;
+    }
+
+    .cp__header>.l {
+        margin-top: 4px;
+    }
+
+    .cp__right-sidebar-topbar {
+        /* display: none; */
+        height: 44px;
+    }
+
+    .sidebar-item-list {
+        /* margin-top: 44px; */
+        margin-right: 12px;
+        border-radius: 6px;
+        height: calc(100vh - 56px) !important;
+    }
+
+    .sidebar-item {
+        margin: 0 0 4px 0px;
+        box-shadow: none;
+    }
+}
+
 /********************************************
          LEFT SIDEBAR IMPROVEMENTS
 ********************************************/
@@ -59,6 +147,28 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     border-radius: 4px;
 }
 
+/* Setting up outer layer background color */
+/*.cp__sidebar-main-layout, #app-container, .left-sidebar-inner {
+    background-color: var(--ls-secondary-background-color);
+}*/
+/* Adjusting left sidebar size and background color */
+.left-sidebar-inner {
+    padding-top: 0px;
+    width: var(--ls-left-sidebar-width);
+    background-color: hsl(var(--cl-background));
+}
+.left-sidebar-inner .create {
+    background-image: none !important;
+}
+.left-sidebar-inner .create #create-button {
+    background-color: var(--bg-color-1) !important;
+}
+.left-sidebar-inner .create #create-button:hover {
+    background-color: hsl(var(--cl-primary)) !important;
+}
+.left-sidebar-inner .create #create-button:hover .ui__icon.ti.ti-plus {
+    color: var(--bg-color-1);
+}
 /********************************************
         RIGHT SIDEBAR IMPROVEMENTS
 ********************************************/
@@ -73,6 +183,23 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     background-color: var(--bg-color-1);
 }
 
+.cp__right-sidebar-topbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--bg-color);
+    z-index: 999;
+    user-select: none;
+    -webkit-app-region: drag;
+}
+
+.cp__right-sidebar {
+    z-index: var(--ls-z-index-level-1);
+    transition: width .3s;
+    background-color: var(--bg-color,#d8e1e8);
+}
 /********************************************
            PAGE TITLE ELEMENTS
 ********************************************/

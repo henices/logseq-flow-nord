@@ -423,45 +423,6 @@ Base Settings
     padding-top: 0px !important;
 }
 
-/* Setting up outer layer background color */
-/*.cp__sidebar-main-layout, #app-container, .left-sidebar-inner {
-    background-color: var(--ls-secondary-background-color);
-}*/
-/* Adjusting left sidebar size and background color */
-.left-sidebar-inner {
-    padding-top: 0px;
-    width: var(--ls-left-sidebar-width);
-    background-color: hsl(var(--cl-background));
-}
-.left-sidebar-inner .create {
-    background-image: none !important;
-}
-.left-sidebar-inner .create #create-button {
-    background-color: var(--bg-color-1) !important;
-}
-.left-sidebar-inner .create #create-button:hover {
-    background-color: hsl(var(--cl-primary)) !important;
-}
-.left-sidebar-inner .create #create-button:hover .ui__icon.ti.ti-plus {
-    color: var(--bg-color-1);
-}
-.cp__right-sidebar-topbar {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: var(--bg-color);
-    z-index: 999;
-    user-select: none;
-    -webkit-app-region: drag;
-}
-
-.cp__right-sidebar {
-    z-index: var(--ls-z-index-level-1);
-    transition: width .3s;
-    background-color: var(--bg-color,#d8e1e8);
-}
 /*
 :not(.block-ref) .ls-block h1, .editor-inner .multiline-block.h1::first-line, .editor-inner .uniline-block.h1, .ls-block h1 {
     transform:translateY(-1px) !important;
