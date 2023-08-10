@@ -852,10 +852,10 @@ span.inline.px-1.with-bg-color[style*="pink"] {
     border: 1px solid hsl(var(--cl-text-color), 0.075);
 }
 .white-theme :is(.lazy-visibility, .lazy-visibility > .fade-enter) .color-level > .flex.flex-col > .initial > div > .blocks-container {
-    background-color: hsl(var(--cl-background), 0.4);
+    background-color: hsl(var(--cl-background), 0.35);
 }
 .dark-theme :is(.lazy-visibility, .lazy-visibility > .fade-enter) .color-level > .flex.flex-col > .initial > div > .blocks-container {
-    background-color: hsl(var(--cl-background), 0.4);
+    background-color: hsl(var(--cl-background), 0.35);
 }
 .white-theme .cp__right-sidebar .references.page-linked .color-level > .flex.flex-col > .initial > div > .blocks-container {
     background-color: var(--bg-color);
