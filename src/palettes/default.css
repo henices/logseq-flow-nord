@@ -8,7 +8,7 @@ html[data-theme='dark'] {
     --ct-bg-color: 192,94%,14%;
     --ct-text-color: 183,11%,68%;
     --ct-primariy-color: 180,26%,64%;
-    --ct-secondary-color: 175,59%,40%;
+    --ct-secondary-color: 200,15%,54%;
     --ct-accent-color: 175,59%,40%;
 }
 
@@ -17,9 +17,9 @@ html[data-theme='light'] {
     --ct-bg-color-h: 0;
     --ct-bg-color-s: 0%;
     --ct-bg-color-l: 100%;
-    --ct-bg-color: 0,0%,95%;
+    --ct-bg-color: 0,0%,92%;
     --ct-text-color: 38,9%,24%;
-    --ct-secondary-color: 203,48%,48%;
     --ct-primariy-color: 203,82%,35%;
-    --ct-accent-color: 203,48%,48%;
+    --ct-secondary-color: 203,48%,48%;
+    --ct-accent-color: 193,43%,54%;
 }
