@@ -77,6 +77,7 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 - [newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
 - [mono color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/momo.css)
 - [dracula color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/dracula.css)
+- [catppuccin macchiato color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-macchiato.css)
 
 The following color options will only affect custom theme `--ct-primariy-color` (required), `--ct-secondary-color` (required), `--ct-accent-color` (required), `--ct-text-color` (required), `--ct-bg-color-h` (optional), `--ct-bg-color-s` (optional), `--ct-bg-color-l` (optional), or `--ct-bg-color` (optional)
 
@@ -177,6 +178,8 @@ This pure css parallel blocks solution is base on elgatopanzon's great work. You
 - Curved edges over jagged edges
 - Reference Panels Style around each match rather than each document
 - Improved block ref styling
+
+**Caution: Styles may NOT up to date !**
 
 ![dark-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark.png)
 ![light-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/light.png)
