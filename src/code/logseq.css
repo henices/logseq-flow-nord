@@ -41,7 +41,7 @@
 }
 .block-ref:hover {
     cursor: pointer;
-    color: hsl(var(--cl-accent));
+    background-color: hsl(var(--cl-accent), 0.2);
     border-radius: var(--cl-border-radius);
     /*transition: 0.2s;*/
 }
