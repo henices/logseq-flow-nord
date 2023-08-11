@@ -143,8 +143,13 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
 .left-sidebar-inner a.item.active, .left-sidebar-inner a.item:active {
     color: hsl(var(--cl-text-color));
     opacity: 1;
-    background-color: hsl(var(--cl-text-color),0.1);
+    background-color: hsl(var(--cl-text-color), 0.1);
     border-radius: 4px;
+}
+
+.left-sidebar-inner .nav-content-item .bd ul a:hover,
+.left-sidebar-inner a.item:hover {
+    background-color: hsl(var(--cl-text-color), 0.1);
 }
 
 /* Setting up outer layer background color */
