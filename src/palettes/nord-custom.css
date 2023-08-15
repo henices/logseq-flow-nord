@@ -1,10 +1,14 @@
 @import '../code/base.css';
 
+:root {
+}
+
 .dark-theme,
 html[data-theme='dark'] {
     --background-color-h: var(--ct-bg-color-h, 222);
     --background-color-s: var(--ct-bg-color-s, 16%);
     --background-color-l: var(--ct-bg-color-l, 22%);
+    --cl-pdf-dark-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
     --cl-background: var(--ct-bg-color, var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.30));
     --cl-text-color: var(--ct-text-color, var(--nord-snow-storm-nord6));
     --cl-primary: var(--ct-primariy-color);
@@ -18,6 +22,7 @@ html[data-theme='light'] {
     --background-color-h: var(--ct-bg-color-h, 0);
     --background-color-s: var(--ct-bg-color-s, 0%);
     --background-color-l: var(--ct-bg-color-l, 100%);
+    --cl-pdf-light-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
     --cl-background: var(--ct-bg-color, var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) / 1.10));
     --cl-text-color: var(--ct-text-color, var(--nord-polar-night-nord0));
     --cl-primary: var(--ct-primariy-color);
