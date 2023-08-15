@@ -124,6 +124,10 @@ Block Color Styling
     opacity: 1;
 }
 
+.extensions__pdf-container[data-theme=dark] .pdfViewer .textLayer ::selection {
+    background-color: hsl(var(--cl-primary, --nord-frost-nord8));
+}
+
 .extensions__pdf-container .textLayer {
     -webkit-filter: invert(0%);
     filter: invert(0%);
