@@ -6,7 +6,7 @@
 
 /* start: parallel blocks */
 div[data-refs-self*="\"parallel-2\""], div[data-refs-self*="\"parallel-3\""], div[data-refs-self*="\"parallel-big\""], div[data-refs-self*="\"parallel-small\""] {
-    display: inline-flex;
+    display: inline-block;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
