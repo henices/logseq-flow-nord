@@ -1,8 +1,6 @@
 @import '../code/base.css';
 
 :root {
-    --cl-pdf-light-background: hsl(var(--nord-snow-storm-nord6));
-    --cl-pdf-dark-background: hsl(var(--nord-polar-night-nord0));
 }
 
 .white-theme,
@@ -11,6 +9,7 @@ html[data-theme='light'] {
     --background-color-h: 0;
     --background-color-s: 0%;
     --background-color-l: 100%;
+    --cl-pdf-light-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
     --cl-background: var(--nord-snow-storm-nord6);
     --cl-text-color: var(--nord-polar-night-nord0);
     --cl-primary: var(--nord-frost-nord10);
@@ -27,6 +26,7 @@ html[data-theme='dark'] {
     --background-color-h: 220; /* nord0 */
     --background-color-s: 16%;
     --background-color-l: 22%;
+    --cl-pdf-dark-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
     --cl-background: var(--nord-polar-night-nord1);
     --cl-text-color: var(--nord-snow-storm-nord6);
     --cl-primary: var(--nord-frost-nord8);
