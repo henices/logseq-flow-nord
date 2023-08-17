@@ -272,8 +272,8 @@ a.priority[href="#/page/C" i]::before {
     border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
     border-radius: var(--cl-checkbox-radius, 2px);
     opacity: var(--cl-checkbox-opacity, 1);
-    width: 14px;
-    height: 14px;
+    width: calc(var(--ls-font-size)*0.8);
+    height: calc(var(--ls-font-size)*0.8);
 }
 
 .form-checkbox:checked {
@@ -292,7 +292,7 @@ a.priority[href="#/page/C" i]::before {
 /* TASK NAMES */
 
 .block-marker {
-    font-size: inherit;
+    font-size: var(--ls-font-size);
     font-weight: 600;
     color: hsl(var(--cl-marker-color, --cl-secondary));
 }
