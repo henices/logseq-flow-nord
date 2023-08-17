@@ -484,11 +484,12 @@ mark.p-0.rounded-none {
     background-color: var(--bg-color) !important;
     border: 2px solid var(--bg-color-1);
 }
+/*
 .block-control {
     position: relative;
     top: -1px;
 }
-
+*/
 div[data-refs-self*='"card"'] {
     background-color: var(--bg-color-1);
     border-radius: 4px;
@@ -526,11 +527,14 @@ Breadcrumbs
 .lazy-visibility > .fade-enter > .my-2.color-level.px-2 > .flex.flex-col > .content > .flex-1.flex-row.foldable-title > .flex.flex-row.items-center > .block-control svg {
     fill: transparent;
 }
+
+/*
 .lazy-visibility > .fade-enter > .my-2.color-level.px-2 > .flex.flex-col > .content > .flex-1.flex-row.foldable-title > .flex.flex-row.items-center > .block-control {
     position: relative;
     top: 2px;
     left: 4px;
 }
+*/
 .my-2.color-level.px-2 .foldable-title:hover:before {
     color: hsl(var(--cl-primary));
 }

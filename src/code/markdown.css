@@ -322,7 +322,7 @@ a.priority[href="#/page/C" i]::before {
 .block-marker.WAIT:before,
 .block-marker.waiting:before,
 .block-marker.LATER:before {
-    font-size: var(--cl-marker-pre-size, 16px);
+    font-size: var(--cl-marker-pre-size, var(--ls-font-size));
     font-weight: 700;
     color: hsl(var(--cl-marker-color, --cl-secondary));
     opacity: 0.9;
@@ -379,10 +379,12 @@ h3.todo .block-marker.LATER:before {
     content: "L";
 }
 
+/*
 .mr-1.flex.flex-row.items-center.sm\:mr-2 {
     position: relative;
     top: 2px;
 }
+*/
 
 .page-property-value {
     color: hsl(var(--cl-text-color), 0.95);
@@ -395,7 +397,7 @@ h3.todo .block-marker.LATER:before {
     vertical-align: middle;
     font-size: 8px;
 }
-    
+
 .page-properties > div > .page-property-key {
     display: -webkit-inline-box;
     min-width: 220px;
@@ -403,7 +405,7 @@ h3.todo .block-marker.LATER:before {
     text-transform: capitalize;
     font-weight: 400;
 }
-    
+
 .page-properties {
       background: transparent !important;
       display: inline-block;
@@ -411,7 +413,7 @@ h3.todo .block-marker.LATER:before {
 .page-properties > div > span.mr-1 {
     display: none;
 }
-    
+
 .page-properties > div {
       padding: 2px 0px;
       display: flex;
@@ -877,6 +879,11 @@ span.inline.px-1.with-bg-color[style*="pink"] {
 .flex-1.flex-row.foldable-title .page-ref {
     font-size: 125%;
     font-weight: 600;
+}
+
+.block-control-wrap.is-order-list {
+    font-size: var(--ls-font-size);
+    height: auto;
 }
 
 /* Make left side panel darker */
