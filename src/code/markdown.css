@@ -323,9 +323,9 @@ a.priority[href="#/page/C" i]::before {
 .block-marker.waiting:before,
 .block-marker.LATER:before {
     font-size: var(--cl-marker-pre-size, var(--ls-font-size));
-    font-weight: 700;
+    font-weight: 600;
     color: hsl(var(--cl-marker-color, --cl-secondary));
-    opacity: 0.9;
+    opacity: 1;
 }
 
 h1.todo .block-marker.TODO:before,
