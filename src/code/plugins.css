@@ -7,11 +7,13 @@
 /* start: parallel blocks */
 div[data-refs-self*="\"parallel-2\""], div[data-refs-self*="\"parallel-3\""], div[data-refs-self*="\"parallel-big\""], div[data-refs-self*="\"parallel-small\""] {
     display: inline-block;
+    /*
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
+    */
 }
 div[data-refs-self*="\"parallel-2\""] > .flex.flex-row, div[data-refs-self*="\"parallel-3\""] > .flex.flex-row, div[data-refs-self*="\"parallel-big\""] > .flex.flex-row, div[data-refs-self*="\"parallel-small\""] > .flex.flex-row {
     min-width: 100%;
