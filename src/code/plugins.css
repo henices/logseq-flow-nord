@@ -5,17 +5,30 @@
  */
 
 /* start: parallel blocks */
-div[data-refs-self*="\"parallel-2\""], div[data-refs-self*="\"parallel-3\""], div[data-refs-self*="\"parallel-big\""], div[data-refs-self*="\"parallel-small\""] {
-    display: inline-block;
-    /*
+div[data-refs-self*="\"parallel-2\""],
+div[data-refs-self*="\"parallel-3\""],
+div[data-refs-self*="\"parallel-big\""],
+div[data-refs-self*="\"parallel-small\""] {
+    display:inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
     justify-content: flex-start;
-    */
 }
-div[data-refs-self*="\"parallel-2\""] > .flex.flex-row, div[data-refs-self*="\"parallel-3\""] > .flex.flex-row, div[data-refs-self*="\"parallel-big\""] > .flex.flex-row, div[data-refs-self*="\"parallel-small\""] > .flex.flex-row {
+
+div[data-refs-self*="\"parallel-2\""] > .block-children-container,
+div[data-refs-self*="\"parallel-3\""] > .block-children-container,
+div[data-refs-self*="\"parallel-big\""] > .block-children-container,
+div[data-refs-self*="\"parallel-small\""] > .block-children-container {
+    display: inline-block;
+    width: 100%;
+}
+
+div[data-refs-self*="\"parallel-2\""] > .flex.flex-row,
+div[data-refs-self*="\"parallel-3\""] > .flex.flex-row,
+div[data-refs-self*="\"parallel-big\""] > .flex.flex-row,
+div[data-refs-self*="\"parallel-small\""] > .flex.flex-row {
     min-width: 100%;
 }
 
@@ -23,7 +36,8 @@ div[data-refs-self*="\"parallel-2\""] {
     min-width: 50%;
     max-width: 50%;
 }
-div[data-refs-self*="\"parallel-3\""], div[data-refs-self*="\"parallel-small\""] {
+div[data-refs-self*="\"parallel-3\""],
+div[data-refs-self*="\"parallel-small\""] {
     min-width: 33.333%;
     max-width: 33.333%;
 }
@@ -31,7 +45,10 @@ div[data-refs-self*="\"parallel-big\""] {
     min-width: 66%;
     max-width: 66%;
 }
-.ls-block[data-refs-self*="parallel-2"] .block-content-wrapper .tag[data-ref*="parallel-2"], .ls-block[data-refs-self*="parallel-3"] .block-content-wrapper .tag[data-ref*="parallel-3"], .ls-block[data-refs-self*="parallel-small"] .block-content-wrapper .tag[data-ref*="parallel-small"], .ls-block[data-refs-self*="parallel-big"] .block-content-wrapper .tag[data-ref*="parallel-big"] {
+.ls-block[data-refs-self*="parallel-2"] .block-content-wrapper .tag[data-ref*="parallel-2"],
+.ls-block[data-refs-self*="parallel-3"] .block-content-wrapper .tag[data-ref*="parallel-3"],
+.ls-block[data-refs-self*="parallel-small"] .block-content-wrapper .tag[data-ref*="parallel-small"],
+.ls-block[data-refs-self*="parallel-big"] .block-content-wrapper .tag[data-ref*="parallel-big"] {
     display: none;
 }
 /* end: parallel blocks */
