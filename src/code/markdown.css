@@ -655,6 +655,7 @@ svg.h-4.w-4 {
 html[data-theme=light] input.form-input,
 html[data-theme=dark] input.form-input {
     background: hsl(var(--cl-background));
+    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.2));
 }
 
 /* Textarea  */
@@ -662,6 +663,7 @@ html[data-theme=dark] input.form-input {
 .dark-theme textarea,
 .light-theme textarea {
     background: hsl(var(--cl-background));
+    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.2));
 }
 
 /* Select */
@@ -669,6 +671,7 @@ html[data-theme=dark] input.form-input {
 .dark-theme select,
 .light-theme select {
     background: hsl(var(--cl-background));
+    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.2));
 }
 
 /* Tags */
