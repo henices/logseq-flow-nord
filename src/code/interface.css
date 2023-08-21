@@ -30,7 +30,7 @@
     background-color: var(--bg-color-1);
 }
 .menu-links-outer, .menu-links-wrapper, .dropdown-wrapper {
-    background-color: var(--bg-color-2);
+    background-color: var(--bg-color-1);
 }
 .menu-separator {
     border-color: var(--bg-color-2);
