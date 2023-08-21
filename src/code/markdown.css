@@ -275,7 +275,8 @@ a.priority[href="#/page/C" i]::before {
     border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.2));
     border-radius: var(--cl-checkbox-radius, 2px);
     opacity: var(--cl-checkbox-opacity, 1);
-    vertical-align: middle;
+    position: relative;
+    top: -2px;
 }
 
 .form-checkbox:checked {
