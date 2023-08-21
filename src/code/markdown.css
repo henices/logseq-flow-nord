@@ -234,7 +234,7 @@ html[data-theme='dark'] h1.title {
 /* === PRIORITIES === */
 a[priority]:not(a[priority=""])::before,
 a.priority::before {
-    font-size: 16px;
+    font-size: var(--ls-font-size);
     font-family: 'tabler-icons';
 }
 
@@ -248,18 +248,21 @@ a.priority {
 
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
+    font-size: var(--ls-font-size);
     content: "\f6e7";
     color: hsl(var(--nord-aurora-nord11));
 }
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
+    font-size: var(--ls-font-size);
     content: "\f6e0";
     color: hsl(var(--nord-aurora-nord12));
 }
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
+    font-size: var(--ls-font-size);
     content: "\f6e4";
     color: hsl(var(--nord-aurora-nord14));
 }
@@ -269,18 +272,17 @@ a.priority[href="#/page/C" i]::before {
     background-color: var(--bg-color-1);
     border: 1px solid hsl(var(--cl-text-color), 0.15);
     border-style: solid;
-    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
+    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.2));
     border-radius: var(--cl-checkbox-radius, 2px);
     opacity: var(--cl-checkbox-opacity, 1);
-    width: calc(var(--ls-font-size)*0.8);
-    height: calc(var(--ls-font-size)*0.8);
+    vertical-align: middle;
 }
 
 .form-checkbox:checked {
     background-color: var(--bg-color-6);
     border: 1px solid hsl(var(--cl-text-color), 0.15);
     border-style: solid;
-    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.3));
+    border-color: hsl(var(--cl-checkbox-border-color, var(--cl-text-color), 0.2));
     border-radius: var(--cl-checkbox-radius, 2px);
     opacity: 1;
 }
@@ -292,6 +294,7 @@ a.priority[href="#/page/C" i]::before {
 /* TASK NAMES */
 
 .block-marker {
+    padding: 0;
     font-size: var(--ls-font-size);
     font-weight: 600;
     color: hsl(var(--cl-marker-color, --cl-secondary));
