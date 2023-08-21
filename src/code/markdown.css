@@ -237,6 +237,7 @@ a.priority::before {
     font-size: var(--ls-font-size);
     font-family: 'tabler-icons';
     margin-right: 0.2em;
+    opacity: 0.8;
 }
 
 a[priority]:not(a[priority=""]),
