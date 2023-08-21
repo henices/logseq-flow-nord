@@ -236,6 +236,7 @@ a[priority]:not(a[priority=""])::before,
 a.priority::before {
     font-size: var(--ls-font-size);
     font-family: 'tabler-icons';
+    margin-right: 0.2em;
 }
 
 a[priority]:not(a[priority=""]),
@@ -249,21 +250,21 @@ a.priority {
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
     font-size: var(--ls-font-size);
-    content: "\f6e7";
+    content: "\f6fe";
     color: hsl(var(--nord-aurora-nord11));
 }
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
     font-size: var(--ls-font-size);
-    content: "\f6e0";
+    content: "\f6fc";
     color: hsl(var(--nord-aurora-nord12));
 }
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
     font-size: var(--ls-font-size);
-    content: "\f6e4";
+    content: "\f6f4";
     color: hsl(var(--nord-aurora-nord14));
 }
 
@@ -295,7 +296,6 @@ a.priority[href="#/page/C" i]::before {
 /* TASK NAMES */
 
 .block-marker {
-    padding: 0;
     font-size: var(--ls-font-size);
     font-weight: 600;
     color: hsl(var(--cl-marker-color, --cl-secondary));
