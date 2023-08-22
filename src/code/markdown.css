@@ -250,6 +250,8 @@ a.priority {
 
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
+    position: relative;
+    top: 1px;
     font-size: var(--ls-font-size);
     content: "\f6fe";
     color: hsl(var(--nord-aurora-nord11));
@@ -257,6 +259,8 @@ a.priority[href="#/page/A" i]::before {
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
+    position: relative;
+    top: 1px;
     font-size: var(--ls-font-size);
     content: "\f6fc";
     color: hsl(var(--nord-aurora-nord12));
@@ -264,6 +268,8 @@ a.priority[href="#/page/B" i]::before {
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
+    position: relative;
+    top: 1px;
     font-size: var(--ls-font-size);
     content: "\f6f4";
     color: hsl(var(--nord-aurora-nord14));
