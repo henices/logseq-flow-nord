@@ -31,10 +31,15 @@
 }*/
 
 :not(.whiteboard-shape) .block-ref {
+    /*
     border-bottom-style: dashed;
     border-bottom-color: hsl(var(--cl-text-color), 0.35);
+    */
+    text-decoration: underline dotted hsl(var(--cl-text-color), 0.35);
+    text-underline-offset: 4px;
     color: hsl(var(--cl-text-color), 0.9);
     background-color: hsl(var(--cl-accent), 0);
+    border-bottom: 0px;
     border-radius: 0px;
     opacity: 1;
     /* transition: 0.2s; */
