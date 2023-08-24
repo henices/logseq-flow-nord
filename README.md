@@ -11,6 +11,17 @@ As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is
 
 Bad3r, just wanted to let you know about the amazing NordTheme. When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
 
+## 🚀 Demo
+- Clean stylish theme that focuses on simplicity rather than flashy
+- Curved edges over jagged edges
+- Reference Panels Style around each match rather than each document
+- Improved block ref styling
+
+**Caution: Styles may NOT up to date !**
+
+![dark-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark.png)
+![light-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/light.png)
+
 ## 🚀 Features
 
 ### ⚙️  Custom Settings
@@ -174,18 +185,6 @@ https://github.com/henices/logseq-flow-nord/assets/929715/52d5d486-27fe-4f3a-aed
 This pure css parallel blocks solution is base on elgatopanzon's great work. You can now put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
 
 <img width="950" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/99b397fa-98a1-4e7f-bf6b-9a02708a3b00">
-
-
-## 🚀 Demo
-- Clean stylish theme that focuses on simplicity rather than flashy
-- Curved edges over jagged edges
-- Reference Panels Style around each match rather than each document
-- Improved block ref styling
-
-**Caution: Styles may NOT up to date !**
-
-![dark-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark.png)
-![light-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/light.png)
 
 ## ⌨️ Installation
 
