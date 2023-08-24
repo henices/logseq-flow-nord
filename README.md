@@ -71,6 +71,9 @@ The custom.css file can take the following options to tweak the visuals.
 
 The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
 
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/bcda46ac-6251-4a24-86a2-b1bdd7d9d083)
+
+
 - [monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
 - [gruvbox color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/gruvbox.css)
 - [bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
