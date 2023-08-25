@@ -84,11 +84,13 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/bcda46ac-6251-4a24-86a2-b1bdd7d9d083)
 
+[newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
+
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/4cd7eb10-ba18-404d-9069-a07f0359b5aa)
 
 - [monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
 - [gruvbox color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/gruvbox.css)
 - [bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
-- [newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
 - [mono color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/momo.css)
 - [dracula color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/dracula.css)
 - [catppuccin macchiato color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-macchiato.css)
