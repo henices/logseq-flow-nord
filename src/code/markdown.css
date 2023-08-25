@@ -93,7 +93,7 @@ mark>code:after {
 blockquote {
     background-color: hsl(var(--cl-background), 0.4);
     color: var(--ls-primary-text-color);
-    display: flex;
+    /*display: flex;*/
     /* padding-left: 0px; */
     border-left: 2px solid hsl(var(--cl-primary, var(--cl-text-color)), 0.6);
     padding-top: 15px;
@@ -104,6 +104,7 @@ blockquote {
     background-color: hsl(var(--cl-background), 0.35);
 }
 
+/*
 blockquote:before {
     content: "\efbe";
     font-family: 'tabler-icons';
@@ -117,6 +118,7 @@ blockquote:before {
     border-radius: 1px;
     font-size: calc(var(--ls-font-size) * 0.90);
 }
+*/
 
 /* === Font settings === */
 
