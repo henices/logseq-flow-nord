@@ -36,6 +36,7 @@
     font-family: var(--ls-font-family-code);
     border: 0px dashed hsl(var(--cl-text-color), 0.15);
     background-color: hsl(var(--cl-background));
+    word-spacing: 0;
 }
 
 /* Code */
@@ -46,6 +47,7 @@
   -webkit-text-size-adjust: 100% !important;
   -webkit-font-smoothing: antialiased !important;
   font-smoothing: antialiased !important;
+  word-spacing: 0;
 }
 
 /*:not(pre):not(mark)>code:before {
