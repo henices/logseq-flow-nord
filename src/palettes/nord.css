@@ -8,7 +8,7 @@
 html[data-theme='light'] {
     --background-color-h: 0;
     --background-color-s: 0%;
-    --background-color-l: 100%;
+    --background-color-l: 99.6%;
     --cl-pdf-light-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
     --cl-background: var(--nord-snow-storm-nord6);
     --cl-text-color: var(--nord-polar-night-nord0);
