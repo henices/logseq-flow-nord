@@ -15,14 +15,12 @@
   src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 
-/*
 @font-face { 
     font-family: 'tabler-icons';
     src: url('./tabler-icons.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-*/
 
 @font-face {
   font-family: "Only Emoji";
@@ -2439,3 +2437,4 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
 .dark-theme .cm-s-solarized .cm-header { color: #b48ead; }
 .dark-theme .cm-s-solarized .cm-link { color: #b48ead; }
 .dark-theme .cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
+a[priority]:not(a[priority=""]), a.priority { font-size: var(--ls-font-size) !important; margin-right: 0.5em !important;}
