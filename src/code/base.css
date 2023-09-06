@@ -20,14 +20,12 @@
   src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 
-/*
 @font-face { 
     font-family: 'tabler-icons';
     src: url('./tabler-icons.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-*/
 
 @font-face {
   font-family: "Only Emoji";
