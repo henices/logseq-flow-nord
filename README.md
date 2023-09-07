@@ -201,7 +201,7 @@ Manually:
 - Clone or Download the latest [release](https://github.com/henices/logseq-flow-nord/releases)
   - If downloaded unpack the ZIP contents to a safe location
 - In logseq enable the developer mode
-- Open the Plugin Manager window
+- Open the Plugin Manager window  ( ... -> Plugins )
 - Click on "Load unpacked plugin"
 - Navigatge to the folder you either cloned or unpacked
 
@@ -210,6 +210,12 @@ Logseq Marketplace:
 - Click on the "Themes" tab
 - Search for Flow Nord Theme
 - Click on the "Install" button.
+
+Another way to adopt this theme is to use jsDelivr CDN by adding the following line to your custom.css. You can also change the @main part to use the latest version.
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
+```
 
 ## Recommend Logseq Plugins
 
