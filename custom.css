@@ -80,7 +80,7 @@ Base Root Settings
     --ls-block-bullet-threading-width: var(--bullet-threading-width);
     */
     --ls-main-content-max-width: var(--cl-page-width, 1000px);
-    --ls-main-content-max-width-wide: var(--cl-page-max-width, 95%);
+    --ls-main-content-max-width-wide: var(--cl-page-max-width, 100%);
     /*--ls-page-title-size: 28px;*/
     --ls-left-sidebar-width: 220px;
     --ls-right-sidebar-width: 30%;
