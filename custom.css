@@ -80,7 +80,7 @@ Base Root Settings
     --ls-block-bullet-threading-width: var(--bullet-threading-width);
     */
     --ls-main-content-max-width: var(--cl-page-width, 1000px);
-    --ls-main-content-max-width-wide: var(--cl-page-max-width, 100%);
+    --ls-main-content-max-width-wide: var(--cl-page-max-width, 1600px);
     /*--ls-page-title-size: 28px;*/
     --ls-left-sidebar-width: 220px;
     --ls-right-sidebar-width: 30%;
@@ -2324,7 +2324,16 @@ div[data-refs-self*="\"parallel-big\""] {
     display: none;
 }
 /* end: parallel blocks */
-@import '../code/base.css';
+
+/******************************
+**         Banners           **
+******************************/
+body:is([data-page="page"],[data-page="home"]).is-banner-active :not(.ls-wide-mode) #banner {
+    max-width: var(--ls-main-content-max-width);
+}
+body:is([data-page="page"],[data-page="home"]).is-banner-active .ls-wide-mode #banner {
+    max-width: var(--ls-main-content-max-width-wide);
+}
 
 :root {
 }
