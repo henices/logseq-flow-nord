@@ -52,3 +52,13 @@ div[data-refs-self*="\"parallel-big\""] {
     display: none;
 }
 /* end: parallel blocks */
+
+/******************************
+**         Banners           **
+******************************/
+body:is([data-page="page"],[data-page="home"]).is-banner-active :not(.ls-wide-mode) #banner {
+    max-width: var(--ls-main-content-max-width);
+}
+body:is([data-page="page"],[data-page="home"]).is-banner-active .ls-wide-mode #banner {
+    max-width: var(--ls-main-content-max-width-wide);
+}
