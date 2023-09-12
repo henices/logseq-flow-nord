@@ -241,13 +241,13 @@ a.priority::before {
     font-size: var(--ls-font-size);
     font-family: 'tabler-icons';
     margin-right: 0.2em;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 a[priority]:not(a[priority=""]),
 a.priority {
     font-size: 0px;
-    opacity: 0.8;
+    opacity: 0.9;
     font-weight: 500;
     margin-right: 1px !important;
 }
