@@ -19,8 +19,9 @@ Bad3r, just wanted to let you know about the amazing NordTheme. When combined wi
 
 **Caution: Styles may NOT up to date !**
 
-![dark-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark.png)
-![light-themes](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/light.png)
+![dark-themes-1](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark-1.png)
+![dark-themes-2](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark-2.png)
+![dark-themes-3](https://raw.githubusercontent.com/henices/logseq-flow-nord/main/.images/dark-3.png)
 
 ## 🚀 Features
 
