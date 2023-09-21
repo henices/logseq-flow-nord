@@ -1,5 +1,5 @@
 # 🧠 Logseq Flow Nord Theme
-A minimal theme that focuses on a clean and sleek interface that's soft on the edges and comes with [NordTheme](https://www.nordtheme.com).
+A minimal theme that focuses on a clean and sleek interface that's soft on the edges.
 
 ![NordTheme-wallpaper](https://github.com/henices/logseq-flow-nord/assets/929715/b9361f21-543d-4725-b9b0-c50f11d07a65)
 
@@ -9,7 +9,7 @@ The logseq-Flow theme was originally developed by a GitHub user named nmartin84.
 
 As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is my favorite theme. Despite its unmaintained state, I see this as an opportunity for new beginnings in its development.
 
-Bad3r, just wanted to let you know about the amazing NordTheme. When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
+Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nordtheme.com). When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
 
 ## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
