@@ -11,7 +11,7 @@ html[data-theme='dark'] {
     --cl-pdf-dark-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
     --cl-background: var(--ct-bg-color, var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.30));
     --cl-text-color: var(--ct-text-color, var(--nord-snow-storm-nord6));
-    --cl-primary: var(--ct-primariy-color);
+    --cl-primary: var(--ct-primary-color, var(--ct-primariy-color));
     --cl-secondary: var(--ct-secondary-color);
     --cl-accent: var(--ct-accent-color);
 }
@@ -25,7 +25,7 @@ html[data-theme='light'] {
     --cl-pdf-light-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
     --cl-background: var(--ct-bg-color, var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) / 1.10));
     --cl-text-color: var(--ct-text-color, var(--nord-polar-night-nord0));
-    --cl-primary: var(--ct-primariy-color);
+    --cl-primary: var(--ct-primary-color, var(--ct-primariy-color));
     --cl-secondary: var(--ct-secondary-color);
     --cl-accent: var(--ct-accent-color);
 }
