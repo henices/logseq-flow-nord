@@ -2400,11 +2400,11 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
 .light-theme h1.title {
     color: hsl(var(--nord-polar-night-nord3)) !important;
 }
-*/
 
 .dark-theme h1.title {
     color: hsl(var(--nord-frost-nord7)) !important;
 }
+*/
 
 .light-theme .cm-s-solarized .cm-atom { color: #aa759f; }
 .light-theme .cm-s-solarized .cm-number { color: #aa759f; }
