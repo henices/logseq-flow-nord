@@ -139,7 +139,7 @@ https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f
 
 ### Custom Color Palette in Mobile
 
-Add the following code to custom.css, you can set color palette
+Add the following code to custom.css, you can set theme to github color palette.
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
