@@ -86,7 +86,7 @@ Base Root Settings
     --ls-main-content-max-width: var(--cl-page-width, 1000px);
     --ls-main-content-max-width-wide: var(--cl-page-max-width, 1600px);
     /*--ls-page-title-size: 28px;*/
-    --ls-left-sidebar-width: 220px;
+    --ls-left-sidebar-width: 240px;
     --ls-right-sidebar-width: 30%;
     /* General Settings */
     --cl-box-shadow: rgba(23, 42, 53, 0.1) 0 1px 2px 0;
