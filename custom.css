@@ -73,8 +73,7 @@ Base Root Settings
     --ls-font-size: var(--cl-font-size, 16px);
     --ls-font-weight: var(--cl-font-weight, 420);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
-    --ls-line-height: var(--ct-line-height, 1.5);
-    --cl-block-bullet-fix: 20px;
+    --ls-line-height: var(--cl-line-height, 1.5);
     /*
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);
     --ls-block-bullet-threading-width: var(--bullet-threading-width);
@@ -221,7 +220,7 @@ html[data-theme='dark'] {
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: hsl(var(--cl-block-bullet-border-color, var(--cl-text-color), 0.1));
     --ls-block-bullet-references-border-color: hsl(var(--cl-primary), 0.1);
-    --ls-block-bullet-color: hsl(var(--cl-block-bullet-color, var(--cl-text-color), 0.5));
+    --ls-block-bullet-color: hsl(var(--cl-block-bullet-color, var(--cl-text-color), 0.4));
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
     --ls-page-checkbox-color: var(--cl-transparent-text);
@@ -441,10 +440,6 @@ Base Settings
 }
 */
 
-/* Unknown */
-.ls-block .ls-block > div > div.items-center::before {
-    bottom: 56% !important;
-}
 /* Adjusting block guidelines */
 .block-children-left-border:hover {
     background-color: hsl(var(--cl-primary), 1);
@@ -699,9 +694,9 @@ Parent Block Header Style
     color: var(--ls-primary-text-color);
     display: flex;
     padding-left: 0px;
-    border-left: 2px solid hsl(var(--cl-secondary));
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-left: 4px solid hsl(var(--cl-secondary));
+    padding-top: 10px;
+    padding-bottom: 10px;
     overflow: unset;
     border-radius: 0px;
 }
@@ -790,9 +785,10 @@ blockquote {
     color: var(--ls-primary-text-color);
     /*display: flex;*/
     /* padding-left: 0px; */
-    border-left: 2px solid hsl(var(--cl-primary, var(--cl-text-color)), 0.6);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-left: 4px solid hsl(var(--cl-primary, var(--cl-text-color)), 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: var(--ls-font-size);
 }
 
 .dark-theme blockquote {
@@ -1152,9 +1148,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #448aff;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.note:before {
@@ -1176,9 +1172,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #1ebfa5;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.tip:before {
@@ -1200,9 +1196,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #ff5252;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.important:before {
@@ -1224,9 +1220,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #ff9100;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items:is(.warning, .caution):before {
@@ -1248,9 +1244,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #7c4dff;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.pinned:before {
@@ -1950,10 +1946,6 @@ End of Live Query Styler
 
 @media (hover: hover) {
 
-    body {
-        letter-spacing: -0.00622354em;
-    }
-
     .left-sidebar-inner>div>nav {
         margin-left: 0px !important;
     }
@@ -2229,7 +2221,7 @@ span.mx-2.opacity-50:before {
     content: "\ea61";
     font-family: 'tabler-icons';
     vertical-align: bottom;
-    color: hsl(var(--cl-text-color), 0.4)
+    color: hsl(var(--cl-text-color), 0.4);
 }
 /* Adds some color to the ellipsis */
 .breadcrumb.block-parents.flex-row.flex-1.my-2 > .opacity-70 {
@@ -2271,6 +2263,10 @@ span.mx-2.opacity-50:before {
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 16px;
+}
+
+.block-main-container .bullet-container .bullet {
+    font-size: var(--ls-font-size);
 }
 
 /* This is a simple way to put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
