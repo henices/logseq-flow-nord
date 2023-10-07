@@ -8,9 +8,9 @@
     color: var(--ls-primary-text-color);
     display: flex;
     padding-left: 0px;
-    border-left: 2px solid hsl(var(--cl-secondary));
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-left: 4px solid hsl(var(--cl-secondary));
+    padding-top: 10px;
+    padding-bottom: 10px;
     overflow: unset;
     border-radius: 0px;
 }
@@ -99,9 +99,10 @@ blockquote {
     color: var(--ls-primary-text-color);
     /*display: flex;*/
     /* padding-left: 0px; */
-    border-left: 2px solid hsl(var(--cl-primary, var(--cl-text-color)), 0.6);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border-left: 4px solid hsl(var(--cl-primary, var(--cl-text-color)), 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: var(--ls-font-size);
 }
 
 .dark-theme blockquote {
@@ -461,9 +462,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #448aff;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.note:before {
@@ -485,9 +486,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #1ebfa5;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.tip:before {
@@ -509,9 +510,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #ff5252;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.important:before {
@@ -533,9 +534,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #ff9100;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items:is(.warning, .caution):before {
@@ -557,9 +558,9 @@ h3.todo .block-marker.LATER:before {
     display: flex;
     padding-left: 0px;
     border-left: 2px solid #7c4dff;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 .flex.flex-row.admonitionblock.align-items.pinned:before {
@@ -904,7 +905,6 @@ span.inline.px-1.with-bg-color[style*="pink"] {
 
 .block-control-wrap.is-order-list {
     font-size: var(--ls-font-size);
-    height: auto;
 }
 
 /* Make left side panel darker */
