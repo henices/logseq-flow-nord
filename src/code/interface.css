@@ -46,10 +46,6 @@
 
 @media (hover: hover) {
 
-    body {
-        letter-spacing: -0.00622354em;
-    }
-
     .left-sidebar-inner>div>nav {
         margin-left: 0px !important;
     }
@@ -325,7 +321,7 @@ span.mx-2.opacity-50:before {
     content: "\ea61";
     font-family: 'tabler-icons';
     vertical-align: bottom;
-    color: hsl(var(--cl-text-color), 0.4)
+    color: hsl(var(--cl-text-color), 0.4);
 }
 /* Adds some color to the ellipsis */
 .breadcrumb.block-parents.flex-row.flex-1.my-2 > .opacity-70 {
@@ -367,4 +363,8 @@ span.mx-2.opacity-50:before {
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 16px;
+}
+
+.block-main-container .bullet-container .bullet {
+    font-size: var(--ls-font-size);
 }
