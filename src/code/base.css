@@ -79,7 +79,6 @@ Base Root Settings
     --ls-font-weight: var(--cl-font-weight, 420);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
     --ls-line-height: var(--cl-line-height, 1.5);
-    --cl-block-bullet-fix: 20px;
     /*
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);
     --ls-block-bullet-threading-width: var(--bullet-threading-width);
@@ -226,7 +225,7 @@ html[data-theme='dark'] {
     --ls-slide-background-color: var(--ls-primary-background-color);
     --ls-block-bullet-border-color: hsl(var(--cl-block-bullet-border-color, var(--cl-text-color), 0.1));
     --ls-block-bullet-references-border-color: hsl(var(--cl-primary), 0.1);
-    --ls-block-bullet-color: hsl(var(--cl-block-bullet-color, var(--cl-text-color), 0.5));
+    --ls-block-bullet-color: hsl(var(--cl-block-bullet-color, var(--cl-text-color), 0.4));
     --ls-block-highlight-color: var(--color-level-3);
     --ls-selection-background-color: hsl(var(--cl-selected-background-color, var(--cl-primary), 0.1));
     --ls-page-checkbox-color: var(--cl-transparent-text);
@@ -446,10 +445,6 @@ Base Settings
 }
 */
 
-/* Unknown */
-.ls-block .ls-block > div > div.items-center::before {
-    bottom: 56% !important;
-}
 /* Adjusting block guidelines */
 .block-children-left-border:hover {
     background-color: hsl(var(--cl-primary), 1);
