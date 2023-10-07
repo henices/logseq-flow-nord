@@ -905,6 +905,7 @@ span.inline.px-1.with-bg-color[style*="pink"] {
 
 .block-control-wrap.is-order-list {
     font-size: var(--ls-font-size);
+    height: auto;
 }
 
 /* Make left side panel darker */
