@@ -148,6 +148,10 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     background-color: hsl(var(--cl-text-color), 0.1);
 }
 
+#left-sidebar a.item .ui__icon, #left-sidebar .header a .ui__icon {
+    color: hsl(var(--cl-primary));
+}
+
 /* Setting up outer layer background color */
 /*.cp__sidebar-main-layout, #app-container, .left-sidebar-inner {
     background-color: var(--ls-secondary-background-color);
@@ -365,6 +369,17 @@ span.mx-2.opacity-50:before {
     border-radius: 16px;
 }
 
+/*******************************
+ * Bullet           **
+ * *****************************/
+
 .block-main-container .bullet-container .bullet {
     font-size: var(--ls-font-size);
+}
+
+/*******************************
+ * Menu             **
+ * ****************************/
+.menu-links-wrapper .ui__icon {
+    color: hsl(var(--cl-primary));
 }
