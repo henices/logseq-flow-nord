@@ -32,5 +32,9 @@ html[data-theme='light'] {
 
 .dark-theme h1.title,
 .light-theme h1.title {
-    color: hsl(var(--ct-title-text-color, var(--ct-primary-color))) !important;
+    color: hsl(var(--ct-title-text-color, var(--cl-primary-color))) !important;
+}
+
+.external-link {
+    color: hsl(var(--ct-external-link-color, var(--cl-primary-color))) !important;
 }
