@@ -29,3 +29,8 @@ html[data-theme='light'] {
     --cl-secondary: var(--ct-secondary-color);
     --cl-accent: var(--ct-accent-color);
 }
+
+.dark-theme h1.title,
+.light-theme h1.title {
+    color: hsl(var(--ct-title-text-color, var(--ct-primary-color))) !important;
+}
