@@ -137,6 +137,11 @@ html[data-theme='light'] {
 
 https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
+
+https://github.com/henices/logseq-flow-nord/assets/929715/b9eef3ec-31b5-43ff-aebf-40d78fa11e2a
+
+
+
 ### Custom Color Palette in Mobile
 
 Add the following code to custom.css, you can set theme to github color palette.
