@@ -1,0 +1,14 @@
+@import '../code/base.css';
+
+.white-theme, html[data-theme='light'] {
+    --ct-bg-color-h: 37;
+    --ct-bg-color-s: 22%;
+    --ct-bg-color-l: 88%;
+    --ct-bg-color: 39, 22%, 82%;
+    --ct-text-color: 38, 9%, 24%;
+    --ct-primary-color: 0, 26%, 49%;
+    --ct-secondary-color: 30, 12%, 51%;
+    --ct-accent-color: 358, 100%, 31%;
+    --ct-title-text-color: 36, 28%, 17%;
+    --ct-external-link-color: 106, 11%, 47%;
+}
