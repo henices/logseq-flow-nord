@@ -104,6 +104,7 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 
 The following color options will only affect custom theme `--ct-primariy-color` (required), `--ct-secondary-color` (required), `--ct-accent-color` (required), `--ct-text-color` (required), `--ct-bg-color-h` (optional), `--ct-bg-color-s` (optional), `--ct-bg-color-l` (optional), `--ct-bg-color` (optional), `--ct-title-text-color` (optional), or `--ct-external-link-color` (optional)
 
+custom.css
 
 ```css
 
@@ -137,10 +138,16 @@ html[data-theme='light'] {
 
 https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
+Another way to use custom theme is to use jsdelivr CDN.
+
+custom.css
+
+```
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/catppuccin-macchiato.css");
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/sepia.css");
+```
 
 https://github.com/henices/logseq-flow-nord/assets/929715/b9eef3ec-31b5-43ff-aebf-40d78fa11e2a
-
-
 
 ### Custom Color Palette in Mobile
 
