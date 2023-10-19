@@ -2048,6 +2048,10 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     background-color: hsl(var(--cl-text-color), 0.1);
 }
 
+#left-sidebar a.item .ui__icon, #left-sidebar .header a .ui__icon {
+    color: hsl(var(--cl-primary));
+}
+
 /* Setting up outer layer background color */
 /*.cp__sidebar-main-layout, #app-container, .left-sidebar-inner {
     background-color: var(--ls-secondary-background-color);
@@ -2265,8 +2269,19 @@ span.mx-2.opacity-50:before {
     border-radius: 16px;
 }
 
+/*******************************
+ * Bullet           **
+ * *****************************/
+
 .block-main-container .bullet-container .bullet {
     font-size: var(--ls-font-size);
+}
+
+/*******************************
+ * Menu             **
+ * ****************************/
+.menu-links-wrapper .ui__icon {
+    color: hsl(var(--cl-primary));
 }
 
 /* This is a simple way to put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
@@ -2336,114 +2351,40 @@ body:is([data-page="page"],[data-page="home"]).is-banner-active .ls-wide-mode #b
 :root {
 }
 
+.dark-theme,
+html[data-theme='dark'] {
+    --background-color-h: var(--ct-bg-color-h, 222);
+    --background-color-s: var(--ct-bg-color-s, 16%);
+    --background-color-l: var(--ct-bg-color-l, 22%);
+    --cl-pdf-dark-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
+    --cl-background: var(--ct-bg-color, var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) * 1.30));
+    --cl-text-color: var(--ct-text-color, var(--nord-snow-storm-nord6));
+    --cl-primary: var(--ct-primary-color, var(--ct-primariy-color));
+    --cl-secondary: var(--ct-secondary-color);
+    --cl-accent: var(--ct-accent-color);
+}
+
 .white-theme,
 .light-theme,
 html[data-theme='light'] {
-    --background-color-h: 0;
-    --background-color-s: 0%;
-    --background-color-l: 99.61%;
+    --background-color-h: var(--ct-bg-color-h, 0);
+    --background-color-s: var(--ct-bg-color-s, 0%);
+    --background-color-l: var(--ct-bg-color-l, 100%);
     --cl-pdf-light-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
-    --cl-background: var(--nord-snow-storm-nord6);
-    --cl-text-color: var(--nord-polar-night-nord0);
-    --cl-primary: var(--nord-frost-nord10);
-    --cl-secondary: var(--nord-polar-night-nord3);
-    --cl-accent: var(--nord-frost-nord8);
-    /*
-    --bullet-threading-active-color: #D08770;
-    --bullet-threading-width: 2px;
-    */
+    --cl-background: var(--ct-bg-color, var(--background-color-h), var(--background-color-s), calc(var(--background-color-l) / 1.10));
+    --cl-text-color: var(--ct-text-color, var(--nord-polar-night-nord0));
+    --cl-primary: var(--ct-primary-color, var(--ct-primariy-color));
+    --cl-secondary: var(--ct-secondary-color);
+    --cl-accent: var(--ct-accent-color);
 }
 
-.dark-theme,
-html[data-theme='dark'] {
-    --background-color-h: 220; /* nord0 */
-    --background-color-s: 16%;
-    --background-color-l: 22%;
-    --cl-pdf-dark-background: hsl(var(--background-color-h),var(--background-color-s),var(--background-color-l));
-    --cl-background: var(--nord-polar-night-nord1);
-    --cl-text-color: var(--nord-snow-storm-nord6);
-    --cl-primary: var(--nord-frost-nord8);
-    --cl-secondary: var(--nord-snow-storm-nord4);
-    --cl-accent: var(--nord-frost-nord10);
-    /*
-    --bullet-threading-active-color: #D08770;
-    --bullet-threading-width: 2px;
-    */
-}
-
-/*
-a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
-    color: hsl(var(--nord-aurora-nord11));
-}
-a[priority="B"]::before, a.priority[href="#/page/B" i]::before {
-    color: hsl(var(--nord-aurora-nord12));
-}
-a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
-    color: hsl(var(--nord-aurora-nord14));
-}
-*/
-
-.dark-theme .left-sidebar-inner.flex-1.flex.flex-col {
-    background-color: hsl(var(--nord-polar-night-nord1));
-    color: hsl(var(--cl-text-color));
-}
-
-.light-theme .left-sidebar-inner.flex-1.flex.flex-col {
-    background-color: hsl(var(--nord-snow-storm-nord6));
-    color: hsl(var(--cl-text-color));
-}
-/*
+.dark-theme h1.title,
 .light-theme h1.title {
-    color: hsl(var(--nord-polar-night-nord3)) !important;
+    color: hsl(var(--ct-title-text-color, var(--cl-primary))) !important;
 }
 
-.dark-theme h1.title {
-    color: hsl(var(--nord-frost-nord7)) !important;
+.dark-theme .external-link,
+.light-theme .external-link {
+    color: hsl(var(--ct-external-link-color, var(--cl-primary)));
 }
-*/
-
-.light-theme .cm-s-solarized .cm-atom { color: #aa759f; }
-.light-theme .cm-s-solarized .cm-number { color: #aa759f; }
-.light-theme .cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
-.light-theme .cm-s-solarized .cm-comment.cm-def { color: #bc9262; }
-.light-theme .cm-s-solarized .cm-comment.cm-tag { color: #bc6283; }
-.light-theme .cm-s-solarized .cm-comment.cm-type { color: #5998a6; }
-.light-theme .cm-s-solarized .cm-keyword { color: #5E81AC; }
-.light-theme .cm-s-solarized .cm-builtin { color: #5E81AC; }
-.light-theme .cm-s-solarized .cm-bracket { color: #81A1C1; }
-.light-theme .cm-s-solarized .cm-tag { color: #bf616a; }
-.light-theme .cm-s-solarized .cm-header { color: #b48ead; }
-.light-theme .cm-s-solarized .cm-link { color: #b48ead; }
-.light-theme .cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
-.light-theme .cm-s-solarized .cm-def { color: #2aa198; }
-.light-theme .cm-s-solarized .cm-variable { color: hsl(var(--nord-polar-night-nord1)); }
-.light-theme .cm-s-solarized .cm-variable-2 { color: #b58900; }
-.light-theme .cm-s-solarized .cm-variable-3, .cm-s-solarized .cm-type { color: #6c71c4; }
-.light-theme .cm-s-solarized .cm-property { color: #2aa198; }
-.light-theme .cm-s-solarized .cm-operator { color: #6c71c4; }
-.light-theme .cm-s-solarized .cm-attribute { color: #2aa198; }
-.light-theme .cm-s-solarized .cm-string { color: #859900; }
-.light-theme .cm-s-solarized .cm-string-2 { color: #b58900; }
-
-.dark-theme .cm-s-solarized .cm-atom { color: #b48ead; }
-.dark-theme .cm-s-solarized .cm-number { color: #b48ead; }
-.dark-theme .cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
-.dark-theme .cm-s-solarized .cm-comment.cm-def { color: #bc9262; }
-.dark-theme .cm-s-solarized .cm-comment.cm-tag { color: #bc6283; }
-.dark-theme .cm-s-solarized .cm-comment.cm-type { color: #5998a6; }
-.dark-theme .cm-s-solarized .cm-property,
-.dark-theme .cm-s-solarized .cm-attribute { color: #8FBCBB; }
-.dark-theme .cm-s-solarized .cm-keyword { color: #81A1C1; }
-.dark-theme .cm-s-solarized .cm-builtin { color: #81A1C1; }
-.dark-theme .cm-s-solarized .cm-string { color: #A3BE8C; }
-.dark-theme .cm-s-solarized .cm-variable { color: #d8dee9; }
-.dark-theme .cm-s-solarized .cm-variable-2 { color: #d8dee9; }
-.dark-theme .cm-s-solarized .cm-variable-3,
-.dark-theme .cm-s-solarized .cm-type { color: #d8dee9; }
-.dark-theme .cm-s-solarized .cm-def { color: #8FBCBB; }
-.dark-theme .cm-s-solarized .cm-bracket { color: #81A1C1; }
-.dark-theme .cm-s-solarized .cm-tag { color: #bf616a; }
-.dark-theme .cm-s-solarized .cm-header { color: #b48ead; }
-.dark-theme .cm-s-solarized .cm-link { color: #b48ead; }
-.dark-theme .cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
 a[priority]:not(a[priority=""]), a.priority { font-size: var(--ls-font-size) !important; margin-right: 0.5em !important;}
