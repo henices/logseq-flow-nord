@@ -154,36 +154,13 @@ https://github.com/henices/logseq-flow-nord/assets/929715/b9eef3ec-31b5-43ff-aeb
 Add the following code to custom.css, you can set theme to github color palette.
 
 ```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/catppuccin-latte.css");
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
 
 :root {
   --cl-font-size: 16px;
   --cl-line-height: 1.2;
   --ls-page-title-size: 24px;
-}
-
-.dark-theme,
-html[data-theme='dark'] {
-  --background-color-h: 210;
-  --background-color-s: 12%;
-  --background-color-l: 16%;
-  --cl-background: 210, 12%, 26%;
-  --cl-text-color: 0,0%,100%;
-  --cl-primary: 212, 100%, 74%;
-  --cl-secondary: 261, 76%, 76%;
-  --cl-accent: 135, 68%, 72%;
-}
-
-.white-theme,
-html[data-theme='light'] {
-  --background-color-h: 0;
-  --background-color-s: 0%;
-  --background-color-l: 100%;
-  --cl-background: 0,0%,90%;
-  --cl-text-color: 210, 12%, 16%;
-  --cl-primary: 212, 100%, 39%;
-  --cl-secondary: 261, 51%, 51%;
-  --cl-accent: 134, 60%, 33%;
 }
 ```
 
