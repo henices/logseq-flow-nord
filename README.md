@@ -164,7 +164,7 @@ Add the following code to custom.css, you can set theme to github color palette.
 }
 ```
 
-Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/v0.2.9/src/palettes
+Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/main/src/palettes
 
 
 ### Custom Syntax highlight
