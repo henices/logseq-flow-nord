@@ -67,6 +67,8 @@ body:is([data-page="page"],[data-page="home"]).is-banner-active .ls-wide-mode #b
 /******************************
 **         tabs              **
 ******************************/
+/*
 .light .logseq-tab[data-active=true], .dark .logseq-tab[data-active=true] {
     background-color: var(--bg-color-1) !important;
 }
+*/
