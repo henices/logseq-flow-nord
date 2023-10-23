@@ -166,6 +166,11 @@ Add the following code to custom.css, you can set theme to github color palette.
 
 Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/main/src/palettes
 
+If you want to use Flow Theme nord color palette, use the follwing code in the custom.css
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
+```
 
 ### Custom Syntax highlight
 
