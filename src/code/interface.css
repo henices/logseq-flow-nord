@@ -131,7 +131,6 @@
 a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th {
     color: hsl(var(--cl-text-color));
     opacity: 1;
-    margin-left: -10px;
 }
 a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     opacity: 1;
