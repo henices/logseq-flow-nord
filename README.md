@@ -96,6 +96,10 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/d4b84230-6f46-4b39-9576-c54270a13bb4)
 
+[sepia color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/sepia.css)
+
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/9194fad5-6350-4fbc-8edd-87d5eb9ebd0a)
+
 
 - [monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
 - [bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
