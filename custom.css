@@ -2358,6 +2358,8 @@ body:is([data-page="page"],[data-page="home"]).is-banner-active .ls-wide-mode #b
 */
 
 :root {
+    --cl-title-text-color: var(--ct-title-text-color, var(--cl-primary, var(--cl-text-color)));
+    --cl-external-link-color: var(--ct-external-link-color, var(--cl-primary, var(--cl-text-color)));
 }
 
 .dark-theme,
@@ -2389,11 +2391,11 @@ html[data-theme='light'] {
 
 .dark-theme h1.title,
 .light-theme h1.title {
-    color: hsl(var(--ct-title-text-color, var(--cl-primary))) !important;
+    color: hsl(var(--cl-title-text-color)) !important;
 }
 
 .dark-theme .external-link,
 .light-theme .external-link {
-    color: hsl(var(--ct-external-link-color, var(--cl-primary)));
+    color: hsl(var(--cl-external-link-color));
 }
 a[priority]:not(a[priority=""]), a.priority { font-size: var(--ls-font-size) !important; margin-right: 0.5em !important;}
