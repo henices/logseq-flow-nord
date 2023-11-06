@@ -84,10 +84,6 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/bcda46ac-6251-4a24-86a2-b1bdd7d9d083)
 
-[newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/4cd7eb10-ba18-404d-9069-a07f0359b5aa)
-
 [mono color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/momo.css)
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/bdda72b7-cc04-41ff-b23d-9933a6735ef5)
@@ -103,6 +99,10 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 [sepia2 color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/sepia2.css)
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/49b4ea36-2fdf-420b-b449-32854f798a3a)
+
+[newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
+
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/4cd7eb10-ba18-404d-9069-a07f0359b5aa)
 
 
 - [monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
