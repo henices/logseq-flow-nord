@@ -2475,4 +2475,3 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
 .dark-theme .cm-s-solarized .cm-header { color: #b48ead; }
 .dark-theme .cm-s-solarized .cm-link { color: #b48ead; }
 .dark-theme .cm-s-solarized .cm-error { background: #bf616a; color: #f8f8f0; }
-a[priority]:not(a[priority=""]), a.priority { font-size: var(--ls-font-size) !important; margin-right: 0.5em !important;}
