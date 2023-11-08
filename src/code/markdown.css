@@ -241,10 +241,21 @@ html[data-theme='dark'] h1.title {
 /* === PRIORITIES === */
 a[priority]:not(a[priority=""])::before,
 a.priority::before {
-    font-size: var(--ls-font-size);
-    font-family: 'tabler-icons';
+    color: hsl(var(--nord-polar-night-nord0));
+    font-weight: 600;
+}
+
+a.priority::before {
     margin-right: 0.2em;
-    opacity: 0.9;
+    transform: translateY(-1px);
+    border: 1px solid hsl(var(--cl-text-color), 0.15);
+    border-radius: var(--cl-checkbox-radius, 2px);
+    height: calc(var(--ls-font-size) + 4px);
+    width: calc(var(--ls-font-size) + 4px);
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a[priority]:not(a[priority=""]),
@@ -257,29 +268,23 @@ a.priority {
 
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
-    position: relative;
-    top: 1px;
-    font-size: var(--ls-font-size);
-    content: "\f6fe";
-    color: hsl(var(--nord-aurora-nord11));
+    font-size: calc(var(--ls-font-size)*0.9);
+    content: "A";
+    background: hsl(var(--nord-aurora-nord11));
 }
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
-    position: relative;
-    top: 1px;
-    font-size: var(--ls-font-size);
-    content: "\f6fc";
-    color: hsl(var(--nord-aurora-nord12));
+    font-size: calc(var(--ls-font-size)*0.9);
+    content: "B";
+    background: hsl(var(--nord-aurora-nord12));
 }
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
-    position: relative;
-    top: 1px;
-    font-size: var(--ls-font-size);
-    content: "\f6f4";
-    color: hsl(var(--nord-aurora-nord14));
+    font-size: calc(var(--ls-font-size)*0.9);
+    content: "C";
+    background: hsl(var(--nord-aurora-nord14));
 }
 
 /*  === Checkboxes ===  */
