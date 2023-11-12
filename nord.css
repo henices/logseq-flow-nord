@@ -954,6 +954,7 @@ a.priority {
 
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
+    color: hsl(var(--nord-polar-night-nord0));
     font-size: calc(var(--ls-font-size)*0.9);
     content: "A";
     background: hsl(var(--nord-aurora-nord11));
@@ -961,6 +962,7 @@ a.priority[href="#/page/A" i]::before {
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
+    color: hsl(var(--nord-polar-night-nord0));
     font-size: calc(var(--ls-font-size)*0.9);
     content: "B";
     background: hsl(var(--nord-aurora-nord12));
@@ -968,6 +970,7 @@ a.priority[href="#/page/B" i]::before {
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
+    color: hsl(var(--nord-polar-night-nord0));
     font-size: calc(var(--ls-font-size)*0.9);
     content: "C";
     background: hsl(var(--nord-aurora-nord14));
