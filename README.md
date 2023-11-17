@@ -23,8 +23,35 @@ Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nor
 
 Select Flow Nord Theme-Nord in theme menu.
 
+Flow Nord Theme Dark mode
+
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/e8e0f2b5-5334-4f47-8009-8a0ee5b09e8e)
+
+Flow Nord Theme Light mode
+
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/33ced5c4-3c8e-47e1-bd15-7160ae81b5a3)
+
+## ⌨️ Installation
+
+Manually:
+- Clone or Download the latest [release](https://github.com/henices/logseq-flow-nord/releases)
+  - If downloaded unpack the ZIP contents to a safe location
+- In logseq enable the developer mode
+- Open the Plugin Manager window  ( ... -> Plugins )
+- Click on "Load unpacked plugin"
+- Navigatge to the folder you either cloned or unpacked
+
+Logseq Marketplace:
+- Open the Logseq Marketplace
+- Click on the "Themes" tab
+- Search for Flow Nord Theme
+- Click on the "Install" button.
+
+Another way to adopt this theme is to use jsDelivr CDN by adding the following line to your custom.css. You can also change the @main part to use the latest version.
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
+```
 
 ## 🚀 Features
 
@@ -238,28 +265,6 @@ https://github.com/henices/logseq-flow-nord/assets/929715/52d5d486-27fe-4f3a-aed
 This pure css parallel blocks solution is base on elgatopanzon's great work. You can now put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
 
 <img width="950" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/99b397fa-98a1-4e7f-bf6b-9a02708a3b00">
-
-## ⌨️ Installation
-
-Manually:
-- Clone or Download the latest [release](https://github.com/henices/logseq-flow-nord/releases)
-  - If downloaded unpack the ZIP contents to a safe location
-- In logseq enable the developer mode
-- Open the Plugin Manager window  ( ... -> Plugins )
-- Click on "Load unpacked plugin"
-- Navigatge to the folder you either cloned or unpacked
-
-Logseq Marketplace:
-- Open the Logseq Marketplace
-- Click on the "Themes" tab
-- Search for Flow Nord Theme
-- Click on the "Install" button.
-
-Another way to adopt this theme is to use jsDelivr CDN by adding the following line to your custom.css. You can also change the @main part to use the latest version.
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
-```
 
 ## Recommend Logseq Plugins
 
