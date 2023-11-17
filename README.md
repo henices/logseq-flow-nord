@@ -19,15 +19,17 @@ Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nor
 
 **Caution: Styles may NOT up to date !**
 
+Flow Nord Theme style (Demo)
+
 <img width="1073" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/7e30ea9a-9830-4c54-b3e8-75440c3f32b8">
 
 Select Flow Nord Theme-Nord in theme menu.
 
-Flow Nord Theme Dark mode
+Flow Nord Theme Dark mode (Demo)
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/e8e0f2b5-5334-4f47-8009-8a0ee5b09e8e)
 
-Flow Nord Theme Light mode
+Flow Nord Theme Light mode (Demo)
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/33ced5c4-3c8e-47e1-bd15-7160ae81b5a3)
 
