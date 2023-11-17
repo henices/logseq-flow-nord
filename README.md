@@ -21,6 +21,10 @@ Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nor
 
 <img width="1073" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/7e30ea9a-9830-4c54-b3e8-75440c3f32b8">
 
+Select Flow Nord Theme-Nord in theme menu.
+
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/e8e0f2b5-5334-4f47-8009-8a0ee5b09e8e)
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/33ced5c4-3c8e-47e1-bd15-7160ae81b5a3)
 
 ## 🚀 Features
 
@@ -80,10 +84,6 @@ The custom.css file can take the following options to tweak the visuals.
 1. copy the css code and paste to the custom.css
 2. select `Flow Nord Theme-custom` theme, enjoy :)
 
-[nord color palette](https://github.com/henices/logseq-flow-nord/blob/main/nord.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/e8e0f2b5-5334-4f47-8009-8a0ee5b09e8e)
-
 The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/bcda46ac-6251-4a24-86a2-b1bdd7d9d083)
@@ -107,11 +107,6 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 [newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/4cd7eb10-ba18-404d-9069-a07f0359b5aa)
-
-[nord color palette](https://github.com/henices/logseq-flow-nord/blob/main/nord.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/33ced5c4-3c8e-47e1-bd15-7160ae81b5a3)
-
 
 - [monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
 - [bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
