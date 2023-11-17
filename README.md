@@ -130,6 +130,9 @@ The custom.css file can take the following options to tweak the visuals.
 1. copy the css code and paste to the custom.css
 2. select `Flow Nord Theme-custom` theme, enjoy :)
 
+[catppuccin-macchiatocolor palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-macchiato.css)
+<img width="1001" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/00bb7b37-d620-4bd0-886d-c2fd0cefced8">
+
 The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/bcda46ac-6251-4a24-86a2-b1bdd7d9d083)
