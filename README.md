@@ -23,8 +23,6 @@ Flow Nord Theme style (Demo)
 
 <img width="1073" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/7e30ea9a-9830-4c54-b3e8-75440c3f32b8">
 
-Select Flow Nord Theme-Nord in theme menu.
-
 Flow Nord Theme Dark mode (Demo)
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/e8e0f2b5-5334-4f47-8009-8a0ee5b09e8e)
@@ -54,6 +52,25 @@ Another way to adopt this theme is to use jsDelivr CDN by adding the following l
 ```css
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
 ```
+
+## Usage
+
+### Use built-in Nord color palette
+
+Select Flow Nord Theme-Nord in theme menu.
+
+### Use Custom color palette
+
+select `Flow Nord Theme-custom` theme, and add the following code in custom.css:
+
+```
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/catppuccin-macchiato.css");
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/sepia.css");
+```
+
+Then we get catppuccin-macchiato color palette in Logseq dark mode, sepia color palette in Logseq light mode.
+
+See Custom Color Palette section for more details.
 
 ## 🚀 Features
 
