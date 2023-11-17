@@ -154,9 +154,7 @@ html[data-theme='light'] {
 
 https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
-Another way to use custom theme is to use jsdelivr CDN.
-
-custom.css
+Another way to use custom theme is to use jsdelivr CDN. select `Flow Nord Theme-custom` theme, and add the following code in custom.css:
 
 ```
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/catppuccin-macchiato.css");
@@ -167,7 +165,7 @@ https://github.com/henices/logseq-flow-nord/assets/929715/b9eef3ec-31b5-43ff-aeb
 
 ### Custom Color Palette in Mobile
 
-Add the following code to custom.css, you can set theme to github color palette.
+Add the following code to custom.css, you can set theme to catppuccin latte color palette.
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/catppuccin-latte.css");
