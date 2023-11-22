@@ -185,3 +185,11 @@ Block Color Styling
 a.settings-plugin-item {
     color: hsl(var(--cl-text-color));
 }
+
+/* ===========================================================================
+ Button
+ ============================================================================*/
+
+.ui__button-theme-color.ui__button-color-custom {
+    background-color: hsl(var(--cl-primary));
+}
