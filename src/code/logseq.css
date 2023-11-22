@@ -1,3 +1,7 @@
+:root {
+    --cl-button-background: var(--cl-primary, var(--ls-button-background-hsl));
+}
+
 /******************************,
 **    Page References    **
 ******************************/
@@ -191,5 +195,17 @@ a.settings-plugin-item {
  ============================================================================*/
 
 .ui__button-theme-color.ui__button-color-custom {
-    background-color: hsl(var(--cl-primary));
+    background-color: hsl(var(--cl-button-background));
+    color: #fefefefe;
+}
+
+.dark-theme .ui__button-theme-color.ui__button-color-custom:hover {
+    background: hsl(var(--cl-button-background),0.8);
+}
+.light-theme .ui__button-theme-color.ui__button-color-custom:hover {
+    background: hsl(var(--cl-button-background),0.8);
+}
+
+.ui__toggle-background-on {
+    background-color: hsl(var(--cl-button-background));
 }
