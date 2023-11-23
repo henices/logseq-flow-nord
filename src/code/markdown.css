@@ -703,6 +703,7 @@ html[data-theme=dark] input.form-input {
 /* Tags */
 a.tag {
     /*background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);*/
+    background-color: transparent;
     color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--cl-text-color))));
     opacity: 1;
     padding: 0px 5px;
@@ -720,6 +721,7 @@ a.tag {
 }
 
 a.tag:hover {
+    background-color: transparent;
     color: hsl(var(--cl-accent), 1);
     text-decoration: none;
     opacity: 1;
