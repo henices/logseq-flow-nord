@@ -194,18 +194,20 @@ a.settings-plugin-item {
  Button
  ============================================================================*/
 
-/*
 .ui__button-theme-color.ui__button-color-custom {
     background-color: hsl(var(--cl-button-background));
-    color: #fefefefe;
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: .95;
 }
 
 .ui__button-theme-color.ui__button-color-custom:hover {
     background-color: hsl(var(--cl-button-background));
-    opacity: .95;
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: 1;
 }
 
 .ui__toggle-background-on {
     background-color: hsl(var(--cl-button-background));
 }
-*/
