@@ -70,7 +70,7 @@ select `Flow Nord Theme-custom` theme, and add the following code in custom.css:
 
 Then we get catppuccin-macchiato color palette in Logseq dark mode, sepia color palette in Logseq light mode.
 
-See Custom Color Palette section for more details.
+See [Custom Color Palette](https://github.com/henices/logseq-flow-nord#%EF%B8%8F-custom-color-palette) section for more details. 
 
 ## 🚀 Features
 
