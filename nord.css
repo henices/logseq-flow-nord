@@ -1389,6 +1389,7 @@ html[data-theme=dark] input.form-input {
 /* Tags */
 a.tag {
     /*background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);*/
+    background-color: transparent;
     color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--cl-text-color))));
     opacity: 1;
     padding: 0px 5px;
@@ -1406,6 +1407,7 @@ a.tag {
 }
 
 a.tag:hover {
+    background-color: transparent;
     color: hsl(var(--cl-accent), 1);
     text-decoration: none;
     opacity: 1;
@@ -1611,6 +1613,10 @@ span.inline.px-1.with-bg-color[style*="pink"] {
     background-color: var(--bg-color-1);
 }
 */
+:root {
+    --cl-button-background: var(--cl-primary, var(--ls-button-background-hsl));
+}
+
 /******************************,
 **    Page References    **
 ******************************/
@@ -1797,6 +1803,28 @@ Block Color Styling
 
 a.settings-plugin-item {
     color: hsl(var(--cl-text-color));
+}
+
+/* ===========================================================================
+ Button
+ ============================================================================*/
+
+.ui__button-theme-color.ui__button-color-custom {
+    background-color: hsl(var(--cl-button-background));
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: .95;
+}
+
+.ui__button-theme-color.ui__button-color-custom:hover {
+    background-color: hsl(var(--cl-button-background));
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.ui__toggle-background-on {
+    background-color: hsl(var(--cl-button-background));
 }
 /********************************************
 Live Query Styler by Nick Martin
