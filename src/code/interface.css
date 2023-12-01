@@ -382,3 +382,25 @@ span.mx-2.opacity-50:before {
 .menu-links-wrapper .ui__icon {
     color: hsl(var(--cl-primary));
 }
+
+/* ===========================================================================
+ Button
+ ============================================================================*/
+
+.ui__button-theme-color.ui__button-color-custom {
+    background-color: hsl(var(--cl-button-background));
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: .95;
+}
+
+.ui__button-theme-color.ui__button-color-custom:hover {
+    background-color: hsl(var(--cl-button-background));
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.ui__toggle-background-on {
+    background-color: hsl(var(--cl-button-background));
+}
