@@ -165,7 +165,9 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     background-image: none !important;
 }
 .left-sidebar-inner .create #create-button {
-    background-color: var(--bg-color-1) !important;
+    background-color: var(--bg-color-3) !important;
+    font-weight: 600;
+    border: 1px solid hsl(var(--cl-text-color), 0.1);
 }
 .left-sidebar-inner .create #create-button:hover {
     background-color: hsl(var(--cl-primary), 0.5) !important;
