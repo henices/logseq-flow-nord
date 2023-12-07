@@ -3,19 +3,14 @@ A minimal theme that focuses on a clean and sleek interface that's soft on the e
 
 ![NordTheme-wallpaper](https://github.com/henices/logseq-flow-nord/assets/929715/b9361f21-543d-4725-b9b0-c50f11d07a65)
 
-## Story
-
-The logseq-Flow theme was originally developed by a GitHub user named nmartin84. However, for some reason, @nmartin84 left the community. As a result, the Logseq-Flow repository was deleted from GitHub, and the Logseq-Flow theme is now in an unmaintained state.
-
-As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is my favorite theme. Despite its unmaintained state, I see this as an opportunity for new beginnings in its development.
-
-Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nordtheme.com). When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
-
-## 🚀 Demo
 - Clean stylish theme that focuses on simplicity rather than flashy
 - Curved edges over jagged edges
 - Reference Panels Style around each match rather than each document
 - Improved block ref styling
+
+## 🚀 Demo
+
+https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
 **Caution: Styles may NOT up to date !**
 
@@ -293,8 +288,15 @@ This pure css parallel blocks solution is base on elgatopanzon's great work. You
 
 <img width="950" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/99b397fa-98a1-4e7f-bf6b-9a02708a3b00">
 
-## Recommend Logseq Plugins
+## Story
 
+The logseq-Flow theme was originally developed by a GitHub user named nmartin84. However, for some reason, @nmartin84 left the community. As a result, the Logseq-Flow repository was deleted from GitHub, and the Logseq-Flow theme is now in an unmaintained state.
+
+As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is my favorite theme. Despite its unmaintained state, I see this as an opportunity for new beginnings in its development.
+
+Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nordtheme.com). When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
+
+## Recommend Logseq Plugins
 ### [Bullet Threading](https://github.com/pengx17/logseq-plugin-bullet-threading) Plugin
 ### [Tabs](https://github.com/pengx17/logseq-plugin-tabs) Plugin
 
