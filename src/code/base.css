@@ -214,7 +214,7 @@ html[data-theme='dark'] {
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--cl-text-color));
-    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.8);
+    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.85);
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: hsl(var(--cl-primary, var(--cl-text-color)), 1);
     --ls-link-text-hover-color: hsl(var(--cl-primary));
@@ -343,7 +343,7 @@ html[data-theme='light'] {
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--cl-text-color));
-    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.8);
+    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.85);
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: hsl(var(--cl-primary, var(--cl-text-color)), 1);
     --ls-link-text-hover-color: hsl(var(--cl-primary));
