@@ -209,7 +209,7 @@ html[data-theme='dark'] {
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--cl-text-color));
-    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.5);
+    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.85);
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: hsl(var(--cl-primary, var(--cl-text-color)), 1);
     --ls-link-text-hover-color: hsl(var(--cl-primary));
@@ -338,7 +338,7 @@ html[data-theme='light'] {
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
     --ls-primary-text-color: hsl(var(--cl-text-color));
-    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.5);
+    --ls-secondary-text-color: hsl(var(--cl-text-color), 0.85);
     --ls-title-text-color: var(--ls-primary-text-color);
     --ls-link-text-color: hsl(var(--cl-primary, var(--cl-text-color)), 1);
     --ls-link-text-hover-color: hsl(var(--cl-primary));
@@ -936,8 +936,8 @@ a.priority::before {
     transform: translateY(-1px);
     border: 1px solid hsl(var(--cl-text-color), 0.15);
     border-radius: var(--cl-checkbox-radius, 2px);
-    height: calc(var(--ls-font-size) + 4px);
-    width: calc(var(--ls-font-size) + 4px);
+    height: calc(var(--ls-font-size) + 2px);
+    width: calc(var(--ls-font-size) + 2px);
     text-align: center;
     display: inline-flex;
     align-items: center;
@@ -1697,6 +1697,15 @@ a.warning, div.warning:not(.admonitionblock), p.warning, span.warning {
     color: hsl(var(--cl-text-color), 1);
     font-weight: 400;
 }
+
+.dark-theme .references-blocks-item,
+.light-theme .references-blocks-item {
+    background-color: hsl(var(--cl-background), 0.35);
+    box-shadow: 0px 6px 10px hsl(210deg 4% 18% / 2%);
+    border: 1px solid hsl(var(--cl-text-color), 0.075);
+    border-radius: 4px;
+}
+
 /******************************
 **    Reference Panel    **
 ******************************/
@@ -1803,28 +1812,6 @@ Block Color Styling
 
 a.settings-plugin-item {
     color: hsl(var(--cl-text-color));
-}
-
-/* ===========================================================================
- Button
- ============================================================================*/
-
-.ui__button-theme-color.ui__button-color-custom {
-    background-color: hsl(var(--cl-button-background));
-    color: #FFFAFA;
-    font-weight: 600;
-    opacity: .95;
-}
-
-.ui__button-theme-color.ui__button-color-custom:hover {
-    background-color: hsl(var(--cl-button-background));
-    color: #FFFAFA;
-    font-weight: 600;
-    opacity: 1;
-}
-
-.ui__toggle-background-on {
-    background-color: hsl(var(--cl-button-background));
 }
 /********************************************
 Live Query Styler by Nick Martin
@@ -2101,7 +2088,9 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     background-image: none !important;
 }
 .left-sidebar-inner .create #create-button {
-    background-color: var(--bg-color-1) !important;
+    background-color: var(--bg-color-3) !important;
+    font-weight: 600;
+    border: 1px solid hsl(var(--cl-text-color), 0.1);
 }
 .left-sidebar-inner .create #create-button:hover {
     background-color: hsl(var(--cl-primary), 0.5) !important;
@@ -2317,6 +2306,28 @@ span.mx-2.opacity-50:before {
  * ****************************/
 .menu-links-wrapper .ui__icon {
     color: hsl(var(--cl-primary));
+}
+
+/* ===========================================================================
+ Button
+ ============================================================================*/
+
+.ui__button-theme-color.ui__button-color-custom {
+    background-color: hsl(var(--cl-button-background));
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: .95;
+}
+
+.ui__button-theme-color.ui__button-color-custom:hover {
+    background-color: hsl(var(--cl-button-background));
+    color: #FFFAFA;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.ui__toggle-background-on {
+    background-color: hsl(var(--cl-button-background));
 }
 
 /* This is a simple way to put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
