@@ -385,9 +385,9 @@ span.mx-2.opacity-50:before {
     color: hsl(var(--cl-primary));
 }
 
-/* ===========================================================================
- Button
- ============================================================================*/
+/****************************************************************************
+ * Button
+ ****************************************************************************/
 
 .ui__button-theme-color.ui__button-color-custom {
     background-color: hsl(var(--cl-button-background));
@@ -405,4 +405,23 @@ span.mx-2.opacity-50:before {
 
 .ui__toggle-background-on {
     background-color: hsl(var(--cl-button-background));
+}
+
+/******************************************************************************
+ * Data picker
+ ******************************************************************************/
+.light-theme .datepicker td.active, .light-theme .datepicker td.active:hover,
+.dark-theme .datepicker td.active, .dark-theme .datepicker td.active:hover {
+    background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
+    border-color: hsl(var(--cl-text-color));
+    color: #fff;
+}
+
+.light-theme .datepicker td.available:hover, .light-theme .datepicker th.available:hover,
+.dark-theme .datepicker td.available:hover, .dark-theme .datepicker th.available:hover {
+    background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
+    border-color: hsl(var(--cl-text-color));
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
 }
