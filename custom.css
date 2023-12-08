@@ -2308,9 +2308,9 @@ span.mx-2.opacity-50:before {
     color: hsl(var(--cl-primary));
 }
 
-/* ===========================================================================
- Button
- ============================================================================*/
+/****************************************************************************
+ * Button
+ ****************************************************************************/
 
 .ui__button-theme-color.ui__button-color-custom {
     background-color: hsl(var(--cl-button-background));
@@ -2328,6 +2328,25 @@ span.mx-2.opacity-50:before {
 
 .ui__toggle-background-on {
     background-color: hsl(var(--cl-button-background));
+}
+
+/******************************************************************************
+ * Data picker
+ ******************************************************************************/
+.light-theme .datepicker td.active, .light-theme .datepicker td.active:hover,
+.dark-theme .datepicker td.active, .dark-theme .datepicker td.active:hover {
+    background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
+    border-color: hsl(var(--cl-text-color));
+    color: #fff;
+}
+
+.light-theme .datepicker td.available:hover, .light-theme .datepicker th.available:hover,
+.dark-theme .datepicker td.available:hover, .dark-theme .datepicker th.available:hover {
+    background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
+    border-color: hsl(var(--cl-text-color));
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
 }
 
 /* This is a simple way to put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
