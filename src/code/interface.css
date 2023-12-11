@@ -414,7 +414,9 @@ span.mx-2.opacity-50:before {
 .dark-theme .datepicker td.active, .dark-theme .datepicker td.active:hover {
     background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
     border-color: hsl(var(--cl-text-color));
+    border-radius: 4px;
     color: #fff;
+    cursor: pointer;
 }
 
 .light-theme .datepicker td.available:hover, .light-theme .datepicker th.available:hover,
