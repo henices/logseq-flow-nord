@@ -18,6 +18,30 @@
         "mode": "dark"
       },
       {
+        "name": "Flow Nord Theme - Catppuccin macchiato",
+        "url": "./src/palettes/catppuccin-macchiato.css",
+        "description": "Flow Nord Theme - Catppuccin macchiato",
+        "mode": "dark"
+      },
+      {
+        "name": "Flow Nord Theme - One dark Pro",
+        "url": "./src/palettes/one-dark-pro.css",
+        "description": "Flow Nord Theme - One dark Pro",
+        "mode": "dark"
+      },
+      {
+        "name": "Flow Nord Theme - Sepia",
+        "url": "./src/palettes/sepia.css",
+        "description": "Flow Nord Theme - Sepia",
+        "mode": "light"
+      },
+      {
+        "name": "Flow Nord Theme - Catppuccin latte",
+        "url": "./src/palettes/catppuccin-latte.css",
+        "description": "Flow Nord Theme - Catppuccin latte",
+        "mode": "light"
+      },
+      {
         "name": "Flow Nord Theme - custom",
         "url": "./src/palettes/nord-custom.css",
         "description": "Flow Nord Theme - custom",

@@ -1,3 +1,4 @@
+@import "./nord-custom.css";
 
 .dark-theme,
 html[data-theme='dark'] {
