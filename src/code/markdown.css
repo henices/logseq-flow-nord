@@ -704,7 +704,7 @@ html[data-theme=dark] input.form-input {
 a.tag {
     /*background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);*/
     background-color: transparent;
-    color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--cl-text-color))));
+    color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--ls-tag-text-color))));
     opacity: 1;
     padding: 0px 5px;
     text-align: center;
