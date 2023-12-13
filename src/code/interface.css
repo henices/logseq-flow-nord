@@ -391,15 +391,15 @@ span.mx-2.opacity-50:before {
 
 .ui__button-theme-color.ui__button-color-custom {
     background-color: hsl(var(--cl-button-background));
-    color: #FFFAFA;
-    font-weight: 600;
+    color: var(--bg-color);
+    font-weight: 500;
     opacity: .95;
 }
 
 .ui__button-theme-color.ui__button-color-custom:hover {
     background-color: hsl(var(--cl-button-background));
-    color: #FFFAFA;
-    font-weight: 600;
+    color: var(--bg-color);
+    font-weight: 500;
     opacity: 1;
 }
 
