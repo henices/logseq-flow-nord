@@ -11,6 +11,7 @@ html[data-theme='dark'] {
     --ct-secondary-color: 187, 47%, 55%;
     --ct-accent-color: 286,60%,67%;
     --ct-title-text-color: 219, 14%, 71%;
+    --ct-code-text-color: 219, 14%, 82%;
 }
 
 .white-theme,

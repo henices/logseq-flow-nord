@@ -562,7 +562,7 @@ Code Mirror Settings
 
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-light {
     text-shadow: none;
-    color: var(--ls-primary-text-color);
+    color: hsl(var(--ct-code-text-color, var(--cl-text-color)));
     border: 0px solid var(--bg-color-2);
     border-radius: 3px;
     background-color: hsl(var(--cl-background));
