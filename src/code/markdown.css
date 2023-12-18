@@ -715,9 +715,8 @@ a.tag {
     transition: 0.2s;
     vertical-align: middle;
     font-weight: 400;
-    font-size: calc(var(--ls-font-size) * 0.8);
     position: relative;
-    text-transform: lowercase;
+    opacity: 0.9;
 }
 
 a.tag:hover {
