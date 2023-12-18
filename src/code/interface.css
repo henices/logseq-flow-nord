@@ -415,7 +415,8 @@ span.mx-2.opacity-50:before {
     background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
     border-color: hsl(var(--cl-text-color));
     border-radius: 4px;
-    color: #fff;
+    color: var(--bg-color);
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -424,6 +425,7 @@ span.mx-2.opacity-50:before {
     background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
     border-color: hsl(var(--cl-text-color));
     border-radius: 4px;
-    color: #fff;
+    color: var(--bg-color);
+    font-weight: 500;
     cursor: pointer;
 }
