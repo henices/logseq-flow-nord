@@ -712,7 +712,7 @@ a.tag {
     border-radius: var(--cl-tag-border, 2px);
     border: 0px solid;
     border-color: hsl(var(--cl-accent), 0.15);
-    transition: 0.2s;
+    /*transition: 0.2s;*/
     vertical-align: middle;
     font-weight: 400;
     position: relative;
