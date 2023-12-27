@@ -129,7 +129,7 @@ The custom.css file can take the following options to tweak the visuals.
 
 <img width="1001" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/00bb7b37-d620-4bd0-886d-c2fd0cefced8">
 
-[catppuccin-macchiatocolor palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-mocha.css)
+[catppuccin-mocha palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-mocha.css)
 
 <img width="1004" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/32ff85a6-aa20-4b3c-bc5b-3ae190597bf4">
 
