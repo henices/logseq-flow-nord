@@ -9,6 +9,7 @@
     opacity: 0.3;
     color: hsl(var(--cl-text-color), 0.5);
 }
+
 .ls-block .page-reference:hover {
     background-color: transparent !important;
     color: hsl(var(--cl-accent));
@@ -17,6 +18,12 @@
 .page-ref {
     color: hsl(var(--cl-primary));
 }
+
+a.page-ref:hover {
+    background-color: transparent !important;
+    color: hsl(var(--cl-accent));
+}
+
 /******************************,
 **    Block References    **
 ******************************/
