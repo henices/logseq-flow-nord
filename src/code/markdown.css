@@ -241,17 +241,17 @@ html[data-theme='dark'] h1.title {
 /* === PRIORITIES === */
 a[priority]:not(a[priority=""])::before,
 a.priority::before {
-    color: hsl(var(--nord-polar-night-nord0));
+    color: hsl(var(--nord-polar-night-nord1));
     font-weight: 600;
 }
 
 a.priority::before {
-    margin-right: 0.2em;
+    margin-right: 0.5em;
     transform: translateY(-1px);
     border: 1px solid hsl(var(--cl-text-color), 0.15);
-    border-radius: var(--cl-checkbox-radius, 2px);
-    height: calc(var(--ls-font-size) + 2px);
-    width: calc(var(--ls-font-size) + 2px);
+    border-radius: var(--cl-checkbox-radius, 4px);
+    height: calc(var(--ls-font-size) + 4px);
+    width: calc(var(--ls-font-size) + 4px);
     text-align: center;
     display: inline-flex;
     align-items: center;
@@ -269,22 +269,25 @@ a.priority {
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
     color: hsl(var(--nord-polar-night-nord0));
+    opacity: 1;
     font-size: calc(var(--ls-font-size)*0.9);
     content: "A";
-    background: hsl(var(--nord-aurora-nord11));
+    background: hsl(355, 65%, 65%);
 }
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
-    color: hsl(var(--nord-polar-night-nord0));
+    color: hsl(var(--nord-polar-night-nord1));
+    opacity: 1;
     font-size: calc(var(--ls-font-size)*0.9);
     content: "B";
-    background: hsl(var(--nord-aurora-nord12));
+    background: hsl(39, 67%, 69%);
 }
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
-    color: hsl(var(--nord-polar-night-nord0));
+    color: hsl(var(--nord-polar-night-nord1));
+    opacity: 1;
     font-size: calc(var(--ls-font-size)*0.9);
     content: "C";
     background: hsl(var(--nord-aurora-nord14));
