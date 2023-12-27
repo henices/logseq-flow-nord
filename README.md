@@ -162,7 +162,7 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 - [dracula color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/dracula.css)
 - [catppuccin macchiato color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-macchiato.css)
 
-The following color options will only affect custom theme `--ct-primariy-color` (required), `--ct-secondary-color` (required), `--ct-accent-color` (required), `--ct-text-color` (required), `--ct-bg-color-h` (optional), `--ct-bg-color-s` (optional), `--ct-bg-color-l` (optional), `--ct-bg-color` (optional), `--ct-title-text-color` (optional), or `--ct-external-link-color` (optional)
+The following color options will only affect custom theme `--ct-primariy-color` (required), `--ct-secondary-color` (required), `--ct-accent-color` (required), `--ct-text-color` (required), `--ct-bg-color-h` (optional), `--ct-bg-color-s` (optional), `--ct-bg-color-l` (optional), `--ct-bg-color` (optional), `--ct-title-text-color` (optional), `--ct-code-text-color` (optional), or `--ct-external-link-color` (optional)
 
 custom.css
 
