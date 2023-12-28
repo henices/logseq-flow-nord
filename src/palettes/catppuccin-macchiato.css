@@ -11,4 +11,5 @@ html[data-theme='dark'] {
     --ct-secondary-color: 355, 71%, 77%;
     --ct-accent-color: 267, 83%, 80%;
     --ct-title-text-color: 228, 42%, 79%;
+    /*--ct-external-link-color: 171, 47%, 69%;*/
 }
