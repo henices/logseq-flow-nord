@@ -151,6 +151,10 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     color: hsl(var(--cl-primary));
 }
 
+.left-sidebar-inner .nav-content-item .header {
+    background-color: hsl(var(--cl-background));
+}
+
 /* Setting up outer layer background color */
 /*.cp__sidebar-main-layout, #app-container, .left-sidebar-inner {
     background-color: var(--ls-secondary-background-color);
