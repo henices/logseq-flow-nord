@@ -15,12 +15,14 @@
   src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 
+/*
 @font-face { 
     font-family: 'tabler-icons';
     src: url('./tabler-icons.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+*/
 
 @font-face {
   font-family: "Only Emoji";
@@ -69,7 +71,7 @@ Base Root Settings
 
 
 :root {
-    --ls-font-family: var(--cl-font-family, "Only Emoji","Source Sans 3 VF","Source Han Sans VF",Inter,Arial,sans-serif);
+    --ls-font-family: var(--cl-font-family, -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Roboto,"Source Han Sans VF","Source Sans 3 VF",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Only Emoji");
     --ls-font-size: var(--cl-font-size, 16px);
     --ls-font-weight: var(--cl-font-weight, 420);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
@@ -230,8 +232,8 @@ html[data-theme='dark'] {
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: hsl(var(--cl-primary));
     --ls-page-inline-code-bg-color: hsl(var(--cl-primary), 0.1);
-    --ls-scrollbar-foreground-color: hsl(var(--cl-background), 0.4);
-    --ls-scrollbar-background-color: hsl(var(--cl-text-color), 0);
+    --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
+    --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: hsl(var(--cl-primary));
@@ -359,8 +361,8 @@ html[data-theme='light'] {
     --ls-page-blockquote-border-color: var(--ls-border-color);
     --ls-page-inline-code-color: hsl(var(--cl-primary));
     --ls-page-inline-code-bg-color: hsl(var(--cl-primary), 0.1);
-    --ls-scrollbar-foreground-color: hsl(var(--cl-background), 0.5);
-    --ls-scrollbar-background-color: hsl(var(--cl-text-color), 0);
+    --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
+    --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: hsl(var(--cl-primary));
@@ -557,7 +559,7 @@ Code Mirror Settings
 
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-light {
     text-shadow: none;
-    color: var(--ls-primary-text-color);
+    color: hsl(var(--ct-code-text-color, var(--cl-text-color)));
     border: 0px solid var(--bg-color-2);
     border-radius: 3px;
     background-color: hsl(var(--cl-background));
@@ -927,17 +929,17 @@ html[data-theme='dark'] h1.title {
 /* === PRIORITIES === */
 a[priority]:not(a[priority=""])::before,
 a.priority::before {
-    color: hsl(var(--nord-polar-night-nord0));
+    color: hsl(var(--nord-polar-night-nord1));
     font-weight: 600;
 }
 
 a.priority::before {
-    margin-right: 0.2em;
+    margin-right: 0.5em;
     transform: translateY(-1px);
     border: 1px solid hsl(var(--cl-text-color), 0.15);
-    border-radius: var(--cl-checkbox-radius, 2px);
-    height: calc(var(--ls-font-size) + 2px);
-    width: calc(var(--ls-font-size) + 2px);
+    border-radius: var(--cl-checkbox-radius, 4px);
+    height: calc(var(--ls-font-size) + 4px);
+    width: calc(var(--ls-font-size) + 4px);
     text-align: center;
     display: inline-flex;
     align-items: center;
@@ -955,22 +957,25 @@ a.priority {
 a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
     color: hsl(var(--nord-polar-night-nord0));
+    opacity: 1;
     font-size: calc(var(--ls-font-size)*0.9);
     content: "A";
-    background: hsl(var(--nord-aurora-nord11));
+    background: hsl(355, 65%, 65%);
 }
 
 a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
-    color: hsl(var(--nord-polar-night-nord0));
+    color: hsl(var(--nord-polar-night-nord1));
+    opacity: 1;
     font-size: calc(var(--ls-font-size)*0.9);
     content: "B";
-    background: hsl(var(--nord-aurora-nord12));
+    background: hsl(39, 67%, 69%);
 }
 
 a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
-    color: hsl(var(--nord-polar-night-nord0));
+    color: hsl(var(--nord-polar-night-nord1));
+    opacity: 1;
     font-size: calc(var(--ls-font-size)*0.9);
     content: "C";
     background: hsl(var(--nord-aurora-nord14));
@@ -1390,7 +1395,7 @@ html[data-theme=dark] input.form-input {
 a.tag {
     /*background-color: hsl(var(--cl-tag-background-color, var(--cl-background)), 0.1);*/
     background-color: transparent;
-    color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--cl-text-color))));
+    color: hsl(var(--cl-tag-color, var(--cl-secondary, var(--ls-tag-text-color))));
     opacity: 1;
     padding: 0px 5px;
     text-align: center;
@@ -1398,12 +1403,11 @@ a.tag {
     border-radius: var(--cl-tag-border, 2px);
     border: 0px solid;
     border-color: hsl(var(--cl-accent), 0.15);
-    transition: 0.2s;
+    /*transition: 0.2s;*/
     vertical-align: middle;
     font-weight: 400;
-    font-size: calc(var(--ls-font-size) * 0.8);
     position: relative;
-    text-transform: lowercase;
+    opacity: 0.9;
 }
 
 a.tag:hover {
@@ -1449,12 +1453,12 @@ body {
 
 /* Tables */
 
-html[data-theme='light'] tr:nth-child(2n),
+html[data-theme='light'] .block-content tr:nth-child(2n),
 .light-theme tr:nth-child(2n) {
     background: hsl(var(--cl-background), 0.35);
 }
 
-html[data-theme='dark'] tr:nth-child(2n),
+html[data-theme='dark'] .block-content tr:nth-child(2n),
 .dark-theme tr:nth-child(2n) {
     background: hsl(var(--cl-background), 0.25);
 }
@@ -1624,6 +1628,7 @@ span.inline.px-1.with-bg-color[style*="pink"] {
     opacity: 0.3;
     color: hsl(var(--cl-text-color), 0.5);
 }
+
 .ls-block .page-reference:hover {
     background-color: transparent !important;
     color: hsl(var(--cl-accent));
@@ -1632,6 +1637,12 @@ span.inline.px-1.with-bg-color[style*="pink"] {
 .page-ref {
     color: hsl(var(--cl-primary));
 }
+
+a.page-ref:hover {
+    background-color: transparent !important;
+    color: hsl(var(--cl-accent));
+}
+
 /******************************,
 **    Block References    **
 ******************************/
@@ -2074,6 +2085,10 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     color: hsl(var(--cl-primary));
 }
 
+.left-sidebar-inner .nav-content-item .header {
+    background-color: hsl(var(--cl-background));
+}
+
 /* Setting up outer layer background color */
 /*.cp__sidebar-main-layout, #app-container, .left-sidebar-inner {
     background-color: var(--ls-secondary-background-color);
@@ -2312,18 +2327,22 @@ span.mx-2.opacity-50:before {
  * Button
  ****************************************************************************/
 
-.ui__button-theme-color.ui__button-color-custom {
+.cp__settings-main .panel-wrap .ui__button,
+.cp__settings-main .ui__button-theme-color.ui__button-color-custom {
     background-color: hsl(var(--cl-button-background));
-    color: #FFFAFA;
-    font-weight: 600;
+    color: var(--bg-color);
     opacity: .95;
 }
 
-.ui__button-theme-color.ui__button-color-custom:hover {
+.cp__settings-main .panel-wrap .ui__button:hover,
+.cp__settings-main .ui__button-theme-color.ui__button-color-custom:hover {
     background-color: hsl(var(--cl-button-background));
-    color: #FFFAFA;
-    font-weight: 600;
+    color: var(--bg-color);
     opacity: 1;
+}
+
+.ui__button {
+    font-family: system-ui,-apple-system,BlinkMacSystemFont;
 }
 
 .ui__toggle-background-on {
@@ -2337,7 +2356,10 @@ span.mx-2.opacity-50:before {
 .dark-theme .datepicker td.active, .dark-theme .datepicker td.active:hover {
     background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
     border-color: hsl(var(--cl-text-color));
-    color: #fff;
+    border-radius: 4px;
+    color: var(--bg-color);
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .light-theme .datepicker td.available:hover, .light-theme .datepicker th.available:hover,
@@ -2345,7 +2367,8 @@ span.mx-2.opacity-50:before {
     background-color: hsl(var(--cl-primary, var(--ls-button-background-hsl)));
     border-color: hsl(var(--cl-text-color));
     border-radius: 4px;
-    color: #fff;
+    color: var(--bg-color);
+    font-weight: 500;
     cursor: pointer;
 }
 
