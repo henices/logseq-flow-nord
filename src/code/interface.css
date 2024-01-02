@@ -420,6 +420,18 @@ span.mx-2.opacity-50:before {
     color: hsl(var(--cl-primary));
 }
 
+button.bg-primary\/90 {
+    background-color: hsl(var(--cl-button-background));
+    color: var(--bg-color);
+    opacity: .95;
+}
+
+button.bg-primary\/90:hover {
+    background-color: hsl(var(--cl-button-background));
+    color: var(--bg-color);
+    opacity: 1;
+}
+
 /******************************************************************************
  * Data picker
  ******************************************************************************/
