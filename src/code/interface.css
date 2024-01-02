@@ -446,12 +446,8 @@ span.mx-2.opacity-50:before {
 /*****************************************************************************
  * Plugins
  * ***************************************************************************/
-.light-theme .cp__plugins-page .ui__button .ui__icon,
-.dark-theme .cp__plugins-page .ui__button .ui__icon {
-    color: hsl(var(--cl-primary));
-}
 
-.light-theme .cp__plugins-page .secondary-tabs button.active,
-.dark-theme .cp__plugins-page .secondary-tabs button.active {
-    color: hsl(var(--cl-primary)) !important;
+.light-theme .cp__plugins-page .secondary-tabs button.active .flex.items-center,
+.dark-theme .cp__plugins-page .secondary-tabs button.active .flex.items-center {
+    color: hsl(var(--cl-primary));
 }
