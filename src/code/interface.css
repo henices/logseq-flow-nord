@@ -393,18 +393,21 @@ span.mx-2.opacity-50:before {
  * Button
  ****************************************************************************/
 
+.dark-theme .cp__plugins-item-card  a.btn,
+.light-theme .cp__plugins-item-card  a.btn {
+    color: hsl(var(--cl-primary));
+}
+
 .cp__settings-main .panel-wrap .ui__button,
 .cp__settings-main .ui__button-theme-color.ui__button-color-custom {
-    background-color: hsl(var(--cl-button-background));
+    background-color: hsl(var(--cl-button-background), 0.95);
     color: var(--bg-color);
-    opacity: .95;
 }
 
 .cp__settings-main .panel-wrap .ui__button:hover,
 .cp__settings-main .ui__button-theme-color.ui__button-color-custom:hover {
     background-color: hsl(var(--cl-button-background));
     color: var(--bg-color);
-    opacity: 1;
 }
 
 .ui__button {
@@ -415,21 +418,14 @@ span.mx-2.opacity-50:before {
     background-color: hsl(var(--cl-button-background));
 }
 
-.dark-theme .cp__plugins-item-card  a.btn,
-.light-theme .cp__plugins-item-card  a.btn {
-    color: hsl(var(--cl-primary));
-}
-
 button.bg-primary\/90 {
-    background-color: hsl(var(--cl-button-background));
+    background-color: hsl(var(--cl-button-background), 0.9);
     color: var(--bg-color);
-    opacity: .95;
 }
 
 button.bg-primary\/90:hover {
     background-color: hsl(var(--cl-button-background));
     color: var(--bg-color);
-    opacity: 1;
 }
 
 /******************************************************************************
