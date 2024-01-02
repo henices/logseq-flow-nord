@@ -389,18 +389,22 @@ span.mx-2.opacity-50:before {
  * Button
  ****************************************************************************/
 
-.ui__button-theme-color.ui__button-color-custom {
+.cp__settings-main .panel-wrap .ui__button,
+.cp__settings-main .ui__button-theme-color.ui__button-color-custom {
     background-color: hsl(var(--cl-button-background));
     color: var(--bg-color);
-    font-weight: 500;
     opacity: .95;
 }
 
-.ui__button-theme-color.ui__button-color-custom:hover {
+.cp__settings-main .panel-wrap .ui__button:hover,
+.cp__settings-main .ui__button-theme-color.ui__button-color-custom:hover {
     background-color: hsl(var(--cl-button-background));
     color: var(--bg-color);
-    font-weight: 500;
     opacity: 1;
+}
+
+.ui__button {
+    font-family: system-ui,-apple-system,BlinkMacSystemFont;
 }
 
 .ui__toggle-background-on {
