@@ -451,7 +451,7 @@ span.mx-2.opacity-50:before {
     color: hsl(var(--cl-primary));
 }
 
-.light-theme .cp__plugins-page .flex.items-center,
-.dark-theme .cp__plugins-page .flex.items-center {
-    color: hsl(var(--cl-text-color));
+.light-theme .cp__plugins-page .secondary-tabs button.active,
+.dark-theme .cp__plugins-page .secondary-tabs button.active {
+    color: hsl(var(--cl-primary)) !important;
 }
