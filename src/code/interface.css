@@ -408,11 +408,16 @@ span.mx-2.opacity-50:before {
 }
 
 .ui__button {
-    font-family: system-ui,-apple-system,BlinkMacSystemFont;
+    font-family: var(--ls-font-family);
 }
 
 .ui__toggle-background-on {
     background-color: hsl(var(--cl-button-background));
+}
+
+.dark-theme .cp__plugins-item-card  a.btn,
+.light-theme .cp__plugins-item-card  a.btn {
+    color: hsl(var(--cl-primary));
 }
 
 /******************************************************************************
@@ -436,4 +441,17 @@ span.mx-2.opacity-50:before {
     color: var(--bg-color);
     font-weight: 500;
     cursor: pointer;
+}
+
+/*****************************************************************************
+ * Plugins
+ * ***************************************************************************/
+.light-theme .cp__plugins-page .ui__button .ui__icon,
+.dark-theme .cp__plugins-page .ui__button .ui__icon {
+    color: hsl(var(--cl-primary));
+}
+
+.light-theme .cp__plugins-page .flex.items-center,
+.dark-theme .cp__plugins-page .flex.items-center {
+    color: hsl(var(--cl-text-color));
 }
