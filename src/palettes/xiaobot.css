@@ -1,3 +1,4 @@
+@import "./nord-custom.css";
 
 .white-theme, html[data-theme='light'] {
     --ct-bg-color-h: 30;
