@@ -428,6 +428,10 @@ button.bg-primary\/90:hover {
     color: var(--bg-color);
 }
 
+.ui__button-shortcut-key {
+    background-color: transparent;
+}
+
 /******************************************************************************
  * Data picker
  ******************************************************************************/
