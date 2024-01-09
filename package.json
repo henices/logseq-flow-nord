@@ -42,6 +42,12 @@
         "mode": "light"
       },
       {
+        "name": "Flow Nord Theme - Xiaobot",
+        "url": "./src/palettes/xiaobot.css",
+        "description": "Flow Nord Theme - Xiaobot",
+        "mode": "light"
+      },
+      {
         "name": "Flow Nord Theme - custom",
         "url": "./src/palettes/nord-custom.css",
         "description": "Flow Nord Theme - custom",
