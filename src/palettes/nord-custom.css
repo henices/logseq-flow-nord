@@ -32,6 +32,11 @@ html[data-theme='light'] {
     --cl-accent: var(--ct-accent-color);
 }
 
+.dark-theme #app-container,
+.light-theme #app-container {
+    background-color: var(--ls-primary-background-color);
+}
+
 .dark-theme h1.title,
 .light-theme h1.title {
     color: hsl(var(--cl-title-text-color)) !important;

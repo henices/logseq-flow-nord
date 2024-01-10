@@ -38,6 +38,11 @@ html[data-theme='dark'] {
     */
 }
 
+.dark-theme #app-container,
+.light-theme #app-container {
+    background-color: var(--ls-primary-background-color);
+}
+
 /*
 a[priority="A"]::before, a.priority[href="#/page/A" i]::before {
     color: hsl(var(--nord-aurora-nord11));
