@@ -463,3 +463,14 @@ button.bg-primary\/90:hover {
 .dark-theme .cp__plugins-page .secondary-tabs button.active .flex.items-center {
     color: hsl(var(--cl-primary));
 }
+
+/*****************************************************************************
+ * Cmdk
+ * ***************************************************************************/
+.cp__cmdk__modal .cp__cmdk div.w-full {
+    background-color: var(--ls-primary-background-color) !important;
+}
+
+.cp__cmdk__modal .cp__cmdk div.text-xs {
+    background-color: var(--ls-primary-background-color) !important;
+}
