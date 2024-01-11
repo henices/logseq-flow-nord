@@ -489,3 +489,10 @@ button.bg-primary\/90:hover {
 .light-theme .ui__modal-panel {
     background-color: var(--ls-primary-background-color);
 }
+
+/*****************************************************************************
+ * Theme selection
+ * ***************************************************************************/
+.cp__themes-installed .it {
+    background-color: transparent;
+}
