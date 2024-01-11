@@ -240,6 +240,7 @@ html[data-theme='dark'] {
     --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
     --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
+    --ls-scrollbar-width: 6px;
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: hsl(var(--cl-primary));
     --ls-icon-color: hsl(var(--cl-primary));
@@ -369,6 +370,7 @@ html[data-theme='light'] {
     --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
     --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
+    --ls-scrollbar-width: 6px;
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: hsl(var(--cl-primary));
     --ls-icon-color: hsl(var(--cl-primary));
