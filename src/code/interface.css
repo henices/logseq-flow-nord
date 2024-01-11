@@ -15,6 +15,10 @@
 *::-webkit-scrollbar-thumb:hover {
   background-color: var(--ls-scrollbar-thumb-hover-color);
 }
+
+.ui__modal[label=plugins-dashboard] .panel-content {
+  overflow-y: overlay;
+}
 /* Hides the Favorite & Recent Titles */
 /*.left-sidebar-inner .nav-content-item .header {
     visibility: hidden;
