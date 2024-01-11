@@ -125,10 +125,6 @@ The custom.css file can take the following options to tweak the visuals.
 1. copy the css code and paste to the custom.css
 2. select `Flow Nord Theme-custom` theme, enjoy :)
 
-[catppuccin-macchiatocolor palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-macchiato.css)
-
-<img width="1001" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/00bb7b37-d620-4bd0-886d-c2fd0cefced8">
-
 [catppuccin-mocha palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-mocha.css)
 
 <img width="1004" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/32ff85a6-aa20-4b3c-bc5b-3ae190597bf4">
@@ -144,14 +140,6 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 [gruvbox color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/gruvbox.css)
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/d4b84230-6f46-4b39-9576-c54270a13bb4)
-
-[sepia color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/sepia.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/9194fad5-6350-4fbc-8edd-87d5eb9ebd0a)
-
-[sepia2 color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/sepia2.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/49b4ea36-2fdf-420b-b449-32854f798a3a)
 
 [newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
 
