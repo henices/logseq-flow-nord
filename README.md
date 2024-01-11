@@ -59,11 +59,10 @@ Select Flow Nord Theme-Nord in theme menu.
 select `Flow Nord Theme-custom` theme, and add the following code in custom.css:
 
 ```
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/catppuccin-macchiato.css");
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/sepia.css");
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
 ```
 
-Then we get catppuccin-macchiato color palette in Logseq dark mode, sepia color palette in Logseq light mode.
+Then we get newsprint color palette in both light and dark mode.
 
 See [Custom Color Palette](https://github.com/henices/logseq-flow-nord#%EF%B8%8F-custom-color-palette) section for more details. 
 
@@ -200,8 +199,8 @@ https://github.com/henices/logseq-flow-nord/assets/929715/b9eef3ec-31b5-43ff-aeb
 Add the following code to custom.css, you can set theme to catppuccin latte color palette.
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/catppuccin-latte.css");
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord-custom.css");
 
 :root {
   --cl-font-size: 16px;
