@@ -168,6 +168,7 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
 }*/
 /* Adjusting left sidebar size and background color */
 .left-sidebar-inner {
+    --left-sidebar-bg-color: hsl(var(--cl-background));
     padding-top: 0px;
     width: var(--ls-left-sidebar-width);
     background-color: hsl(var(--cl-background));
