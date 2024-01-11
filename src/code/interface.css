@@ -474,3 +474,11 @@ button.bg-primary\/90:hover {
 .cp__cmdk__modal .cp__cmdk div.text-xs {
     background-color: var(--ls-primary-background-color) !important;
 }
+
+/*****************************************************************************
+ * Panel
+ * ***************************************************************************/
+.dark-theme .ui__modal-panel,
+.light-theme .ui__modal-panel {
+    background-color: var(--ls-primary-background-color);
+}
