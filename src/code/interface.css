@@ -28,13 +28,20 @@
              MENU IMPROVEMENTS
 ********************************************/
 
+/*
+.absolute-modal[data-modal-name] {
+}
+*/
+
 .absolute.rounded-md.shadow-lg.absolute-modal {
     width: 800px !important;
     max-width: 100% !important;
     border: 3px solid var(--bg-color-1);
     max-height: 500px !important;
     height: fit-content !important;
+    background-color: var(--ls-secondary-background-color);
 }
+
 .menu-link {
     background-color: var(--bg-color-1);
 }
@@ -45,6 +52,7 @@
     border-color: var(--bg-color-2);
 }
 
+#ui__ac-inner .menu-link.chosen,
 .menu-link.chosen {
     background-color: hsl(var(--cl-primary), 0.15);
 }
@@ -464,6 +472,13 @@ button.bg-primary\/90:hover {
     color: var(--bg-color);
     font-weight: 500;
     cursor: pointer;
+}
+
+div .time-repeater,
+div .datepicker,
+div .rc-datepicker-wrapper,
+div #date-time-picker {
+    background-color: var(--ls-secondary-background-color);
 }
 
 /*****************************************************************************
