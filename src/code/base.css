@@ -572,6 +572,10 @@ Code Mirror Settings
     background-color: hsl(var(--cl-background));
 }
 
+.CodeMirror .CodeMirror-hscrollbar {
+    height: 4px;
+}
+
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters, .cm-s-solarized.cm-s-light .CodeMirror-gutters {
     background-color: hsl(var(--cl-background), 0);
 }
