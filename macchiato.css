@@ -2576,3 +2576,17 @@ html[data-theme='light'] {
 .light-theme .external-link {
     color: hsl(var(--cl-external-link-color));
 }
+
+.dark-theme,
+html[data-theme='dark'] {
+    --ct-bg-color-h: 232;
+    --ct-bg-color-s: 23%;
+    --ct-bg-color-l: 18%;
+    --ct-bg-color: 233, 23%, 15%;
+    --ct-text-color: 227, 68%, 88%;
+    --ct-primariy-color:  220, 83%, 75%;
+    --ct-secondary-color: 355, 71%, 77%;
+    --ct-accent-color: 267, 83%, 80%;
+    --ct-title-text-color: 228, 42%, 79%;
+    /*--ct-external-link-color: 171, 47%, 69%;*/
+}

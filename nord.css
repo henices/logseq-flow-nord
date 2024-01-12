@@ -71,7 +71,7 @@ Base Root Settings
 
 
 :root {
-    --ls-font-family: var(--cl-font-family, -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Roboto,"Source Han Sans VF","Source Sans 3 VF",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Only Emoji");
+    --ls-font-family: var(--cl-font-family, -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Roboto,Ubuntu,"Droid Sans","Helvetica Neue","Source Han Sans VF","Source Sans 3 VF",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Only Emoji");
     --ls-font-size: var(--cl-font-size, 16px);
     --ls-font-weight: var(--cl-font-weight, 420);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
@@ -235,6 +235,7 @@ html[data-theme='dark'] {
     --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
     --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
+    --ls-scrollbar-width: 6px;
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: hsl(var(--cl-primary));
     --ls-icon-color: hsl(var(--cl-primary));
@@ -364,6 +365,7 @@ html[data-theme='light'] {
     --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
     --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
+    --ls-scrollbar-width: 6px;
     --ls-head-text-color: var(--ls-link-text-color);
     --ls-cloze-text-color: hsl(var(--cl-primary));
     --ls-icon-color: hsl(var(--cl-primary));
@@ -563,6 +565,10 @@ Code Mirror Settings
     border: 0px solid var(--bg-color-2);
     border-radius: 3px;
     background-color: hsl(var(--cl-background));
+}
+
+.CodeMirror .CodeMirror-hscrollbar {
+    height: 4px;
 }
 
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters, .cm-s-solarized.cm-s-light .CodeMirror-gutters {
@@ -1935,15 +1941,24 @@ End of Live Query Styler
 ********************************************//********************************************
          INTERFACE IMPROVEMENTS
 ********************************************/
-/* Set scrollbar width to a thinner size */
-#main-container {
-    overflow: hidden;
-}
-/* Hides scrollbar in right panel */
-.scrollbar-spacing {
-    overflow-x: hidden;
+
+*::-webkit-scrollbar {
+  width: var(--ls-scrollbar-width);
+  height: var(--ls-scrollbar-width);
+  background-color: var(--ls-scrollbar-background-color);
 }
 
+*::-webkit-scrollbar-thumb {
+  background-color: var(--ls-scrollbar-foreground-color);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: var(--ls-scrollbar-thumb-hover-color);
+}
+
+.ui__modal[label=plugins-dashboard] .panel-content {
+  overflow-y: overlay;
+}
 /* Hides the Favorite & Recent Titles */
 /*.left-sidebar-inner .nav-content-item .header {
     visibility: hidden;
@@ -1953,13 +1968,20 @@ End of Live Query Styler
              MENU IMPROVEMENTS
 ********************************************/
 
+/*
+.absolute-modal[data-modal-name] {
+}
+*/
+
 .absolute.rounded-md.shadow-lg.absolute-modal {
     width: 800px !important;
     max-width: 100% !important;
     border: 3px solid var(--bg-color-1);
     max-height: 500px !important;
     height: fit-content !important;
+    background-color: var(--ls-secondary-background-color);
 }
+
 .menu-link {
     background-color: var(--bg-color-1);
 }
@@ -1970,6 +1992,7 @@ End of Live Query Styler
     border-color: var(--bg-color-2);
 }
 
+#ui__ac-inner .menu-link.chosen,
 .menu-link.chosen {
     background-color: hsl(var(--cl-primary), 0.15);
 }
@@ -2086,6 +2109,7 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
 }
 
 .left-sidebar-inner .nav-content-item .header {
+    --left-sidebar-bg-color: hsl(var(--cl-background));
     background-color: hsl(var(--cl-background));
 }
 
@@ -2095,6 +2119,7 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
 }*/
 /* Adjusting left sidebar size and background color */
 .left-sidebar-inner {
+    --left-sidebar-bg-color: hsl(var(--cl-background));
     padding-top: 0px;
     width: var(--ls-left-sidebar-width);
     background-color: hsl(var(--cl-background));
@@ -2327,26 +2352,43 @@ span.mx-2.opacity-50:before {
  * Button
  ****************************************************************************/
 
+.dark-theme .cp__plugins-item-card  a.btn,
+.light-theme .cp__plugins-item-card  a.btn {
+    color: hsl(var(--cl-primary));
+}
+
 .cp__settings-main .panel-wrap .ui__button,
 .cp__settings-main .ui__button-theme-color.ui__button-color-custom {
-    background-color: hsl(var(--cl-button-background));
+    background-color: hsl(var(--cl-button-background), 0.95);
     color: var(--bg-color);
-    opacity: .95;
 }
 
 .cp__settings-main .panel-wrap .ui__button:hover,
 .cp__settings-main .ui__button-theme-color.ui__button-color-custom:hover {
     background-color: hsl(var(--cl-button-background));
     color: var(--bg-color);
-    opacity: 1;
 }
 
 .ui__button {
-    font-family: system-ui,-apple-system,BlinkMacSystemFont;
+    font-family: var(--ls-font-family);
 }
 
 .ui__toggle-background-on {
     background-color: hsl(var(--cl-button-background));
+}
+
+button.bg-primary\/90 {
+    background-color: hsl(var(--cl-button-background), 0.9);
+    color: var(--bg-color);
+}
+
+button.bg-primary\/90:hover {
+    background-color: hsl(var(--cl-button-background));
+    color: var(--bg-color);
+}
+
+.ui__button-shortcut-key {
+    background-color: transparent;
 }
 
 /******************************************************************************
@@ -2370,6 +2412,48 @@ span.mx-2.opacity-50:before {
     color: var(--bg-color);
     font-weight: 500;
     cursor: pointer;
+}
+
+div .time-repeater,
+div .datepicker,
+div .rc-datepicker-wrapper,
+div #date-time-picker {
+    background-color: var(--ls-secondary-background-color);
+}
+
+/*****************************************************************************
+ * Plugins
+ * ***************************************************************************/
+
+.light-theme .cp__plugins-page .secondary-tabs button.active .flex.items-center,
+.dark-theme .cp__plugins-page .secondary-tabs button.active .flex.items-center {
+    color: hsl(var(--cl-primary));
+}
+
+/*****************************************************************************
+ * Cmdk
+ * ***************************************************************************/
+.cp__cmdk__modal .cp__cmdk div.w-full {
+    background-color: var(--ls-primary-background-color) !important;
+}
+
+.cp__cmdk__modal .cp__cmdk div.text-xs {
+    background-color: var(--ls-primary-background-color) !important;
+}
+
+/*****************************************************************************
+ * Panel
+ * ***************************************************************************/
+.dark-theme .ui__modal-panel,
+.light-theme .ui__modal-panel {
+    background-color: var(--ls-primary-background-color);
+}
+
+/*****************************************************************************
+ * Theme selection
+ * ***************************************************************************/
+.cp__themes-installed .it {
+    background-color: transparent;
 }
 
 /* This is a simple way to put any blocks side by side in a column view, simply by adding the tags #parallel-2 to the 2 blocks, or #parallel-3 to the 3 blocks. Additionally, the tags #parallel-small and #parallel-big work to have 2 blocks side by side with one taking more space than the other, similar to having a sidebar.
@@ -2482,6 +2566,11 @@ html[data-theme='dark'] {
     --bullet-threading-active-color: #D08770;
     --bullet-threading-width: 2px;
     */
+}
+
+.dark-theme #app-container,
+.light-theme #app-container {
+    background-color: var(--ls-primary-background-color);
 }
 
 /*

@@ -1,61 +1,61 @@
 {
   "name": "Flow Nord theme",
   "author": "henices && nmartin84",
-  "version": "0.10.14",
+  "version": "0.10.15",
   "description": "Minimalistic Nord Theme that's soft around the edges.",
   "logseq": {
     "themes": [
       {
         "name": "Flow Nord Theme - Nord",
-        "url": "./src/palettes/nord.css",
+        "url": "./nord.css",
         "description": "Flow Nord Theme - Nord",
         "mode": "light"
       },
       {
         "name": "Flow Nord Theme - Nord",
-        "url": "./src/palettes/nord.css",
+        "url": "./nord.css",
         "description": "Flow Nord Theme - Nord",
         "mode": "dark"
       },
       {
         "name": "Flow Nord Theme - Catppuccin macchiato",
-        "url": "./src/palettes/catppuccin-macchiato.css",
+        "url": "./macchiato.css",
         "description": "Flow Nord Theme - Catppuccin macchiato",
         "mode": "dark"
       },
       {
         "name": "Flow Nord Theme - One dark Pro",
-        "url": "./src/palettes/one-dark-pro.css",
+        "url": "./onedark.css",
         "description": "Flow Nord Theme - One dark Pro",
         "mode": "dark"
       },
       {
         "name": "Flow Nord Theme - Sepia",
-        "url": "./src/palettes/sepia.css",
+        "url": "./sepia.css",
         "description": "Flow Nord Theme - Sepia",
         "mode": "light"
       },
       {
         "name": "Flow Nord Theme - Catppuccin latte",
-        "url": "./src/palettes/catppuccin-latte.css",
+        "url": "./latte.css",
         "description": "Flow Nord Theme - Catppuccin latte",
         "mode": "light"
       },
       {
         "name": "Flow Nord Theme - Xiaobot",
-        "url": "./src/palettes/xiaobot.css",
+        "url": "./xiaobot.css",
         "description": "Flow Nord Theme - Xiaobot",
         "mode": "light"
       },
       {
         "name": "Flow Nord Theme - custom",
-        "url": "./src/palettes/nord-custom.css",
+        "url": "./custom.css",
         "description": "Flow Nord Theme - custom",
         "mode": "light"
       },
       {
         "name": "Flow Nord Theme - custom",
-        "url": "./src/palettes/nord-custom.css",
+        "url": "./custom.css",
         "description": "Flow Nord Theme - custom",
         "mode": "dark"
       }

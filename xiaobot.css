@@ -2576,3 +2576,16 @@ html[data-theme='light'] {
 .light-theme .external-link {
     color: hsl(var(--cl-external-link-color));
 }
+
+.white-theme, html[data-theme='light'] {
+    --ct-bg-color-h: 30;
+    --ct-bg-color-s: 22%;
+    --ct-bg-color-l: 96%;
+    --ct-bg-color: 0, 0%, 92%;
+    --ct-text-color: 0, 0%, 20%;
+    --ct-primary-color: 4, 45%, 48%;
+    --ct-secondary-color: 30, 12%, 51%;
+    --ct-accent-color: 358, 100%, 31%;
+    --ct-title-text-color: 0, 0%, 20%;
+    --ct-external-link-color: 106, 11%, 47%;
+}
