@@ -200,7 +200,7 @@ Add the following code to custom.css, you can set theme to catppuccin latte colo
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord-custom.css");
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
 
 :root {
   --cl-font-size: 16px;
