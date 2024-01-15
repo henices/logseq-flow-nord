@@ -239,6 +239,17 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     transition: width .3s;
     background-color: var(--bg-color,#d8e1e8);
 }
+
+.cp__right-sidebar .resizer {
+    background-color: var(--ls-primary-background-color);
+}
+
+.cp__right-sidebar .resizer:active,
+.cp__right-sidebar .resizer:focus,
+.cp__right-sidebar .resizer:hover {
+    background-color: hsl(var(--cl-primary), .6);
+}
+
 /********************************************
            PAGE TITLE ELEMENTS
 ********************************************/
