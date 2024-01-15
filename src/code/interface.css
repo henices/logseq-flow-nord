@@ -198,6 +198,16 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
 .left-sidebar-inner .create #create-button:hover .ui__icon.ti.ti-plus {
     color: var(--bg-color-1);
 }
+.cp__sidebar-left-layout .left-sidebar-resizer {
+    background-color: var(--ls-primary-background-color);
+}
+.cp__sidebar-left-layout .left-sidebar-resizer.is-active,
+.cp__sidebar-left-layout .left-sidebar-resizer:active,
+.cp__sidebar-left-layout .left-sidebar-resizer:focus,
+.cp__sidebar-left-layout .left-sidebar-resizer:hover {
+    background-color: hsl(var(--cl-primary), .6);
+}
+
 /********************************************
         RIGHT SIDEBAR IMPROVEMENTS
 ********************************************/
