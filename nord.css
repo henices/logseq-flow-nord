@@ -71,7 +71,7 @@ Base Root Settings
 
 
 :root {
-    --ls-font-family: var(--cl-font-family, -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Roboto,Ubuntu,"Droid Sans","Helvetica Neue","Source Han Sans VF","Source Sans 3 VF",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Only Emoji");
+    --ls-font-family: var(--cl-font-family, -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Roboto,Ubuntu,"Droid Sans","Helvetica Neue","Source Han Sans VF","Microsoft YaHei","WenQuanYi Micro Hei","Source Sans 3 VF",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Only Emoji");
     --ls-font-size: var(--cl-font-size, 16px);
     --ls-font-weight: var(--cl-font-weight, 420);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
@@ -2138,6 +2138,16 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
 .left-sidebar-inner .create #create-button:hover .ui__icon.ti.ti-plus {
     color: var(--bg-color-1);
 }
+.cp__sidebar-left-layout .left-sidebar-resizer {
+    background-color: var(--ls-primary-background-color);
+}
+.cp__sidebar-left-layout .left-sidebar-resizer.is-active,
+.cp__sidebar-left-layout .left-sidebar-resizer:active,
+.cp__sidebar-left-layout .left-sidebar-resizer:focus,
+.cp__sidebar-left-layout .left-sidebar-resizer:hover {
+    background-color: hsl(var(--cl-primary), .6);
+}
+
 /********************************************
         RIGHT SIDEBAR IMPROVEMENTS
 ********************************************/
@@ -2169,6 +2179,17 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
     transition: width .3s;
     background-color: var(--bg-color,#d8e1e8);
 }
+
+.cp__right-sidebar .resizer {
+    background-color: var(--ls-primary-background-color);
+}
+
+.cp__right-sidebar .resizer:active,
+.cp__right-sidebar .resizer:focus,
+.cp__right-sidebar .resizer:hover {
+    background-color: hsl(var(--cl-primary), .6);
+}
+
 /********************************************
            PAGE TITLE ELEMENTS
 ********************************************/
