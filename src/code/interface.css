@@ -536,3 +536,7 @@ div #date-time-picker {
 .cp__themes-installed .it {
     background-color: transparent;
 }
+
+.cp__themes-installed .it.is-active, .cp__themes-installed .it:hover {
+    background-color: var(--ls-secondary-background-color);
+}
