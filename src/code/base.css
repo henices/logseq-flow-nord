@@ -238,7 +238,7 @@ html[data-theme='dark'] {
     --ls-page-inline-code-color: hsl(var(--cl-primary));
     --ls-page-inline-code-bg-color: hsl(var(--cl-primary), 0.1);
     --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
-    --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
+    /*--ls-scrollbar-background-color: var(--ls-secondary-background-color);*/
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
     --ls-scrollbar-width: 6px;
     --ls-head-text-color: var(--ls-link-text-color);
@@ -247,6 +247,9 @@ html[data-theme='dark'] {
     --ls-search-icon-color: var(--ls-link-text-color);
     --ls-a-chosen-bg: var(--ls-secondary-background-color);
     --ls-right-sidebar-code-bg-color: var(--bg-color-3);
+    --ls-create-whiteboard-background: var(--ls-secondary-background-color);
+    --logseq-whiteboard-toolbar-background: var(--ls-secondary-background-color);
+    --ls-whiteboard-title-background:var(--ls-primary-background-color);
     --color-level-1: var(--ls-secondary-background-color);
     --color-level-2: var(--ls-tertiary-background-color);
     --color-level-3: var(--ls-quaternary-background-color);
@@ -368,7 +371,7 @@ html[data-theme='light'] {
     --ls-page-inline-code-color: hsl(var(--cl-primary));
     --ls-page-inline-code-bg-color: hsl(var(--cl-primary), 0.1);
     --ls-scrollbar-foreground-color: hsl(var(--cl-primary), 0.4);
-    --ls-scrollbar-background-color: hsl(var(--ls-secondary-background-color));
+    /*--ls-scrollbar-background-color: var(--ls-secondary-background-color);*/
     --ls-scrollbar-thumb-hover-color: hsl(var(--cl-primary));
     --ls-scrollbar-width: 6px;
     --ls-head-text-color: var(--ls-link-text-color);
@@ -377,6 +380,9 @@ html[data-theme='light'] {
     --ls-search-icon-color: var(--ls-link-text-color);
     --ls-a-chosen-bg: var(--ls-secondary-background-color);
     --ls-right-sidebar-code-bg-color: var(--bg-color-3);
+    --ls-create-whiteboard-background: var(--ls-secondary-background-color);
+    --logseq-whiteboard-toolbar-background: var(--ls-secondary-background-color);
+    --ls-whiteboard-title-background:var(--ls-primary-background-color);
     --color-level-1: var(--ls-secondary-background-color);
     --color-level-2: var(--ls-tertiary-background-color);
     --color-level-3: var(--ls-quaternary-background-color);
