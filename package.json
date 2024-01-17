@@ -8,14 +8,7 @@
       {
         "name": "Flow Nord Theme - Nord",
         "url": "./nord.css",
-        "description": "Flow Nord Theme - Nord",
-        "mode": "light"
-      },
-      {
-        "name": "Flow Nord Theme - Nord",
-        "url": "./nord.css",
-        "description": "Flow Nord Theme - Nord",
-        "mode": "dark"
+        "description": "Flow Nord Theme - Nord"
       },
       {
         "name": "Flow Nord Theme - Catppuccin macchiato",
