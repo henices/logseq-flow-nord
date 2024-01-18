@@ -2116,7 +2116,7 @@ a.flex.items-center.text-sm.font-medium.rounded-md.wrap-th:hover {
 
 .left-sidebar-inner .nav-content-item .header {
     --left-sidebar-bg-color: hsl(var(--cl-background));
-    background-color: hsl(var(--cl-background));
+    /*background-color: hsl(var(--cl-background));*/
 }
 
 /* Setting up outer layer background color */
