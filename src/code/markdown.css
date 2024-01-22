@@ -42,14 +42,15 @@
 /* Code */
 .CodeMirror  {
   font-family: var(--ls-font-family-code);
-  font-size: calc(var(--ls-font-size) * 0.9);
+  font-size: calc(var(--ls-font-size));
+  font-weight: 400;
   text-rendering: optimizelegibility !important;
   -webkit-text-size-adjust: 100% !important;
   /*
   -webkit-font-smoothing: antialiased !important;
   font-smoothing: antialiased !important;
   */
-  word-spacing: 0;
+  letter-spacing: 0;
 }
 
 /*:not(pre):not(mark)>code:before {
@@ -757,7 +758,6 @@ body {
     font-size: var(--ls-font-size);
     font-weight: var(--ls-font-weight);
     line-height: var(--ls-line-height);
-    letter-spacing: 0.01em;
 
     content-visibility: auto;
     contain-intrinsic-size: auto 500px; /* Explained in the next section. */
