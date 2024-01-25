@@ -1338,7 +1338,7 @@ svg.h-4.w-4 {
 .block-properties:not(.page-properties) {
     background-color: hsl(var(--cl-properties-background-color, var(--cl-background), 0.5));
     border-radius: var(--cl-border-minor);
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 3px 5px !important;
     font-size: smaller !important;
     font-family: var(--ls-font-family) !important;
