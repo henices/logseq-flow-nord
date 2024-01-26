@@ -267,6 +267,9 @@ html[data-theme='dark'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    /* shadcn UI vars */
+    --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
+    --accent: var(--cl-primary);
 }
 
 /* Light Settings */
@@ -400,6 +403,9 @@ html[data-theme='light'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    /* shadcn UI vars */
+    --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
+    --accent: var(--cl-primary);
 }
 
 /* ==========================================================================
@@ -565,6 +571,8 @@ Code Mirror Settings
     background-color: hsl(var(--cl-selected-background-color, var(--cl-primary, var(--nord-frost-nord8)), 0.1));
 }
 
+div.CodeMirror.cm-s-lsradix.cm-s-dark,
+div.CodeMirror.cm-s-lsradix.cm-s-light,
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-light {
     text-shadow: none;
     color: hsl(var(--ct-code-text-color, var(--cl-text-color)));
@@ -577,6 +585,8 @@ Code Mirror Settings
     height: 4px;
 }
 
+div.CodeMirror.cm-s-lsradix.cm-s-dark .CodeMirror-gutters,
+div.CodeMirror.cm-s-lsradix.cm-s-light .CodeMirror-gutters,
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters, .cm-s-solarized.cm-s-light .CodeMirror-gutters {
     background-color: hsl(var(--cl-background), 0);
 }
@@ -593,7 +603,6 @@ Code Mirror Settings
 .cm-s-solarized.CodeMirror pre.CodeMirror-line,
 .cm-s-solarized.cm-s-dark pre.CodeMirror-line,
 .cm-s-solarized.cm-s-light pre.CodeMirror-line {
-    padding: 0 1.5em;
 }
 
 /* === Coloring CodeMirror Keywords === */
@@ -1835,6 +1844,17 @@ Block Color Styling
 
 a.settings-plugin-item {
     color: hsl(var(--cl-text-color));
+}
+
+/* ============================================================================
+ Whiteboard
+ =============================================================================*/
+html[data-color=none] .tl-container {
+    --background: var(--background-color-h),var(--background-color-s),var(-background-color-l);
+    --ls-primary-background-color: var(--bg-color);
+    --ls-secondary-background-color: var(--bg-color-1);
+    --ls-tertiary-background-color: var(--bg-color-2);
+    --ls-quaternary-background-color: var(--bg-color-3);
 }
 /********************************************
 Live Query Styler by Nick Martin
