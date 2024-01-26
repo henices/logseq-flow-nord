@@ -574,6 +574,8 @@ Code Mirror Settings
     background-color: hsl(var(--cl-selected-background-color, var(--cl-primary, var(--nord-frost-nord8)), 0.1));
 }
 
+div.CodeMirror.cm-s-lsradix.cm-s-dark,
+div.CodeMirror.cm-s-lsradix.cm-s-light,
 .cm-s-solarized.cm-s-dark, .cm-s-solarized.cm-s-light {
     text-shadow: none;
     color: hsl(var(--ct-code-text-color, var(--cl-text-color)));
@@ -586,6 +588,8 @@ Code Mirror Settings
     height: 4px;
 }
 
+div.CodeMirror.cm-s-lsradix.cm-s-dark .CodeMirror-gutters,
+div.CodeMirror.cm-s-lsradix.cm-s-light .CodeMirror-gutters,
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters, .cm-s-solarized.cm-s-light .CodeMirror-gutters {
     background-color: hsl(var(--cl-background), 0);
 }
@@ -602,7 +606,6 @@ Code Mirror Settings
 .cm-s-solarized.CodeMirror pre.CodeMirror-line,
 .cm-s-solarized.cm-s-dark pre.CodeMirror-line,
 .cm-s-solarized.cm-s-light pre.CodeMirror-line {
-    padding: 0 1.5em;
 }
 
 /* === Coloring CodeMirror Keywords === */
