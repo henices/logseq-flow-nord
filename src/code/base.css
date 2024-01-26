@@ -272,6 +272,8 @@ html[data-theme='dark'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    /* shadcn UI vars */
+    --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
 }
 
 /* Light Settings */
@@ -405,6 +407,8 @@ html[data-theme='light'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    /* shadcn UI vars */
+    --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
 }
 
 /* ==========================================================================
