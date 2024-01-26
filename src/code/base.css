@@ -274,6 +274,7 @@ html[data-theme='dark'] {
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
+    --accent: var(--cl-primary);
 }
 
 /* Light Settings */
@@ -409,6 +410,7 @@ html[data-theme='light'] {
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
+    --accent: var(--cl-primary);
 }
 
 /* ==========================================================================
