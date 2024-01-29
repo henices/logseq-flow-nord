@@ -210,7 +210,7 @@ a.settings-plugin-item {
  Whiteboard
  =============================================================================*/
 html[data-color=none] .tl-container {
-    --background: var(--background-color-h),var(--background-color-s),var(-background-color-l);
+    --background: var(--background-color-h),var(--background-color-s),var(--background-color-l);
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
