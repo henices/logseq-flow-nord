@@ -156,7 +156,7 @@ html[data-theme='dark'] {
     --contrastThreshold: 60%;
     --lightnessTransform: 5%;
     --darknessTransform: 15%;
-    --bg-light-transform: 3%; /* USED FOR CALCULATING VARIOUS SHADES FOR BACKGROUNDS */
+    --bg-light-transform: 2%; /* USED FOR CALCULATING VARIOUS SHADES FOR BACKGROUNDS */
     /* ==== TRANSFORMERS ==== */
     /* text colors */
     --primary-text-darken: calc(var(--primary-text-l) - calc(var(--lightnessTransform) * 3));
@@ -272,9 +272,12 @@ html[data-theme='dark'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    --ls-table-tr-even-background-color: var(--bg-color-1);
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
     --accent: var(--cl-primary);
+    --background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
+    --foreground: var(--cl-text-color);
 }
 
 /* Light Settings */
@@ -408,9 +411,12 @@ html[data-theme='light'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    --ls-table-tr-even-background-color: var(--bg-color-1);
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
     --accent: var(--cl-primary);
+    --background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
+    --foreground: var(--cl-text-color);
 }
 
 /* ==========================================================================
