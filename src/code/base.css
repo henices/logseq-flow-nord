@@ -211,7 +211,7 @@ html[data-theme='dark'] {
     --ls-mark-bg-color: var(--color-accent);
     --ls-mark-color: hsl(var(--cl-primary));
     --ls-border-color: var(--bg-color-1);
-    --ls-secondary-border-color: hsl(var(--cl-secondary));
+    --ls-secondary-border-color: var(--ls-secondary-text-color);
     --ls-guideline-color: hsl(var(--cl-text-color), 0.1);
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
@@ -350,7 +350,7 @@ html[data-theme='light'] {
     --ls-mark-bg-color: var(--color-accent);
     --ls-mark-color: hsl(var(--cl-primary));
     --ls-border-color: var(--bg-color-1);
-    --ls-secondary-border-color: hsl(var(--cl-secondary));
+    --ls-secondary-border-color: var(--ls-secondary-text-color);
     --ls-guideline-color: hsl(var(--cl-text-color), 0.1);
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
