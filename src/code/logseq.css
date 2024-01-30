@@ -1,5 +1,5 @@
 :root {
-    --cl-button-background: var(--cl-primary, var(--ls-button-background-hsl));
+    --cl-button-background: var(--cl-primary, var(--ls-button-background-hsl, var(--nord-frost-nord10)));
 }
 
 /******************************,
