@@ -268,6 +268,8 @@ html[data-theme='dark'] {
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
     --ls-table-tr-even-background-color: var(--bg-color-1);
+    --ls-button-background-hsl: 200, 98%, 35%;
+    --ls-button-background: hsl(var(--ls-button-background-hsl));
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
     --accent: var(--cl-primary);
@@ -407,6 +409,8 @@ html[data-theme='light'] {
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
     --ls-table-tr-even-background-color: var(--bg-color-1);
+    --ls-button-background-hsl: 200, 98%, 35%;
+    --ls-button-background: hsl(var(--ls-button-background-hsl));
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
     --accent: var(--cl-primary);
@@ -1645,7 +1649,7 @@ span.inline.px-1.with-bg-color[style*="pink"] {
 }
 */
 :root {
-    --cl-button-background: var(--cl-primary, var(--ls-button-background-hsl));
+    --cl-button-background: var(--cl-primary, var(--ls-button-background-hsl, var(--nord-frost-nord10)));
 }
 
 /******************************,
