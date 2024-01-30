@@ -151,7 +151,7 @@ html[data-theme='dark'] {
     --contrastThreshold: 60%;
     --lightnessTransform: 5%;
     --darknessTransform: 15%;
-    --bg-light-transform: 3%; /* USED FOR CALCULATING VARIOUS SHADES FOR BACKGROUNDS */
+    --bg-light-transform: 2%; /* USED FOR CALCULATING VARIOUS SHADES FOR BACKGROUNDS */
     /* ==== TRANSFORMERS ==== */
     /* text colors */
     --primary-text-darken: calc(var(--primary-text-l) - calc(var(--lightnessTransform) * 3));
@@ -206,7 +206,7 @@ html[data-theme='dark'] {
     --ls-mark-bg-color: var(--color-accent);
     --ls-mark-color: hsl(var(--cl-primary));
     --ls-border-color: var(--bg-color-1);
-    --ls-secondary-border-color: hsl(var(--cl-secondary));
+    --ls-secondary-border-color: var(--ls-secondary-text-color);
     --ls-guideline-color: hsl(var(--cl-text-color), 0.1);
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
@@ -267,9 +267,12 @@ html[data-theme='dark'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    --ls-table-tr-even-background-color: var(--bg-color-1);
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
     --accent: var(--cl-primary);
+    --background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
+    --foreground: var(--cl-text-color);
 }
 
 /* Light Settings */
@@ -342,7 +345,7 @@ html[data-theme='light'] {
     --ls-mark-bg-color: var(--color-accent);
     --ls-mark-color: hsl(var(--cl-primary));
     --ls-border-color: var(--bg-color-1);
-    --ls-secondary-border-color: hsl(var(--cl-secondary));
+    --ls-secondary-border-color: var(--ls-secondary-text-color);
     --ls-guideline-color: hsl(var(--cl-text-color), 0.1);
     --ls-guideline-references-color: hsl(var(--primary-text-h), var(--primary-text-s), var(--primary-text-l), 0.3);
     --ls-menu-hover-color: var(--ls-secondary-background-color);
@@ -403,9 +406,12 @@ html[data-theme='light'] {
     --ls-highlight-color-pink-text: #f472b6;
     --ls-success-text-color: var(--color-green-500);
     --ls-header-button-background: hsl(var(--cl-text-color), 0.75);
+    --ls-table-tr-even-background-color: var(--bg-color-1);
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
     --accent: var(--cl-primary);
+    --background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
+    --foreground: var(--cl-text-color);
 }
 
 /* ==========================================================================
@@ -1850,7 +1856,7 @@ a.settings-plugin-item {
  Whiteboard
  =============================================================================*/
 html[data-color=none] .tl-container {
-    --background: var(--background-color-h),var(--background-color-s),var(-background-color-l);
+    --background: var(--background-color-h),var(--background-color-s),var(--background-color-l);
     --ls-primary-background-color: var(--bg-color);
     --ls-secondary-background-color: var(--bg-color-1);
     --ls-tertiary-background-color: var(--bg-color-2);
