@@ -277,7 +277,9 @@ html[data-theme='dark'] {
     --ls-button-background: hsl(var(--ls-button-background-hsl));
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
-    --accent: var(--cl-primary);
+    --primary: var(--cl-primary);
+    --secondary: var(--cl-secondary);
+    --accent: var(--cl-accent);
     --background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
     --foreground: var(--cl-text-color);
 }
@@ -418,7 +420,9 @@ html[data-theme='light'] {
     --ls-button-background: hsl(var(--ls-button-background-hsl));
     /* shadcn UI vars */
     --popover: var(--background-color-h),var(--background-color-s),var(--bg-lightness-1);
-    --accent: var(--cl-primary);
+    --primary: var(--cl-primary);
+    --secondary: var(--cl-secondary);
+    --accent: var(--cl-accent);
     --background: var(--background-color-h), var(--background-color-s), var(--background-color-l);
     --foreground: var(--cl-text-color);
 }
