@@ -200,6 +200,7 @@ html[data-theme='dark'] h1.title {
 .ls-block :is(h1, h2) {
 }
 
+/*
 .ls-block h1,
 .editor-inner .uniline-block.h1 {
     border-bottom: 0px;
@@ -209,6 +210,7 @@ html[data-theme='dark'] h1.title {
 .editor-inner .uniline-block.h2 {
     border-bottom: 0px;
 }
+*/
 
 .ls-block :is(h1,h2,h3,h4,h5,h6):after {
     font-weight: 700;
@@ -338,7 +340,6 @@ a.priority[href="#/page/C" i]::before {
 .block-marker.wait,
 .block-marker.waiting,
 .block-marker.LATER {
-    font-size: var(--cl-marker-size, 0px);
     color: hsl(var(--cl-marker-color, --cl-secondary));
 }
 
@@ -353,11 +354,12 @@ a.priority[href="#/page/C" i]::before {
 .block-marker.waiting:before,
 .block-marker.LATER:before {
     font-size: var(--cl-marker-pre-size, var(--ls-font-size));
-    font-weight: 600;
+    font-weight: 500;
     color: hsl(var(--cl-marker-color, --cl-secondary));
     opacity: 1;
 }
 
+/*
 h1.todo .block-marker.TODO:before,
 h1.todo .block-marker.DOING:before,
 h1.todo .block-marker.NOW:before,
@@ -408,6 +410,7 @@ h3.todo .block-marker.LATER:before {
 .block-marker.LATER:before {
     content: "L";
 }
+*/
 
 /*
 .mr-1.flex.flex-row.items-center.sm\:mr-2 {
