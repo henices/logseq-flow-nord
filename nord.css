@@ -1843,8 +1843,10 @@ Block Color Styling
 /* ============================================================================
  MISC
  =============================================================================*/
-.cp__sidebar-help-btn {
-    display: none;
+
+.dark-theme .cp__sidebar-help-btn,
+.light-theme .cp__sidebar-help-btn {
+    right: 0.5rem;
 }
 
 .asset-ref.is-pdf:after {
