@@ -1048,7 +1048,7 @@ a.priority[href="#/page/C" i]::before {
 
 .block-marker {
     font-size: var(--ls-font-size);
-    font-weight: 600;
+    font-weight: 500;
     color: hsl(var(--cl-marker-color, --cl-secondary));
 }
 
@@ -1077,7 +1077,6 @@ a.priority[href="#/page/C" i]::before {
 .block-marker.waiting:before,
 .block-marker.LATER:before {
     font-size: var(--cl-marker-pre-size, var(--ls-font-size));
-    font-weight: 500;
     color: hsl(var(--cl-marker-color, --cl-secondary));
     opacity: 1;
 }
