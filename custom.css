@@ -1710,7 +1710,7 @@ a.page-ref:hover {
     /* transition: 0.2s; */
 }
 :not(.whiteboard-shape) .block-ref span {
-    border-bottom: dotted hsl(var(--cl-text-color), 0.9) 1px;
+    border-bottom: dotted hsl(var(--cl-text-color), 0.35) 1.5px;
     padding-bottom: 2.5px;
 }
 .block-ref:hover {
