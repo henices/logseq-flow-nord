@@ -1019,6 +1019,42 @@ a.priority[href="#/page/C" i]::before {
     background: hsl(var(--nord-aurora-nord14));
 }
 
+/*  === Priority Tooltips ===  */
+.tippy-tooltip:has(.tooltip-priority) {
+    left: -6px;
+}
+
+a.tooltip-priority {
+    line-height: 100%;
+}
+
+a.tooltip-priority::before {
+    /* Copied from a.priority::before in the theme */
+    transform: translateY(-1px);
+    border: 1px solid hsl(var(--cl-text-color), 0.15);
+    border-radius: var(--cl-checkbox-radius, 4px);
+    height: calc(var(--ls-font-size) + 4px);
+    width: calc(var(--ls-font-size) + 4px);
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+a.tooltip-priority::after {
+    margin-right: 8px;
+}
+
+a.tooltip-priority:last-of-type::after {
+    margin-right: 0px;
+}
+
+a.tooltip-priority:hover::before {
+    opacity: 1;
+}
+
 /*  === Checkboxes ===  */
 .form-checkbox {
     background-color: var(--bg-color-1);
