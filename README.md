@@ -7,6 +7,8 @@ A minimal theme that focuses on a clean and sleek interface that's soft on the e
 - Curved edges over jagged edges
 - Reference Panels Style around each match rather than each document
 - Improved block ref styling
+- Six built-in color palettes
+- A large variety of color [palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes)
 
 ## 🚀 Demo
 
