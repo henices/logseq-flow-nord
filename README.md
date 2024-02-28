@@ -44,15 +44,47 @@ Logseq Marketplace:
 
 Another way to adopt this theme is to use jsDelivr CDN by adding the following line to your custom.css. You can also change the @main part to use the latest version.
 
+### Nord (light & dark)
+
 ```css
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
+```
+
+### catppuccin latte (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/latte.css");
+```
+
+### Sepia (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/sepia.css");
+```
+
+### Xiaobot (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/xiaobot.css");
+```
+
+### Onedark (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/onedark.css");
+```
+
+### catppuccin macchiato (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/macchiato.css");
 ```
 
 ## Usage
 
 ### Use built-in Nord color palette
 
-Select Flow Nord Theme-Nord in theme menu.
+Select Flow Nord Theme-* in theme menu.
 
 ### Use Custom color palette
 
