@@ -10,7 +10,10 @@ A minimal theme that focuses on a clean and sleek interface that's soft on the e
 - Six built-in color palettes
 - A large variety of color [palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes)
 
-**Logseq now officially supports accents and introduces its own variation of themes. The Logseq Flow Nord theme will only apply when no accent is selected; otherwise, it will be overridden.**
+**Logseq now officially supports accents and introduces its own variation of themes. Select no accent for the max compatiable.**
+
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/e5045cda-25a8-4c16-96ff-0f8990632769)
+
 
 ## 🚀 Demo
 
