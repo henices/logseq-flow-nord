@@ -444,10 +444,20 @@ span.mx-2.opacity-50:before {
     color: var(--bg-color);
 }
 
+.cp__settings-main .panel-wrap .cp__accent-colors-list-wrap .ui__button {
+    background-color: hsl(var(--cl-button-background), 0.95);
+    color: hsl(var(--cl-primary));
+}
+
 .cp__settings-main .panel-wrap .ui__button:hover,
 .cp__settings-main .ui__button-theme-color.ui__button-color-custom:hover {
     background-color: hsl(var(--cl-button-background));
     color: var(--bg-color);
+}
+
+.cp__settings-main .panel-wrap .cp__accent-colors-list-wrap .ui__button:hover {
+    background-color: hsl(var(--cl-button-background));
+    color: hsl(var(--cl-primary));
 }
 
 .ui__button {
