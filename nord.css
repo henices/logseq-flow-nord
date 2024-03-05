@@ -2647,6 +2647,14 @@ body:is([data-page="page"],[data-page="home"]).is-banner-active .ls-wide-mode #b
 }
 */
 
+/******************************
+**         bullet threading  **
+******************************/
+.dark-theme,
+.light-theme {
+  --ls-block-bullet-active-color: var(--ls-block-bullet-threading-active-color-overwrite, var(--ls-link-text-color) );
+}
+
 :root {
 }
 
