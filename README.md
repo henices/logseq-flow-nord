@@ -231,7 +231,7 @@ The [default color palette](https://github.com/henices/logseq-flow-nord/blob/mai
 
 ### Custom Color Palette in Mobile
 
-Add the following code to custom.css, you can set theme to catppuccin latte color palette.
+Add the following code to custom.css, you can set theme to newsprint color palette.
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
