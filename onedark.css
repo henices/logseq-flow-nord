@@ -1843,7 +1843,15 @@ Block Color Styling
     opacity: 1;
 }
 
-.extensions__pdf-container[data-theme=dark] .pdfViewer .textLayer ::selection {
+html[data-theme="dark"] .extensions__pdf-container[data-theme=dark] .pdfViewer .textLayer ::selection {
+    background-color: hsl(var(--cl-primary, --nord-frost-nord8));
+}
+
+html[data-theme="light"] .extensions__pdf-container[data-theme=light] .pdfViewer .textLayer ::selection {
+    background-color: hsl(var(--cl-primary, --nord-frost-nord8));
+}
+
+html[data-color="none"] .pdfViewer .textLayer ::selection {
     background-color: hsl(var(--cl-primary, --nord-frost-nord8));
 }
 
