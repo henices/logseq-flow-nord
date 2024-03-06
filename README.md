@@ -13,7 +13,7 @@ A minimal theme that focuses on a clean and sleek interface that's soft on the e
 **Logseq now officially supports accents and introduces its own variation of themes. Logseq Flow Nord Theme doesn't support offical accent colors.**
 **Select no accent color (1st color option) for the max compatibility.**
 
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/e5045cda-25a8-4c16-96ff-0f8990632769)
+![image](https://github.com/henices/logseq-flow-nord/assets/929715/87668104-8b8b-4f33-85c4-492fe145cdfb)
 
 
 ## 🚀 Demo
