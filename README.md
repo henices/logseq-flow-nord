@@ -50,7 +50,7 @@ Logseq Marketplace:
 - Search for Flow Nord Theme
 - Click on the "Install" button.
 
-## Usage
+## ❓️ Usage
 
 ### Use built-in Nord color palette
 
