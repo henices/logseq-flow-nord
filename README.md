@@ -50,44 +50,6 @@ Logseq Marketplace:
 - Search for Flow Nord Theme
 - Click on the "Install" button.
 
-Another way to adopt this theme is to use jsDelivr CDN by adding the following line to your custom.css. You can also change the @main part to use the latest version.
-
-### Nord (light & dark)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
-```
-
-### catppuccin latte (light)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/latte.css");
-```
-
-### Sepia (light)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/sepia.css");
-```
-
-### Xiaobot (light)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/xiaobot.css");
-```
-
-### Onedark (dark)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/onedark.css");
-```
-
-### catppuccin macchiato (dark)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/macchiato.css");
-```
-
 ## Usage
 
 ### Use built-in Nord color palette
@@ -210,9 +172,48 @@ Another way to use custom theme is to use jsdelivr CDN. select `Flow Nord Theme-
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
 ```
 
-### Custom Color Palette in Mobile
+### 📱️Use Flow Nord Theme in Mobile
 
-Add the following code to custom.css, you can set theme to newsprint color palette.
+
+If you want to use Flow Nord Theme built-in color palette in mobile, add the follwing code in the custom.css
+
+- Nord (light & dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
+```
+
+- catppuccin latte (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/latte.css");
+```
+
+- Sepia (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/sepia.css");
+```
+
+- Xiaobot (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/xiaobot.css");
+```
+
+- Onedark (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/onedark.css");
+```
+
+- catppuccin macchiato (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/macchiato.css");
+```
+
+If you want to use custom color palettes in mobile, add the following code to custom.css, you can set theme to newsprint color palette.
 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
@@ -226,12 +227,6 @@ Add the following code to custom.css, you can set theme to newsprint color palet
 ```
 
 Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/main/src/palettes
-
-If you want to use Flow Theme nord color palette, use the follwing code in the custom.css
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
-```
 
 ### Custom Syntax highlight
 
