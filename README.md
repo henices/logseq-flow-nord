@@ -52,11 +52,11 @@ Logseq Marketplace:
 
 ## ❓️ Usage
 
-### Use built-in Nord color palette
+### Use built-in color palettes
 
 Select Flow Nord Theme-* in theme menu.
 
-### Use Custom color palette
+### Use Custom color palettes
 
 select `Flow Nord Theme-custom` theme, and add the following code in custom.css:
 
