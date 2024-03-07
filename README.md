@@ -210,29 +210,6 @@ Another way to use custom theme is to use jsdelivr CDN. select `Flow Nord Theme-
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
 ```
 
-https://github.com/henices/logseq-flow-nord/assets/929715/b9eef3ec-31b5-43ff-aebf-40d78fa11e2a
-
-[catppuccin-mocha palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-mocha.css)
-
-<img width="1004" alt="image" src="https://github.com/henices/logseq-flow-nord/assets/929715/32ff85a6-aa20-4b3c-bc5b-3ae190597bf4">
-
-The [default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css) is similar to Logseq's default theme.
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/bcda46ac-6251-4a24-86a2-b1bdd7d9d083)
-
-[mono color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/momo.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/bdda72b7-cc04-41ff-b23d-9933a6735ef5)
-
-[gruvbox color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/gruvbox.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/d4b84230-6f46-4b39-9576-c54270a13bb4)
-
-[newsprint color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/newsprint.css)
-
-![image](https://github.com/henices/logseq-flow-nord/assets/929715/4cd7eb10-ba18-404d-9069-a07f0359b5aa)
-
-
 ### Custom Color Palette in Mobile
 
 Add the following code to custom.css, you can set theme to newsprint color palette.
