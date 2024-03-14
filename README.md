@@ -222,39 +222,6 @@ If you want to use custom color palettes in mobile, add the following code to cu
 
 Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/main/src/palettes
 
-### Custom Syntax highlight
-
-Logseq Flow Nord use Nord theme Syntax highlight by default. You can use monokai theme syntax highlight
-by put the following code in custom.css
-
-```css
-:root {
-}
-
-.dark-theme .cm-s-solarized span.cm-comment { color: #75715e; }
-.dark-theme .cm-s-solarized span.cm-atom { color: #ae81ff; }
-.dark-theme .cm-s-solarized span.cm-number { color: #ae81ff; }
-
-.dark-theme .cm-s-solarized span.cm-comment.cm-attribute { color: #97b757; }
-.dark-theme .cm-s-solarized span.cm-comment.cm-def { color: #bc9262; }
-.dark-theme .cm-s-solarized span.cm-comment.cm-tag { color: #bc6283; }
-.dark-theme .cm-s-solarized span.cm-comment.cm-type { color: #5998a6; }
-
-.dark-theme .cm-s-solarized span.cm-property, .dark-theme .cm-s-solarized span.cm-attribute { color: #a6e22e; }
-.dark-theme .cm-s-solarized span.cm-keyword { color: #f92672; }
-.dark-theme .cm-s-solarized span.cm-builtin { color: #66d9ef; }
-.dark-theme .cm-s-solarized span.cm-string { color: #e6db74; }
-
-.dark-theme .cm-s-solarized span.cm-variable { color: #f8f8f2; }
-.dark-theme .cm-s-solarized span.cm-variable-2 { color: #9effff; }
-.dark-theme .cm-s-solarized span.cm-variable-3, .dark-theme .cm-s-solarized span.cm-type { color: #66d9ef; }
-.dark-theme .cm-s-solarized span.cm-def { color: #fd971f; }
-.dark-theme .cm-s-solarized span.cm-bracket { color: #f8f8f2; }
-.dark-theme .cm-s-solarized span.cm-tag { color: #f92672; }
-.dark-theme .cm-s-solarized span.cm-header { color: #ae81ff; }
-.dark-theme .cm-s-solarized span.cm-link { color: #ae81ff; }
-.dark-theme .cm-s-solarized span.cm-error { background: #f92672; color: #f8f8f0; }
-```
 
 ### 📄️ Custom PDF Settings
 
