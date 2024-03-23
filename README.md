@@ -15,7 +15,6 @@ A minimal theme that focuses on a clean and sleek interface that's soft on the e
 
 ![image](https://github.com/henices/logseq-flow-nord/assets/929715/87668104-8b8b-4f33-85c4-492fe145cdfb)
 
-
 ## 🚀 Demo
 
 https://github.com/henices/logseq-flow-nord/assets/929715/b9eef3ec-31b5-43ff-aebf-40d78fa11e2a
@@ -122,23 +121,33 @@ The custom.css file can take the following options to tweak the visuals.
 ### 🎨️ Custom Color Palette
 
 [palettes](https://github.com/henices/logseq-flow-nord/tree/main/src/palettes) provides a large variety of color palettes, select your favorite one.
+
+- [Logseq classical default color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/default.css)
 - [monokai-pro color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/monokai-pro.css)
 - [bear color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/bear.css)
 - [dracula color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/dracula.css)
-- [catppuccin macchiato color palette](https://github.com/henices/logseq-flow-nord/blob/main/src/palettes/catppuccin-macchiato.css)
 
 1. copy the css code and paste to the custom.css
 2. select `Flow Nord Theme-custom` theme, enjoy :)
 
-The following color options will only affect custom theme `--ct-primariy-color` (required), `--ct-secondary-color` (required), `--ct-accent-color` (required), `--ct-text-color` (required), `--ct-bg-color-h` (optional), `--ct-bg-color-s` (optional), `--ct-bg-color-l` (optional), `--ct-bg-color` (optional), `--ct-title-text-color` (optional), `--ct-code-text-color` (optional), or `--ct-external-link-color` (optional)
+The following color options will only affect custom theme:
+
+- `--ct-primariy-color` (required)
+- `--ct-secondary-color` (required)
+- `--ct-accent-color` (required)
+- `--ct-text-color` (required)
+
+- `--ct-bg-color-h` (optional)
+- `--ct-bg-color-s` (optional)
+- `--ct-bg-color-l` (optional)
+- `--ct-bg-color` (optional)
+- `--ct-title-text-color` (optional)
+- `--ct-code-text-color` (optional)
+- `--ct-external-link-color` (optional)
 
 Example custom.css:
 
 ```css
-
-:root {
-}
-
 .dark-theme,
 html[data-theme='dark'] {
     --ct-bg-color-h: 210;
@@ -167,7 +176,6 @@ html[data-theme='light'] {
 https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
 ### 📱️Use Flow Nord Theme in Mobile
-
 
 If you want to use Flow Nord Theme built-in color palette in mobile, add the follwing code in the custom.css
 
