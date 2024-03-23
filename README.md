@@ -132,18 +132,20 @@ The custom.css file can take the following options to tweak the visuals.
 
 The following color options will only affect custom theme:
 
-- `--ct-primariy-color` (required)
-- `--ct-secondary-color` (required)
-- `--ct-accent-color` (required)
-- `--ct-text-color` (required)
+```
+`--ct-primariy-color` (required)
+`--ct-secondary-color` (required)
+`--ct-accent-color` (required)
+`--ct-text-color` (required)
 
-- `--ct-bg-color-h` (optional)
-- `--ct-bg-color-s` (optional)
-- `--ct-bg-color-l` (optional)
-- `--ct-bg-color` (optional)
-- `--ct-title-text-color` (optional)
-- `--ct-code-text-color` (optional)
-- `--ct-external-link-color` (optional)
+`--ct-bg-color-h` (optional)
+`--ct-bg-color-s` (optional)
+`--ct-bg-color-l` (optional)
+`--ct-bg-color` (optional)
+`--ct-title-text-color` (optional)
+`--ct-code-text-color` (optional)
+`--ct-external-link-color` (optional)
+```
 
 Example custom.css:
 
