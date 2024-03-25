@@ -34,6 +34,11 @@ elif [ $1 == 'macchiato' ]; then
     cat src/palettes/nord-custom.css >> custom.css
     cat custom.css src/palettes/catppuccin-macchiato.css > macchiato.css
     sed -i "/@import ['\"]/d" macchiato.css
+elif [ $1 == 'dracula' ]; then
+    cat src/code/base.css src/code/markdown.css src/code/logseq.css src/code/live-query.css src/code/interface.css src/code/plugins.css > custom.css
+    cat src/palettes/nord-custom.css >> custom.css
+    cat custom.css src/palettes/dracula.css > dracula.css
+    sed -i "/@import ['\"]/d" dracula.css
 fi
 
 sed -i "/@import ['\"]/d" custom.css
