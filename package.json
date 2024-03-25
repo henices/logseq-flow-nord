@@ -23,6 +23,12 @@
         "mode": "dark"
       },
       {
+        "name": "Flow Nord Theme - Dracula",
+        "url": "./dracula.css",
+        "description": "Flow Nord Theme - Dracula",
+        "mode": "dark"
+      },
+      {
         "name": "Flow Nord Theme - Sepia",
         "url": "./sepia.css",
         "description": "Flow Nord Theme - Sepia",
