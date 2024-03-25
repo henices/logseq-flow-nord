@@ -7,6 +7,8 @@ html[data-theme='dark'] {
     --ct-bg-color: 231,15%,22%;
     --ct-text-color: 60,30%,96%;
     --ct-primariy-color: 326,100%,74%;
-    --ct-secondary-color: 265,89%,78%;
-    --ct-accent-color: 65,92%,76%;
+    --ct-secondary-color: 254,12%,72%;
+    --ct-accent-color: 265,89%,78%;
+    --ct-title-text-color: 60,30%,96%;
+    --ct-external-link-color: 191,97%,77%;
 }
