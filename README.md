@@ -217,6 +217,12 @@ If you want to use Flow Nord Theme built-in color palette in mobile, add the fol
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/macchiato.css");
 ```
 
+- Dracula (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/dracula.css");
+```
+
 If you want to use custom color palettes in mobile, add the following code to custom.css, you can set theme to newsprint color palette.
 
 ```css
