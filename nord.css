@@ -580,6 +580,8 @@ Code Mirror Settings
     box-shadow: none !important;
 }
 
+div.CodeMirror.cm-s-lsradix.cm-s-dark div.CodeMirror-selected,
+div.CodeMirror.cm-s-lsradix.cm-s-light div.CodeMirror-selected,
 .cm-s-solarized.cm-s-light div.CodeMirror-selected,
 .cm-s-solarized.cm-s-dark div.CodeMirror-selected {
     background-color: hsl(var(--cl-selected-background-color, var(--cl-primary, var(--nord-frost-nord8)), 0.1));
