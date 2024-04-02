@@ -1,9 +1,9 @@
 
 .dark-theme,
 html[data-theme='dark'] {
-  --ct-primary-color: 33,90%,65% !important;
-  --ct-secondary-color: 168,22%,55% !important;
-  --ct-accent-color: 196,64%,58% !important;
+  --ct-primary-color: 33,90%,65%;
+  --ct-secondary-color: 168,22%,55%;
+  --ct-accent-color: 196,64%,58%;
   --ct-bg-color-h: 225;
   --ct-bg-color-s: 7%;
   --ct-bg-color-l: 14%;
