@@ -7,7 +7,7 @@ html[data-theme='dark'] {
     --ct-bg-color-l: 18%;
     --ct-bg-color: 222, 13%, 23%;
     --ct-text-color: 219, 14%, 71%;
-    --ct-primariy-color: 207, 81%, 66%;
+    --ct-primary-color: 207, 81%, 66%;
     --ct-secondary-color: 95, 38%, 62%;
     --ct-accent-color: 286,60%,67%;
     --ct-title-text-color: 219, 14%, 71%;
@@ -21,7 +21,7 @@ html[data-theme='light'] {
     --ct-bg-color-l: 98%;
     --ct-bg-color: 0,0%,88%;
     --ct-text-color: 0,0%,42%;
-    --ct-primariy-color: 198,84%,42%;
+    --ct-primary-color: 198,84%,42%;
     --ct-secondary-color: 116, 81%, 37%;
     --ct-accent-color: 39, 86%, 54%;
 }
