@@ -1,6 +1,6 @@
 <h1>
 🧠 Logseq Flow Nord Theme
-<a href="https://www.buymeacoffee.com/22whnl2ufx">
+<a href="https://www.buymeacoffee.com/henices">
   <img align="right" src="https://github.com/henices/logseq-flow-nord/blob/main/.images/coffee.png?raw=true" height="30px"/>
 </a>
 </h1>
