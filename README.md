@@ -1,4 +1,10 @@
-# 🧠 Logseq Flow Nord Theme
+<h1>
+🧠 Logseq Flow Nord Theme
+<a href="https://www.buymeacoffee.com/henices">
+  <img align="right" src="https://github.com/henices/logseq-flow-nord/blob/main/.images/coffee.png?raw=true" height="30px"/>
+</a>
+</h1>
+
 A minimal theme that focuses on a clean and sleek interface that's soft on the edges.
 
 ![NordTheme-wallpaper](https://github.com/henices/logseq-flow-nord/assets/929715/b9361f21-543d-4725-b9b0-c50f11d07a65)
