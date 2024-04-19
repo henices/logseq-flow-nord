@@ -59,11 +59,13 @@ Logseq Marketplace:
 
 ### Use built-in color palettes
 
-Select Flow Nord Theme-* in theme menu.
+1. Click «...» and open the «Themes»
+2. Select Flow Nord Theme-* in theme menu.
 
 ### Use Custom color palettes
 
-select `Flow Nord Theme-custom` theme, and add the following code in custom.css:
+1. select `Flow Nord Theme-custom` theme
+2. add the following code in `custom.css`
 
 ```
 @import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
@@ -72,6 +74,71 @@ select `Flow Nord Theme-custom` theme, and add the following code in custom.css:
 Then we get newsprint color palette in both light and dark mode.
 
 See [Custom Color Palette](https://github.com/henices/logseq-flow-nord#%EF%B8%8F-custom-color-palette) section for more details. 
+
+## 📱️Use Flow Nord Theme in Mobile
+
+1. In mobile Logseq: tap «...» and open the «Settings»
+2. Tap «Edit custom.css»
+3. Insert this code to the top of `custom.css`
+
+- Nord (light & dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
+```
+
+- catppuccin latte (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/latte.css");
+```
+
+- Sepia (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/sepia.css");
+```
+
+- Xiaobot (light)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/xiaobot.css");
+```
+
+- Onedark (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/onedark.css");
+```
+
+- catppuccin macchiato (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/macchiato.css");
+```
+
+- Dracula (dark)
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/dracula.css");
+```
+
+If you want to use custom color palettes in mobile, add the following code to custom.css, you can set theme to newsprint color palette.
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
+@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
+
+:root {
+  --cl-font-size: 16px;
+  --cl-line-height: 1.2;
+  --ls-page-title-size: 24px;
+}
+```
+
+Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/main/src/palettes
+
+
 
 ## 🚀 Features
 
@@ -183,67 +250,6 @@ html[data-theme='light'] {
 
 https://github.com/henices/logseq-flow-nord/assets/929715/6a20e799-548a-4bc2-99f3-3e477f1aab8d
 
-### 📱️Use Flow Nord Theme in Mobile
-
-If you want to use Flow Nord Theme built-in color palette in mobile, add the follwing code in the custom.css
-
-- Nord (light & dark)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/nord.css");
-```
-
-- catppuccin latte (light)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/latte.css");
-```
-
-- Sepia (light)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/sepia.css");
-```
-
-- Xiaobot (light)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/xiaobot.css");
-```
-
-- Onedark (dark)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/onedark.css");
-```
-
-- catppuccin macchiato (dark)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/macchiato.css");
-```
-
-- Dracula (dark)
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/dracula.css");
-```
-
-If you want to use custom color palettes in mobile, add the following code to custom.css, you can set theme to newsprint color palette.
-
-```css
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/src/palettes/newsprint.css");
-@import url("https://cdn.jsdelivr.net/gh/henices/logseq-flow-nord@main/custom.css");
-
-:root {
-  --cl-font-size: 16px;
-  --cl-line-height: 1.2;
-  --ls-page-title-size: 24px;
-}
-```
-
-Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/main/src/palettes
-
 
 ### 📄️ Custom PDF Settings
 
@@ -278,8 +284,8 @@ As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is
 Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nordtheme.com). When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
 
 ## Recommend Logseq Plugins
-### [Bullet Threading](https://github.com/pengx17/logseq-plugin-bullet-threading) Plugin
-### [Tabs](https://github.com/pengx17/logseq-plugin-tabs) Plugin
+- [Bullet Threading Plugin](https://github.com/pengx17/logseq-plugin-bullet-threading)
+- [Tabs Plugin](https://github.com/pengx17/logseq-plugin-tabs)
 
 ## Thanks
 - [logseq-flow](https://github.com/nmartin84/logseq-flow) 
