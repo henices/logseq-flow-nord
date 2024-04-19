@@ -289,8 +289,11 @@ As a backend engineer who uses Logseq on a daily basis, the Logseq-Flow theme is
 Bad3r, just wanted to let you know about the amazing [NordTheme](https://www.nordtheme.com). When combined with the 'logseq flow theme', it creates the beautiful 'Flow Nord Theme'.
 
 ## Recommend Logseq Plugins
-- [Bullet Threading Plugin](https://github.com/pengx17/logseq-plugin-bullet-threading)
-- [Tabs Plugin](https://github.com/pengx17/logseq-plugin-tabs)
+- [Bullet threading plugin](https://github.com/pengx17/logseq-plugin-bullet-threading)
+- [Tabs plugin](https://github.com/pengx17/logseq-plugin-tabs)
+- [Logseq Banners plugin](https://github.com/yoyurec/logseq-banners-plugin)
+- [Awesome Content plugin](https://github.com/yoyurec/logseq-awesome-content)
+- [Awesome Props plugin](https://github.com/yoyurec/logseq-awesome-props)
 
 ## Thanks
 - [logseq-flow](https://github.com/nmartin84/logseq-flow) 
