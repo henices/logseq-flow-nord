@@ -138,7 +138,12 @@ If you want to use custom color palettes in mobile, add the following code to cu
 
 Get other color palette here: https://github.com/henices/logseq-flow-nord/tree/main/src/palettes
 
-
+## If you ❤️ what I'm doing — consider to support my work
+<p align="left">
+  <a href="https://www.buymeacoffee.com/henices" target="_blank">
+    <img src="https://github.com/henices/logseq-flow-nord/blob/main/.images/coffee.png?raw=true" alt="Buy Me A Coffee" height="60px" />
+  </a>
+</p>
 
 ## 🚀 Features
 
