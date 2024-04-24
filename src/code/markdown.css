@@ -456,6 +456,8 @@ h3.todo .block-marker.LATER:before {
 
 .page-property-value {
     color: hsl(var(--cl-text-color), 0.95);
+    position:absolute;
+    left: 8rem;
 }
 
 /*.page-properties .inline.mr-1:before {
