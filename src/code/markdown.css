@@ -454,10 +454,32 @@ h3.todo .block-marker.LATER:before {
 }
 */
 
+.block-properties>div>div {
+    display: inline-flex !important;
+    align-items: center;
+}
+
+.page-property-key {
+    display: inline-flex;
+    flex-grow: 1;
+    min-width: 80px !important;
+}
+
 .page-property-value {
+    display: inline-flex;
     color: hsl(var(--cl-text-color), 0.95);
-    position:absolute;
-    left: 8rem;
+}
+
+.block-properties:not(.page-properties)>div>:is(div,span,a):first-child:after,
+.block-properties.page-properties>div>:is(div,span,a):first-child:after {
+    content: "\25cf";
+    display: block;
+    margin: 2px 1em 0 1.6em;
+    color: hsl(var(--cl-text-color));
+    opacity: .2;
+    font-family: Inter;
+    line-height: 2.2em;
+    font-size: .6em;
 }
 
 /*.page-properties .inline.mr-1:before {
@@ -674,13 +696,17 @@ svg.h-4.w-4 {
     color: hsl(var(--cl-accent));
 }
 
+.block-properties .page-property-value .page-ref {
+    font-size: 90%;
+}
+
 /* Some values take on important to avoid style plugins from overriding these settings */
-.block-properties:not(.page-properties) {
+.block-properties {
     background-color: hsl(var(--cl-properties-background-color, var(--cl-background), 0.5));
     border-radius: var(--cl-border-minor);
     /*display: inline-block;*/
     padding: 3px 5px !important;
-    font-size: smaller !important;
+    font-size: 90% !important;
     font-family: var(--ls-font-family) !important;
     color: hsl(var(--cl-text-color), 0.9);
 }
@@ -697,7 +723,7 @@ svg.h-4.w-4 {
     color: hsl(var(--cl-primary));
     border: 0px solid;
     font-weight: 400;
-    font-size: calc(var(--ls-font-size) * 0.8);
+    /*font-size: calc(var(--ls-font-size) * 0.8);*/
 }
 
 .block-properties:not(.page-properties) a.tag:hover {
