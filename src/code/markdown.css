@@ -273,7 +273,7 @@ a[priority="A"]::before,
 a.priority[href="#/page/A" i]::before {
     color: hsl(var(--nord-polar-night-nord0));
     opacity: 1;
-    font-size: calc(var(--ls-font-size)*0.9);
+    font-size: calc(var(--ls-font-size)*0.8);
     content: "A";
     background: hsl(355, 65%, 65%);
 }
@@ -282,7 +282,7 @@ a[priority="B"]::before,
 a.priority[href="#/page/B" i]::before {
     color: hsl(var(--nord-polar-night-nord1));
     opacity: 1;
-    font-size: calc(var(--ls-font-size)*0.9);
+    font-size: calc(var(--ls-font-size)*0.8);
     content: "B";
     background: hsl(39, 67%, 69%);
 }
@@ -291,7 +291,7 @@ a[priority="C"]::before,
 a.priority[href="#/page/C" i]::before {
     color: hsl(var(--nord-polar-night-nord1));
     opacity: 1;
-    font-size: calc(var(--ls-font-size)*0.9);
+    font-size: calc(var(--ls-font-size)*0.8);
     content: "C";
     background: hsl(var(--nord-aurora-nord14));
 }
