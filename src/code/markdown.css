@@ -824,7 +824,8 @@ body {
     font-size: var(--ls-font-size);
     font-weight: var(--ls-font-weight);
     line-height: var(--ls-line-height);
-
+    font-variant-ligatures: normal !important;
+    font-feature-settings: var(--ls-font-feature-settings);
     content-visibility: auto;
     contain-intrinsic-size: auto 500px; /* Explained in the next section. */
 }

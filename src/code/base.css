@@ -80,6 +80,7 @@ Base Root Settings
     --ls-font-size: var(--cl-font-size, 16px);
     --ls-font-weight: var(--cl-font-weight, 420);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
+    --ls-font-feature-settings: var(--cl-feature-settings, "zero", "liga" 1, "calt" 1);
     --ls-line-height: var(--cl-line-height, 1.5);
     /*
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);
