@@ -74,6 +74,8 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
 }
 */
 
+.dark-theme h1::selection , .light-theme h1::selection { color: hsl(var(--cl-accent));}
+
 .light-theme .cm-s-solarized .cm-atom { color: #aa759f; }
 .light-theme .cm-s-solarized .cm-number { color: #aa759f; }
 .light-theme .cm-s-solarized .cm-comment.cm-attribute { color: #97b757; }
