@@ -75,6 +75,7 @@ Base Root Settings
     --ls-font-size: var(--cl-font-size, 16px);
     --ls-font-weight: var(--cl-font-weight, 420);
     --ls-font-family-code: var(--cl-font-family-code, "Fira Code",Consolas,Menlo,Monaco,monospace);
+    --ls-font-feature-settings: var(--cl-feature-settings, "zero", "liga" 1, "calt" 1);
     --ls-line-height: var(--cl-line-height, 1.5);
     /*
     --ls-block-bullet-active-color: var(--bullet-threading-active-color);
@@ -1549,7 +1550,8 @@ body {
     font-size: var(--ls-font-size);
     font-weight: var(--ls-font-weight);
     line-height: var(--ls-line-height);
-
+    font-variant-ligatures: normal !important;
+    font-feature-settings: var(--ls-font-feature-settings);
     content-visibility: auto;
     contain-intrinsic-size: auto 500px; /* Explained in the next section. */
 }
@@ -2766,6 +2768,8 @@ a[priority="C"]::before, a.priority[href="#/page/C" i]::before {
     color: hsl(var(--nord-frost-nord7)) !important;
 }
 */
+
+.dark-theme h1::selection , .light-theme h1::selection { color: hsl(var(--cl-accent));}
 
 .light-theme .cm-s-solarized .cm-atom { color: #aa759f; }
 .light-theme .cm-s-solarized .cm-number { color: #aa759f; }
