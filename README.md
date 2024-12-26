@@ -177,6 +177,7 @@ The custom.css file can take the following options to tweak the visuals.
   --cl-font-family-code: "Fira Code";
   --cl-header-font: "Roboto Slab";
   --cl-title-font: "Roboto Slab";
+  --cl-font-feature-settings: "zero", "liga" 1, "calt" 1;
 }
 ```
 
@@ -184,6 +185,7 @@ The custom.css file can take the following options to tweak the visuals.
 - `--cl-font-size`    :  set font size
 - `--cl-font-weight`  :  set font weight
 - `--cl-font-family-code`  :  set code font famliy
+- `--cl-font-feature-settings` : set OpenType font features
 
 ```css
 :root {
