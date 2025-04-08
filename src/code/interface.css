@@ -107,9 +107,11 @@
         margin-bottom: 0;
     }
 
+/*
     .cp__sidebar-left-layout.is-open+#main-content-container {
         margin: 0 10px 10px 0px;
     }
+*/
 
     .cp__header {
         height: 44px;
