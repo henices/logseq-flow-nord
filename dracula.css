@@ -2064,6 +2064,10 @@ End of Live Query Styler
          INTERFACE IMPROVEMENTS
 ********************************************/
 
+:root {
+  scrollbar-color: unset;
+}
+
 *::-webkit-scrollbar {
   width: var(--ls-scrollbar-width);
   height: var(--ls-scrollbar-width);
